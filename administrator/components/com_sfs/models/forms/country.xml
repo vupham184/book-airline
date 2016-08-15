@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="details"
+		addfieldpath="/administrator/components/com_sfs/models/rules"
+	>
+		<field name="id" type="text" default="0" 
+			readonly="true" class="readonly"
+			label="JGLOBAL_FIELD_ID_LABEL" 	description ="JGLOBAL_FIELD_ID_DESC" />				
+		<field name="name" type="text" class="inputbox"
+			size="40" label="COM_SFS_COUNTRY_FIELD_NAME_LABEL"
+			description="COM_SFS_COUNTRY_FIELD_NAME_DESC" required="true" />	
+		<field name="country_numeric" type="text" class="inputbox"
+			size="40" label="COM_SFS_COUNTRY_NUMERIC"
+			description="COM_SFS_COUNTRY_NUMERIC" required="true" />
+		<field name="default_currency" type="text" class="inputbox"
+		size="40" label="COM_SFS_FIELD_CURRENCY_DEFAULT_CURRENCY_LABEL"
+		description="COM_SFS_FIELD_CURRENCY_DEFAULT_CURRENCY_LABEL" required="true" />	
+		<field
+			name="code"
+			type="text"
+			label="COM_SFS_COUNTRY_FIELD_CODE_LABEL"
+			description="COM_SFS_COUNTRY_FIELD_CODE_DESC"
+			size="18"
+			class="inputbox validate-code"
+			required="true"
+			default=""
+		/>		
+		<field
+			name="code_3"
+			type="text"
+			label="Code 3"
+			description="COM_SFS_COUNTRY_FIELD_CODE_DESC"
+			size="18"		
+			default=""
+		/>				
+		<field name="flag" type="media" directory="com_sfs"
+				hide_none="1" label="COM_SFS_COUNTRY_FIELD_FLAG_LABEL"
+				size="40"
+				description="COM_SFS_COUNTRY_FIELD_FLAG_DESC" />						
+	</fieldset>
+</form>

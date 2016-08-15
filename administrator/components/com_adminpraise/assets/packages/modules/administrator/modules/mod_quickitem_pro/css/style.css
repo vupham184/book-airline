@@ -1,0 +1,21 @@
+/* Quick Item CSS */
+.quickAddTable { margin:0; }
+#quickAddContentForm table.admintable { border:0; padding:0px; }
+#quickAddContentForm #quickadd_reset { float:right; }
+#quickAddContentForm td.quickadd_key { background-color: #F6F6F6; border-bottom: 1px solid #E9E9E9; border-right: 1px solid #E9E9E9; color: #666666; font-weight: bold; text-align: right; width: 138px; height: 18px; }
+#quickAddContentForm div#quickadd_catsList, #quickAddContentForm div#quickadd_pubFeatList, #quickAddContentForm div#quickadd_secCatsList { width: 100%; }
+img.pleasewait { margin-left: 140px; }
+#quickAddContentForm td.quickadd_input { padding-top: 0px !important; padding-bottom: 0px !important; }
+.quickadd_title { width:49%; float:left; }
+.quickadd_alias { width:29%; float:left; }
+#quickAddContentForm #title { width: 80% !important; font-size:14px; }
+#quickAddContentForm #alias { width: 50% !important; font-size:14px; }
+#text_tbl { width:80% !important; }
+.defaultSkin table.mceToolbar { margin-left: 0px !important; }
+.defaultSkin .mceListBox .mceText { width:50px !important; }
+#quickAddContentForm .button2-left a { background:none; border:0; }
+.quickadd_itemtype th { padding:2px 4px; }
+.quickadd_featured { margin-left:15px; }
+div.pleasewait { background: url(../images/pleasewait.gif) no-repeat scroll 10px 50%; color: #333; display: block; margin: 0 0 5px; padding: 8px 10px 8px 36px; }
+div.error{ background: #FFF3A3 url(../images/error.png) no-repeat scroll 10px 50%; border: 1px solid #E7BD72; color: #B79000; display: block; margin: 0 0 5px; padding: 8px 10px 8px 36px;}
+div.info{ background: #A8CDE3 url(../images/information.png) no-repeat scroll 10px 50%; border: 1px solid #6ABCE2; color: #1C6B8B; display: block; margin: 0 0 5px; padding: 8px 10px 8px 36px; }

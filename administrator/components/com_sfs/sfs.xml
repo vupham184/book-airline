@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+	<name>SFS</name>	
+	<author>Linh Bui Duy</author>
+	<creationDate>February 2010</creationDate>
+	<authorEmail>info@sfs-web.com</authorEmail>
+	<authorUrl>www.sfs-web.com</authorUrl>
+	<copyright>(C) Copyright 2011</copyright>	
+	<version>3.1.8</version>
+	<description>SFS Extension</description>
+	
+	<scriptfile>script.php</scriptfile>
+
+	<update> 
+		<schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+		</schemas>
+	</update>
+
+	<files folder="site">
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<filename>router.php</filename>
+		<filename>sfs.php</filename>
+		<folder>controllers</folder>
+		<folder>helpers</folder>
+		<folder>models</folder>
+		<folder>tables</folder>
+		<folder>views</folder>
+		<folder>libraries</folder>
+		<folder>assets</folder>
+	</files>
+	
+	<administration>		
+		<files folder="admin">
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<filename>sfs.php</filename>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+			<folder>assets</folder>
+			<folder>images</folder>
+			<folder>sql</folder>
+		</files>
+	</administration>
+	
+
+    <updateservers>
+    	<server type="extension" priority="1" name="SFS Updates">http://sfs-web.net/updates/updates.xml</server>
+    </updateservers>
+
+</extension>
+

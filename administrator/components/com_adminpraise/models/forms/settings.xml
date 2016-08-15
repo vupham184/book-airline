@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="themes">			
+		<field name="templateTheme" type="list" default="theme5" label="Global_Theme" description="Choose_a_theme">
+			<option value="theme1">Theme 1 - Beige</option>
+			<option value="theme2">Theme 2 - Dark</option>
+			<option value="theme3">Theme 3 - Gray</option>
+			<option value="theme4">Theme 4 - White</option>
+			<option value="theme5">Theme 5 - Blue</option>
+		</field>
+
+	</fieldset>
+	<fieldset name="layout">
+		<field name="showAvatar" type="list" label="SHOW_AVATAR" description="AVATARDESC" default="0">
+			<option value="0">No</option>
+			<option value="gravatar">Gravatar</option>
+			<option value="k2">K2</option>
+			<option value="jomsocial">JomSocial</option>
+			<option value="cb">Community Builder</option>
+		</field>
+
+		<field name="showBreadCrumbs" type="radio" default="1" label="Show_Breadcrumbs" description="ENABLE_DISABLE">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="showQuickAdd" type="radio" default="1" label="Show_Quick_Add" description="ENABLE_DISABLE">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="showMyEditor" type="radio" default="1" label="Show My Editor" description="Enable/Disable My Editor">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="showSideComponentList" type="radio" default="1" label="Show Side Component List" description="Enable/Disable Side Component List">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="showComponentList" type="radio" default="1" label="Show_Component_List" description="ENABLE_DISABLE">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="showSubmenu" type="radio" default="1" label="Show_Submenu" description="ENABLE_DISABLE">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="showStatusBar" type="radio" default="1" label="Show_Status_Bar" description="ENABLE_DISABLE">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+
+		<field name="fallbackTemplate" type="admintemplate" default="" label="Fallback_Template" description="Fallback_Template_Desc" />
+		
+		<field name="fallbackComponents" type="text" size="40" label="Fallback_Components" description="Fallback_Components_Desc" default="" />
+
+	</fieldset>
+	
+</form>

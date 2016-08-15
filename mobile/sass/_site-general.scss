@@ -1,0 +1,384 @@
+html body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 100%;
+  width: 100%;
+  color: #72707b;
+  font-size: 21px;
+}
+
+.padding-left {
+  padding-left: 20px;
+}
+.padding-right {
+  padding-right: 20px;
+}
+.padding-all {
+  padding: 20px;
+}
+//Heading
+.header-wrapper {
+  .logo-main-wrap {
+    padding: 7px 0;
+    a.logo-wrap {
+      margin-left: 55px;
+      @include respond-to-custom-size(null, 500px){
+        margin-left: 0;
+      }
+      img{
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+.common-section {
+  .title-section-common {
+    font-size: 30px;
+    color: #757381;
+    background-color: #f0eff4;
+    padding: 25px 30px;
+    font-weight: normal;
+    line-height: 42px;
+    @include respond-to-custom-size(null, 500px) {
+      font-size: 20px;
+      padding: 20px;
+      line-height: 25px;
+    }
+    .title {
+      float: left;
+      padding: 0 20px;
+    }
+    .icon-title {
+      float: left;
+      font-size: 50px;
+      min-width: 43px;
+      @include respond-to-custom-size(null, 500px){
+        font-size: 30px;
+        min-width: 26px;
+      }
+    }
+  }
+}
+//Common-detail-page
+.items-section {
+  position: relative;
+  width: 100%;
+  height: auto;
+  .item-wrapper {
+    .item {
+      width: 100%;
+      height: 100px;
+      display: table;
+      position: relative;
+      text-decoration: none;
+      @include respond-to-custom-size(null, 500px) {
+        height: 70px;
+      }
+      .icon-item {
+        position: relative;
+        width: 11%;
+        background-size: cover !important;
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+        .icon-wrap {
+          position: relative;
+          display: inline-block;
+        }
+        .alert-number {
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          background: red;
+          border-radius: 100%;
+          color: #fff;
+          text-align: center;
+          font-style: normal;
+          top: -5px;
+          right: -5px;
+          font-size: 14px;
+        }
+        img {
+          width: 100%;
+          max-width: 100%;
+          height: auto;
+        }
+      }
+      .title-wrap {
+        font-size: 32px;
+        color: #757381;
+        width: 89%;
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+        padding-left: 40px;
+        @include respond-to-custom-size(null, 500px) {
+          font-size: 20px;
+          padding: 21px 0 21px 25px;
+        }
+        &:before {
+          content: "\f054";
+          font-family: FontAwesome;
+          color: #ccc;
+          font-size: 25px;
+          position: absolute;
+          top: 34%;
+          right: 25px;
+          @include respond-to-custom-size(null, 500px) {
+            font-size: 15px;
+            top: 38%;
+          }
+        }
+        .title {
+          width: 80%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        .sub-title {
+          font-size: 17px;
+          margin-left: 5px;
+          @include respond-to-custom-size(null, 500px) {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.items-section + .items-section {
+  a.item:before {
+    position: absolute;
+    content: '';
+    width: 86%;
+    height: 1px;
+    right: 0;
+    top: 0;
+    background-color: #ccc;
+  }
+}
+//-----------------------//
+//Pre page button
+.pre-page {
+  background-color: #f0eff4;
+  padding: 0 20px;
+  width: 100%;
+  display: table;
+  .btn-pre {
+    padding: 0 20px 0 0;
+    color: #cac9ce;
+    font-size: 22px;
+    width: 12%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    @include respond-to-custom-size(null, 500px){
+      width: 15%;
+    }
+  }
+  .btn-label {
+    font-size: 30px;
+    color: #757381;
+    background-color: #f0eff4;
+    padding: 25px 29px;
+    font-weight: normal;
+    line-height: 42px;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+    width: 89%;
+    @include respond-to-custom-size(null, 500px) {
+      font-size: 20px;
+      padding: 20px;
+      line-height: 25px;
+    }
+  }
+ 
+
+
+.virtual-card-wrap {
+  margin-bottom: 20px;
+  .card-common {
+    height: auto;
+    width: 100%;
+    border: solid 3px #999999;
+    border-radius: 15px;
+    .section-logo-card-type {
+      display: inline-block;
+      width: 100%;
+      text-align: right;
+      img {
+        max-width: 100%;
+        height: auto;
+        @include respond-to-custom-size(null, 400px) {
+          width: 30%;
+        }
+      }
+    }
+  }
+  .card-common + .card-common {
+    margin-top: 10px;
+  }
+  .front-card {
+    padding: 40px 40px 20px;
+    @include respond-to-custom-size(null, 500px) {
+      padding: 30px 30px 15px;
+    }
+    @include respond-to-custom-size(null, 400px) {
+      padding: 20px 20px 10px;
+    }
+    .section-top {
+      .type-card {
+        .type-card-text {
+          margin-top: 10px;
+          h4 {
+            margin: 0;
+            @include respond-to-custom-size(null, 500px) {
+              font-size: 15px;
+            }
+            @include respond-to-custom-size(null, 400px) {
+              font-size: 13px;
+            }
+          }
+        }
+      }
+      .logo-card {
+        .logo-card-image {
+          margin-right: 20px;
+          display: inline-block;
+          width: 100%;
+          @include respond-to-custom-size(null, 400px) {
+            margin: 0;
+          }
+          img {
+            max-width: 100%;
+            height: auto;
+            float: right;
+          }
+        }
+      }
+    }
+    .section-number {
+      font-size: 40px;
+      font-weight: 900;
+      margin-top: 20px;
+      line-height: 45px;
+      @include respond-to-custom-size(null, 500px) {
+        font-size: 30px;
+        line-height: 35px;
+      }
+      @include respond-to-custom-size(null, 400px) {
+        font-size: 20px;
+        margin-top: 10px;
+      }
+    }
+    .section-date-thru {
+      @include respond-to-custom-size(null, 400px) {
+        font-size: 13px;
+      }
+      .date-valid-thru {
+        .content {
+          h4 {
+            font-size: 13px;
+            margin: 0;
+            @include respond-to-custom-size(null, 400px) {
+              font-size: 12px;
+            }
+          }
+          h4 + h4 {
+            margin-top: 10px;
+          }
+          strong {
+            font-size: 15px;
+            font-weight: 600;
+          }
+          .in-left {
+            width: 30%;
+            text-align: right;
+          }
+          .in-right {
+            width: 70%;
+            position: relative;
+            padding-left: 20px;
+            &:before {
+              content: "\f0da";
+              font-family: FontAwesome;
+              font-style: normal;
+              font-weight: normal;
+              text-decoration: inherit;
+              color: #ccc;
+              font-size: 18px;
+              position: absolute;
+              top: 7px;
+              left: 10px;
+            }
+          }
+        }
+      }
+      .type-card {
+        font-size: 22px;
+        font-weight: 400;
+        text-align: right;
+        @include respond-to-custom-size(null, 400px) {
+          font-size: 15px;
+          margin-top: 18px;
+        }
+      }
+    }
+  }
+  .back-card {
+    padding: 0;
+    .magnetic-strip {
+      width: 100%;
+      height: 64px;
+      background: #999999;
+      margin-top: 55px;
+      margin-bottom: 35px;
+      @include respond-to-custom-size(null, 500px){
+        margin-top: 20px;
+        margin-bottom: 10px;
+        height: 54px;
+      }
+    }
+    .cvc-code {
+      padding: 0 10px;
+      display: inline-block;
+      width: 100%;
+      .code-number-wrap {
+        width: 60%;
+        border: solid 2px #a3a3a3;
+        height: 60px;
+        float: left;
+        position: relative;
+        @include respond-to-custom-size(null, 500px){
+          height: 50px;
+        }
+        .code-number {
+          display: inline-block;
+          border: solid 2px #f91923;
+          padding: 4px 10px;
+          font-size: 15px;
+          position: absolute;
+          top: -2px;
+          right: -2px;
+        }
+      }
+      .cvc-text {
+        width: 40%;
+        float: left;
+        padding-left: 5px;
+      }
+    }
+    .section-logo-card-type{
+      padding: 0 40px 20px 0;
+      @include respond-to-custom-size(null, 500px){
+        padding: 0 30px 15px 0;
+      }
+      @include respond-to-custom-size(null, 400px){
+        padding: 0 20px 10px 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+/* CSS Document */
+.individual-passenger-page{
+	margin-top:15px;
+	color:#000;
+	padding-left:10px;
+	padding-right:10px;
+}
+.individual-passenger-page .title-border{
+	border-radius:8px 8px 0px 0px;
+}
+
+.individual-passenger-page .title-border{
+	padding-left:15px;
+	padding-right:15px;
+	height: 70px;
+}
+.individual-passenger-page .individual-content{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.individual-passenger-page .block{
+	float:left;
+	width:49%;
+	color:#000;
+	padding:10px 0px 10px 70px;
+}
+.individual-passenger-page .block-right{
+	padding-left:10px;
+}
+
+.block-color-yelow{
+	border: 20px solid #ffb700;
+	background-color:#fff;
+}
+.color-yelow{
+ border-right: 20px solid #ffb700;
+}
+ 
+.color-yelow-bg{
+	background-color:#ffb700;
+	padding:5px 20px;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#fff;
+	width:auto;
+}
+
+.block-list{
+	margin:20px 10px 10px 10px;
+	background-color:#fff;
+}
+.block-table{
+	margin:10px 30px;
+	height:100%;
+	padding-top:15px;
+}
+.block table td{
+	padding:5px 10px;
+}
+
+.block-right table td, .table-list{
+	color:#8c523f;
+}
+
+.table-list, .table-list th{
+	background-color:#cdcdcd;
+}
+
+.table-list th{
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:left;
+	padding-left:20px;
+}
+
+.table-list td{
+	background-color:#fff;
+	padding:5px 10px;
+	padding-left:20px;
+}
+
+.passenger-button{
+	padding-bottom:15px;
+	margin-top:15px;
+}
+
+.brclear{
+	clear:both;
+}

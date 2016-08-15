@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="template" version="2.5" client="administrator" method="upgrade">
+	<name>adminpraise3</name>
+	<creationDate>2012-06-26</creationDate>
+	<author>AdminPraise</author>
+	<authorEmail>support@adminpraise.com</authorEmail>
+	<authorUrl>http://www.adminpraise.com</authorUrl>
+	<copyright>Copyright Pixel Praise LLC</copyright>
+	<license>Copyright Pixel Praise LLC</license>
+	<version>2.5.1</version>
+	<description>AdminPraise3 by &lt;a href=&quot;http://www.adminpraise.com&quot; target=&quot;_blank&quot;&gt;AdminPraise.com&lt;/a&gt;, a &lt;a href=&quot;http://www.adminpraise.com/joomla/admin-templates.php&quot; target=&quot;_blank&quot;&gt;Joomla Admin Templates&lt;/a&gt; &amp; &lt;a href=&quot;http://www.adminpraise.com/joomla/admin-extensions.php&quot; target=&quot;_blank&quot;&gt;Joomla Admin Extensions&lt;/a&gt; Developer&lt;br&gt;</description>
+    <files>
+        <file>component.php</file>
+<file>cpanel.php</file>
+<folder>css</folder>
+<file>favicon.ico</file>
+<file>head.php</file>
+<folder>help</folder>
+<file>helper.php</file>
+<folder>html</folder>
+<folder>images</folder>
+<file>index.html</file>
+<file>index.php</file>
+<folder>js</folder>
+<folder>lib</folder>
+<file>login.php</file>
+<folder>modules</folder>
+<folder>parameter</folder>
+<file>params.ini</file>
+<file>templateDetails.xml</file>
+<file>template_preview.png</file>
+<file>template_thumbnail.png</file>
+    </files>
+
+	<languages folder="administrator/language/">
+        <language tag="da-DK">da-DK/da-DK.tpl_adminpraise3.ini</language>
+<language tag="en-GB">en-GB/en-GB.tpl_adminpraise3.ini</language>
+<language tag="et-EE">et-EE/et-EE.tpl_adminpraise3.ini</language>
+<language tag="pt-PT">pt-PT/pt-PT.tpl_adminpraise3.ini</language>
+<language tag="sv-SE">sv-SE/sv-SE.tpl_adminpraise3.ini</language>
+<language tag="th-TH">th-TH/th-TH.tpl_adminpraise3.ini</language>
+	</languages>
+
+	<positions>
+		<position>apadmin</position>
+		<position>aptop</position>
+		<position>apbottom</position>
+		<position>apside</position>
+		<position>apfooter</position>
+		<position>apfoot1</position>
+		<position>apfoot2</position>
+		<position>apfoot3</position>
+		<position>apfoot4</position>
+		<position>menu</position>
+		<position>submenu</position>
+		<position>toolbar</position>
+		<position>title</position>
+		<position>status</position>
+		<position>icon</position>
+		<position>cp_shell</position>
+		<position>cpanel</position>
+		<position>debug</position>
+	</positions>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="themes">
+				<field name="themeSpacer" type="spacer" label="" description="" default="Themes" />
+				
+				<field name="templateTheme" type="list" default="theme3" label="Global_Theme" description="Choose_a_theme">
+					<option value="theme1">Theme_1</option>
+					<option value="theme2">Theme_2</option>
+					<option value="theme3">Theme_3</option>
+					<option value="theme4">Theme_4</option>
+					<option value="theme5">Theme_5</option>
+				</field>
+				
+			</fieldset>
+			<fieldset name="layout">
+				<field name="showAvatar" type="list" label="SHOW_AVATAR" description="AVATARDESC" default="gravatar">
+					<option value="0">No</option>
+					<option value="gravatar">Gravatar</option>
+					<option value="k2">K2</option>
+					<option value="jomsocial">JomSocial</option>
+					<option value="cb">Community Builder</option>
+				</field>
+				<field name="showBreadCrumbs" type="radio" default="1" label="Show_Breadcrumbs" description="ENABLE_DISABLE">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="showQuickAdd" type="radio" default="1" label="Show_Quick_Add" description="ENABLE_DISABLE">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="showSubmenu" type="radio" default="1" label="Show_Submenu" description="ENABLE_DISABLE">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="showStatusBar" type="radio" default="1" label="Show_Status_Bar" description="ENABLE_DISABLE">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="fallbackTemplate" type="admintemplate" default="" label="Fallback_Template" description="Fallback_Template_Desc" />
+				
+				<field name="fallbackComponents" type="text" size="40" label="Fallback_Components" description="Fallback_Components_Desc" default="" />
+				<field name="fontSize" type="text" size="20" label="Tablature_Font_Size" description="Tablature_Font_Size" default="" />
+		
+			</fieldset>			
+			
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+	<fieldset> 
+		<field
+				name="mail_communication"
+				type="radio"
+				default="0"
+				label="Mail Communication"
+				description="Setup airport mail communication">
+				<option
+					value="0">No</option>
+				<option
+					value="1">Yes</option>
+		</field>
+		
+		<field
+				name="fax_communication"
+				type="radio"
+				default="0"
+				label="Fax Communication"
+				description="Setup airport fax communication">
+				<option
+					value="0">No</option>
+				<option
+					value="1">Yes</option>
+		</field>
+		
+		<field
+				name="enabel_https"
+				type="radio"
+				default="0"
+				label="Enabel HTTPS"
+				description="Setup airport enabel HTTPS">
+				<option
+					value="0">No</option>
+				<option
+					value="1">Yes</option>
+		</field>
+		
+		<field
+				name="enabel_send_sms"
+				type="radio"
+				default="0"
+				label="Enabel Send SMS"
+				description="Setup airport enabel send SMS">
+				<option
+					value="0">No</option>
+				<option
+					value="1">Yes</option>
+		</field>
+
+        <field name="site_suffix" type="text" label="Site suffix"
+               description="Setup airport site suffix" class="inputbox" size="30" />
+			   <field name="currency_id" type="currency" class="inputbox" label="System Currency" description="Setup airport system currency" />
+		
+		<field name="sfs_system_currency" type="text" label="System Currency"
+               description="Setup airport system currency" default="USD" class="inputbox" size="30" />
+			   
+        <field name="system_smails" type="text" label="System Emails"
+               description="Setup airport system emails" class="inputbox" size="30" />
+					
+		<field
+				name="enabel_25rule"
+				type="radio"
+				default="0"
+				label="Enabel 25% RULE"
+				description="Setup airport enabel 25% rule">
+				<option
+					value="0">No</option>
+				<option
+					value="1">Yes</option>
+		</field>
+		
+		<field name="rule25" type="text" label="25% RULE" description="Setup airport 25% rule" class="inputbox" size="30" default="0" />
+		<field name="hours_on_match_page" type="text" label="Hours on Match Page" description="Setup airport hours on match page" class="inputbox" size="30" default="00:00" />
+
+	</fieldset>
+
+</form>

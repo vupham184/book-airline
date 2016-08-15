@@ -1,0 +1,1313 @@
+@import url(//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,900italic,900,700italic,700,500italic);
+/* reset.css */
+/* line 4, ../scss/template-hdwebsoft.scss */
+#wrapper:after {
+  clear: both;
+  content: ' ';
+  display: block;
+}
+
+/* line 10, ../scss/template-hdwebsoft.scss */
+.container {
+  width: 995px;
+  clear: both;
+  margin: 0 auto;
+}
+
+/* line 16, ../scss/template-hdwebsoft.scss */
+.hd-sidebar {
+  width: 185px;
+  float: left;
+  top: 0;
+  position: absolute;
+  z-index: 1000;
+  background: #2b2b2b;
+  color: #fff;
+  padding: 5px;
+}
+
+/* line 27, ../scss/template-hdwebsoft.scss */
+.hd-content {
+  width: 785px;
+  float: right;
+}
+
+/* line 32, ../scss/template-hdwebsoft.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 37, ../scss/template-hdwebsoft.scss */
+#hotel-registraion.registration div.fs-16.fbold, #hotel-registraion h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  color: #ffffff;
+  margin: 3px 0 1px 0;
+  display: block;
+  padding-bottom: 80px;
+}
+/* line 46, ../scss/template-hdwebsoft.scss */
+#hotel-registraion.airports .sfs-above-main.sfs-hotel-title {
+  background: none;
+  padding-left: 0;
+}
+/* line 47, ../scss/template-hdwebsoft.scss */
+#hotel-registraion.airports .sfs-above-main.sfs-hotel-title h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  color: #ffffff;
+  margin: 3px 0 1px 0;
+  display: block;
+  padding-bottom: 80px;
+  padding-bottom: 20px;
+}
+
+/* line 62, ../scss/template-hdwebsoft.scss */
+input, select {
+  display: inline-block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 6px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  border: 1px solid #DDDDDD;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  height: 40px;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+/* line 89, ../scss/template-hdwebsoft.scss */
+input[type=radio], input[type=checkbox] {
+  width: 15px;
+  height: 15px;
+}
+
+/* line 95, ../scss/template-hdwebsoft.scss */
+a.small-button, button.small-button, input.small-button {
+  background: none;
+  text-decoration: none !important;
+  font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  background-color: #FF8806;
+  font-weight: 700;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  padding: 5px 10px;
+  transition: .4s;
+  color: #fff !important;
+  transition: .4s;
+  display: inine-block;
+  height: auto;
+  line-height: auto;
+}
+
+/* line 116, ../scss/template-hdwebsoft.scss */
+div.mid-button, div.s-button {
+  background: none;
+  text-decoration: none !important;
+  font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  background-color: #FF8806;
+  font-weight: 700;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  padding: 5px 10px;
+  transition: .4s;
+  color: #fff !important;
+  transition: .4s;
+  display: inine-block;
+  height: auto;
+  line-height: auto;
+}
+
+div.d-button {
+  background: none;
+  text-decoration: none !important;
+  font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  background-color: #FF8806;
+  font-weight: 700;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  padding: 5px 5px;
+  transition: .4s;
+  color: #fff !important;
+  transition: .4s;
+  display: inine-block;
+  height: auto;
+  line-height: auto;
+}
+
+/* line 137, ../scss/template-hdwebsoft.scss */
+a.small-button:hover, button.small-button:hover, input.small-button:hover {
+  background: none;
+  background-color: #fff;
+  color: #FF8806  !important;
+}
+
+/* line 144, ../scss/template-hdwebsoft.scss */
+div.mid-button:hover, div.s-button:hover {
+  background: none;
+  background-color: #fff;
+  color: #FF8806  !important;
+}
+/* line 150, ../scss/template-hdwebsoft.scss */
+div.mid-button button, div.mid-button a {
+  background: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: 'Roboto Condensed', sans-serif;
+  transition: .4s;
+}
+/* line 160, ../scss/template-hdwebsoft.scss */
+div.s-button button, div.s-button a {
+  background: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: 'Roboto Condensed', sans-serif;
+  transition: .4s;
+}
+/* line 170, ../scss/template-hdwebsoft.scss */
+div.mid-button:hover button, div.mid-button:hover a {
+  background: none;
+  color: #FF8806  !important;
+}
+/* line 176, ../scss/template-hdwebsoft.scss */
+div.s-button:hover button, div.s-button:hover a {
+  background: none;
+  color: #FF8806  !important;
+}
+
+/* line 183, ../scss/template-hdwebsoft.scss */
+input.s-button, button.s-button, a.s-button {
+  background: none !Important;
+}
+
+/* line 188, ../scss/template-hdwebsoft.scss */
+div.s-button input.s-button, div.s-button button.s-button, div.s-button a.s-button {
+  padding: 0 !important;
+  color: #fff !important;
+}
+/* line 193, ../scss/template-hdwebsoft.scss */
+div.s-button:hover input.s-button:hover, div.s-button:hover button.s-button:hover, div.s-button:hover a.s-button:hover {
+  background: none !important;
+  color: #FF8806 !important;
+}
+
+/* line 200, ../scss/template-hdwebsoft.scss */
+.rooming-block div > div input {
+  width: 160px !Important;
+}
+
+/* line 204, ../scss/template-hdwebsoft.scss */
+#system-message-container {
+  position: absolute;
+  top: -60px;
+  width: 100%;
+  overflow: hidden;
+  opacity: .8;
+}
+
+/* line 212, ../scss/template-hdwebsoft.scss */
+ul.actions li a {
+  color: #fff !important;
+}
+
+/* line 216, ../scss/template-hdwebsoft.scss */
+#hotel-registraion.registration .sfs-below-main .float-right {
+  width: 50%;
+  text-align: right;
+}
+
+/* line 223, ../scss/template-hdwebsoft.scss */
+#sfs-wrapper input.smaller-size {
+  width: 50px;
+}
+/* line 226, ../scss/template-hdwebsoft.scss */
+#sfs-wrapper input.thin-size {
+  width: 142px;
+}
+/* line 230, ../scss/template-hdwebsoft.scss */
+#sfs-wrapper select {
+  width: 212px;
+}
+/* line 231, ../scss/template-hdwebsoft.scss */
+#sfs-wrapper select.thin-size {
+  width: 142px;
+}
+
+/******************/
+/* line 240, ../scss/template-hdwebsoft.scss */
+ul.noStyle {
+  list-style: none;
+}
+/* line 242, ../scss/template-hdwebsoft.scss */
+ul.noStyle li {
+  margin-left: 0;
+}
+
+/* line 248, ../scss/template-hdwebsoft.scss */
+table th {
+  font-weight: 700;
+}
+
+/* line 253, ../scss/template-hdwebsoft.scss */
+#wrap_container {
+  margin-top: 0;
+  position: static;
+}
+
+/* line 260, ../scss/template-hdwebsoft.scss */
+#logo {
+  margin-bottom: 20px;
+}
+
+/* line 264, ../scss/template-hdwebsoft.scss */
+.main {
+  clear: both;
+  background: #fff;
+  padding: 40px 30px;
+  margin-bottom: 20px;
+}
+/* line 270, ../scss/template-hdwebsoft.scss */
+.main h3 {
+  font-size: 21px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 276, ../scss/template-hdwebsoft.scss */
+.report-airline {
+  background: aliceblue;
+}
+
+/* line 280, ../scss/template-hdwebsoft.scss */
+.heading-block {
+  height: 160px;
+  display: table;
+  margin-bottom: 25px;
+  width: 100%;
+}
+/* line 285, ../scss/template-hdwebsoft.scss */
+.heading-block .heading-block-wrap {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 289, ../scss/template-hdwebsoft.scss */
+.heading-block h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  color: #ffffff;
+  display: block;
+}
+/* line 298, ../scss/template-hdwebsoft.scss */
+.heading-block.descript h3 {
+  padding-bottom: 0;
+}
+/* line 301, ../scss/template-hdwebsoft.scss */
+.heading-block.descript .descript-txt {
+  font-size: 14px;
+  color: #fff;
+}
+
+/* line 308, ../scss/template-hdwebsoft.scss */
+.main-top-block {
+  clear: both;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+/* line 314, ../scss/template-hdwebsoft.scss */
+.main-bottom-block {
+  clear: both;
+  width: 100%;
+  display: table;
+  margin-bottom: 15px;
+}
+
+/* line 325, ../scss/template-hdwebsoft.scss */
+.box-style {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+/* line 328, ../scss/template-hdwebsoft.scss */
+.box-style.yellow {
+  background: #ffde73;
+}
+/* line 331, ../scss/template-hdwebsoft.scss */
+.box-style.radius {
+  border-radius: 10px;
+}
+/* line 335, ../scss/template-hdwebsoft.scss */
+.box-style .contrast-block-wrapper {
+  padding: 10px;
+}
+/* line 337, ../scss/template-hdwebsoft.scss */
+.box-style .contrast-block-wrapper h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+}
+/* line 343, ../scss/template-hdwebsoft.scss */
+.box-style .contrast-block-wrapper h4 span {
+  float: right !important;
+  margin-right: 0 !important;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #666;
+  font-weight: 100;
+}
+/* line 353, ../scss/template-hdwebsoft.scss */
+.box-style .contrast-block {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 5px 10px;
+  border: 1px solid #E2C155;
+  border-radius: 5px;
+}
+/* line 358, ../scss/template-hdwebsoft.scss */
+.box-style .contrast-block .contrast-head, .box-style .contrast-block.table table thead th {
+  border-bottom: 1px solid #E2C155;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+/* line 365, ../scss/template-hdwebsoft.scss */
+.box-style .contrast-block .contrast-foot, .box-style .contrast-block.table table tfoot td {
+  border-top: 1px solid #E2C155;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+}
+/* line 373, ../scss/template-hdwebsoft.scss */
+.box-style .contrast-block.table {
+  padding: 0;
+}
+/* line 375, ../scss/template-hdwebsoft.scss */
+.box-style .contrast-block.table table {
+  border-spacing: 0;
+  width: 100%;
+}
+/* line 379, ../scss/template-hdwebsoft.scss */
+.box-style .contrast-block.table table thead th {
+  font-weight: 700;
+  text-align: center;
+}
+/* line 386, ../scss/template-hdwebsoft.scss */
+.box-style .contrast-block.table table tbody td {
+  text-align: center;
+  padding: 10px;
+}
+/* line 389, ../scss/template-hdwebsoft.scss */
+.box-style .contrast-block.table table tbody td:first-child {
+  text-align: left;
+}
+
+/* line 405, ../scss/template-hdwebsoft.scss */
+.modal-block {
+  position: relative;
+}
+/* line 407, ../scss/template-hdwebsoft.scss */
+.modal-block .modal-inner {
+  background: #fff;
+  border: solid 15px #fbdf6f;
+  position: absolute;
+  top: 50px;
+  z-index: 3;
+  padding: 10px;
+}
+/* line 415, ../scss/template-hdwebsoft.scss */
+.modal-block .wrap-modal {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+/* line 426, ../scss/template-hdwebsoft.scss */
+.modal-block.col-2 .sfs-print-voucher-column {
+  width: 400px;
+  float: left;
+  clear: none;
+}
+
+/* line 434, ../scss/template-hdwebsoft.scss */
+.pull-right {
+  float: right;
+}
+
+/* line 438, ../scss/template-hdwebsoft.scss */
+.pull-left {
+  float: left;
+}
+
+/* line 443, ../scss/template-hdwebsoft.scss */
+.dropdownToggle {
+  text-transform: uppercase;
+  color: #fff !important;
+  font-weight: 700;
+  padding: 10px 0px 7px 7px;
+  clear: both;
+  display: block;
+  position: relative;
+  border-top: 1px solid rgba(204, 204, 204, 0.2);
+}
+/* line 452, ../scss/template-hdwebsoft.scss */
+.dropdownToggle:after {
+  content: "\f107";
+  font: normal normal normal 14px/1 FontAwesome;
+  display: block;
+  position: absolute;
+  top: 12px;
+  right: 5px;
+  font-size: 22px;
+  transform: rotate(0deg);
+  transition: .4s;
+}
+
+/* line 466, ../scss/template-hdwebsoft.scss */
+#main_menu:hover .dropdownToggle:after {
+  transform: rotate(180deg);
+}
+
+/* line 472, ../scss/template-hdwebsoft.scss */
+.dropdown-menu {
+  display: none;
+  z-index: 5000;
+}
+
+/* line 481, ../scss/template-hdwebsoft.scss */
+.sfs-form.form-horizone .form-group {
+  display: inline-block;
+}
+/* line 483, ../scss/template-hdwebsoft.scss */
+.sfs-form.form-horizone .form-group label {
+  display: block;
+}
+/* line 486, ../scss/template-hdwebsoft.scss */
+.sfs-form.form-horizone .form-group.btn-group {
+  margin-top: 10px;
+}
+/* line 489, ../scss/template-hdwebsoft.scss */
+.sfs-form.form-horizone .form-group select {
+  display: inline-block;
+}
+/* line 496, ../scss/template-hdwebsoft.scss */
+.sfs-form.form-vertical .form-group label {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 10px;
+  font-weight: 700;
+  width: 200px;
+  float: left;
+}
+/* line 505, ../scss/template-hdwebsoft.scss */
+.sfs-form.form-vertical .form-group .checkbox label, .sfs-form.form-vertical .form-group .radio label {
+  margin-left: 20px;
+  width: auto;
+  font-weight: normal;
+  margin-top: 0;
+}
+/* line 510, ../scss/template-hdwebsoft.scss */
+.sfs-form.form-vertical .form-group .checkbox label input[type="radio"], .sfs-form.form-vertical .form-group .radio label input[type="radio"] {
+  margin-top: 10px;
+}
+/* line 515, ../scss/template-hdwebsoft.scss */
+.sfs-form.form-vertical .form-group select {
+  float: left;
+  display: inline-block;
+}
+/* line 519, ../scss/template-hdwebsoft.scss */
+.sfs-form.form-vertical .form-group .select-group {
+  display: inline-block;
+}
+/* line 521, ../scss/template-hdwebsoft.scss */
+.sfs-form.form-vertical .form-group .select-group select {
+  margin-right: 10px;
+}
+/* line 523, ../scss/template-hdwebsoft.scss */
+.sfs-form.form-vertical .form-group .select-group select:last-child {
+  margin-right: 0;
+}
+/* line 529, ../scss/template-hdwebsoft.scss */
+.sfs-form.form-vertical .form-group .input-group input {
+  margin-bottom: 10px;
+}
+/* line 531, ../scss/template-hdwebsoft.scss */
+.sfs-form.form-vertical .form-group .input-group input:last-child {
+  margin-bottom: 0;
+}
+/* line 536, ../scss/template-hdwebsoft.scss */
+.sfs-form.form-vertical .form-group textarea {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* line 544, ../scss/template-hdwebsoft.scss */
+.form-group {
+  margin-bottom: 15px;
+  display: table;
+  clear: both;
+  width: 100%;
+}
+/* line 550, ../scss/template-hdwebsoft.scss */
+.form-group.vertical-align {
+  display: inline-block;
+}
+/* line 552, ../scss/template-hdwebsoft.scss */
+.form-group.vertical-align .form-control {
+  margin: 0 10px;
+  float: left;
+}
+/* line 555, ../scss/template-hdwebsoft.scss */
+.form-group.vertical-align .form-control:first-child {
+  margin-left: 0;
+}
+/* line 558, ../scss/template-hdwebsoft.scss */
+.form-group.vertical-align .form-control:last-child {
+  margin-right: 0;
+}
+/* line 564, ../scss/template-hdwebsoft.scss */
+.form-group .label-right {
+  margin-left: 10px;
+}
+/* line 569, ../scss/template-hdwebsoft.scss */
+.form-group .label-modified label {
+  width: auto !important;
+}
+/* line 574, ../scss/template-hdwebsoft.scss */
+.form-group.btn-group {
+  margin: 10px 0;
+}
+/* line 576, ../scss/template-hdwebsoft.scss */
+.form-group.btn-group .btn {
+  margin: 0 5px;
+}
+/* line 578, ../scss/template-hdwebsoft.scss */
+.form-group.btn-group .btn:first-child {
+  margin-left: 0;
+}
+/* line 581, ../scss/template-hdwebsoft.scss */
+.form-group.btn-group .btn:last-child {
+  margin-right: 0;
+}
+/* line 586, ../scss/template-hdwebsoft.scss */
+.form-group .form-group-label-right {
+  display: table;
+}
+/* line 588, ../scss/template-hdwebsoft.scss */
+.form-group .form-group-label-right input {
+  display: table-cell;
+  margin-right: 10px;
+}
+/* line 592, ../scss/template-hdwebsoft.scss */
+.form-group .form-group-label-right .label-right {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 599, ../scss/template-hdwebsoft.scss */
+.help-block {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #999;
+}
+
+/* line 608, ../scss/template-hdwebsoft.scss */
+.field-no-form.vertical .form-group {
+  margin: 5px 0;
+}
+/* line 610, ../scss/template-hdwebsoft.scss */
+.field-no-form.vertical .form-group label {
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+/* line 615, ../scss/template-hdwebsoft.scss */
+.field-no-form.vertical .form-group select {
+  width: auto;
+}
+
+/* line 622, ../scss/template-hdwebsoft.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 626, ../scss/template-hdwebsoft.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 630, ../scss/template-hdwebsoft.scss */
+.block-group {
+  box-sizing: border-box;
+}
+/* line 633, ../scss/template-hdwebsoft.scss */
+.block-group .block {
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+}
+/* line 639, ../scss/template-hdwebsoft.scss */
+.block-group .block.border {
+  border-width: 10px;
+  border-style: solid;
+}
+/* line 642, ../scss/template-hdwebsoft.scss */
+.block-group .block.border.orange {
+  border-color: #ffb700;
+}
+/* line 647, ../scss/template-hdwebsoft.scss */
+.block-group .block.style-2 fieldset {
+  border: 2px solid #ffb700;
+  padding: 20px;
+}
+/* line 651, ../scss/template-hdwebsoft.scss */
+.block-group .block.style-2 legend {
+  text-align: center;
+  width: auto;
+  padding: 0 20px;
+  border-bottom: 0;
+}
+/* line 660, ../scss/template-hdwebsoft.scss */
+.block-group.block-inline .col {
+  display: inline-block;
+}
+
+/* line 666, ../scss/template-hdwebsoft.scss */
+.row {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+/* line 669, ../scss/template-hdwebsoft.scss */
+.row.r10 {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+/* line 676, ../scss/template-hdwebsoft.scss */
+#logo {
+  margin-bottom: 5px;
+}
+/* line 678, ../scss/template-hdwebsoft.scss */
+#logo img {
+  width: 150px;
+}
+
+/* line 683, ../scss/template-hdwebsoft.scss */
+.helper {
+  font-size: 18px;
+  padding: 25px;
+  position: relative;
+  z-index: 1001;
+}
+
+/* line 690, ../scss/template-hdwebsoft.scss */
+.search-result {
+  width: 100%;
+  border: 0;
+  border-spacing: 0;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 20px;
+}
+/* line 697, ../scss/template-hdwebsoft.scss */
+.search-result th {
+  padding: 10px;
+  text-align: left;
+}
+/* line 702, ../scss/template-hdwebsoft.scss */
+.search-result td {
+  vertical-align: top;
+  padding: 10px;
+}
+
+/* line 708, ../scss/template-hdwebsoft.scss */
+.star {
+  background: url(../images/star2.png) top left repeat-x;
+  height: 13px;
+  display: block;
+  overflow: hidden;
+  width: 0px;
+}
+/* line 714, ../scss/template-hdwebsoft.scss */
+.star.star5 {
+  width: 65px;
+}
+/* line 717, ../scss/template-hdwebsoft.scss */
+.star.star4 {
+  width: 52px;
+}
+/* line 720, ../scss/template-hdwebsoft.scss */
+.star.star3 {
+  width: 39px;
+}
+/* line 723, ../scss/template-hdwebsoft.scss */
+.star.star2 {
+  width: 27px;
+}
+/* line 726, ../scss/template-hdwebsoft.scss */
+.star.star1 {
+  width: 13px;
+}
+
+/* line 732, ../scss/template-hdwebsoft.scss */
+.quickroom-block {
+  float: left;
+  border: solid 1px #1FABBA;
+  margin: 10px;
+  border-radius: 3px;
+  text-align: center;
+}
+/* line 738, ../scss/template-hdwebsoft.scss */
+.quickroom-block span {
+  display: block;
+  padding: 5px 10px;
+}
+/* line 742, ../scss/template-hdwebsoft.scss */
+.quickroom-block strong {
+  background: #1FABBA;
+  color: #fff;
+  display: block;
+  padding: 5px 10px;
+  transition: .4s;
+}
+/* line 749, ../scss/template-hdwebsoft.scss */
+.quickroom-block:hover {
+  border: solid 1px #118390;
+  color: #118390;
+}
+/* line 752, ../scss/template-hdwebsoft.scss */
+.quickroom-block:hover strong {
+  background: #118390;
+}
+
+/* line 1, ../scss/mixins/_clearfix.scss */
+.clearfix {
+  *zoom: 1;
+}
+/* line 4, ../scss/mixins/_clearfix.scss */
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 11, ../scss/mixins/_clearfix.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 1, ../scss/mixins/_columns.scss */
+.wrap-col {
+  width: 100%;
+  display: block;
+}
+
+/* line 5, ../scss/mixins/_columns.scss */
+.col {
+  float: left;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+/* line 9, ../scss/mixins/_columns.scss */
+.col.w90 {
+  width: 90%;
+}
+/* line 12, ../scss/mixins/_columns.scss */
+.col.w80 {
+  width: 80%;
+}
+/* line 15, ../scss/mixins/_columns.scss */
+.col.w70 {
+  width: 70%;
+}
+/* line 18, ../scss/mixins/_columns.scss */
+.col.w65 {
+  width: 65%;
+}
+/* line 21, ../scss/mixins/_columns.scss */
+.col.w60 {
+  width: 60%;
+}
+/* line 24, ../scss/mixins/_columns.scss */
+.col.w50 {
+  width: 50%;
+}
+/* line 27, ../scss/mixins/_columns.scss */
+.col.w40 {
+  width: 40%;
+}
+/* line 30, ../scss/mixins/_columns.scss */
+.col.w30 {
+  width: 30%;
+}
+/* line 33, ../scss/mixins/_columns.scss */
+.col.w25 {
+  width: 25%;
+}
+/* line 36, ../scss/mixins/_columns.scss */
+.col.w20 {
+  width: 20%;
+}
+/* line 39, ../scss/mixins/_columns.scss */
+.col.w15 {
+  width: 15%;
+}
+/* line 42, ../scss/mixins/_columns.scss */
+.col.w10 {
+  width: 10%;
+}
+/* line 45, ../scss/mixins/_columns.scss */
+.col.w5 {
+  width: 5%;
+}
+
+/* line 51, ../scss/mixins/_columns.scss */
+.pull-left.p40 {
+  margin-left: 40%;
+}
+/* line 54, ../scss/mixins/_columns.scss */
+.pull-left.p30 {
+  margin-left: 30%;
+}
+/* line 57, ../scss/mixins/_columns.scss */
+.pull-left.p20 {
+  margin-left: 20%;
+}
+
+/* line 2, ../scss/mixins/_background.scss */
+.bg.grey, .search-result th {
+  background: #dedede;
+}
+/* line 5, ../scss/mixins/_background.scss */
+.bg.blue {
+  background: #82adf1;
+}
+/* line 8, ../scss/mixins/_background.scss */
+.bg.light-blue {
+  background: #dcfcfa;
+}
+
+/* line 1, ../scss/buttons/_button.scss */
+.btn {
+  display: inline-block;
+  border: none;
+  text-align: center;
+}
+/* line 5, ../scss/buttons/_button.scss */
+.btn.orange {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #FF8806;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: .4s;
+  text-decoration: none !important;
+}
+/* line 15, ../scss/buttons/_button.scss */
+.btn.grey {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #555;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: .4s;
+  text-decoration: none !important;
+}
+/* line 25, ../scss/buttons/_button.scss */
+.btn.lg {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+/* line 29, ../scss/buttons/_button.scss */
+.btn.sm {
+  font-size: 13px !important;
+  padding: 5px 10px;
+  min-width: 130px;
+}
+/* line 34, ../scss/buttons/_button.scss */
+.btn.xl {
+  padding: 3px 10px;
+  font-size: 12px;
+}
+/* line 38, ../scss/buttons/_button.scss */
+.btn:hover {
+  background-color: #ddd;
+  color: #FF8806;
+  cursor: pointer;
+}
+/* line 43, ../scss/buttons/_button.scss */
+.btn.btn-block {
+  display: block;
+  width: 100%;
+}
+
+/* line 765, ../scss/template-hdwebsoft.scss */
+.register-form legend {
+  font-size: 24px;
+  width: 100%;
+  margin-bottom: 36px;
+  margin-top: -56px;
+  float: left;
+  text-align: center;
+}
+/* line 773, ../scss/template-hdwebsoft.scss */
+.register-form .text_legend {
+  padding: 0 10px;
+  background-color: #fff;
+}
+/* line 777, ../scss/template-hdwebsoft.scss */
+.register-form .block-group {
+  margin-bottom: 15px;
+}
+/* line 779, ../scss/template-hdwebsoft.scss */
+.register-form .block-group .block {
+  padding: 30px 50px;
+  margin-bottom: 20px;
+}
+/* line 782, ../scss/template-hdwebsoft.scss */
+.register-form .block-group .block:last-child {
+  margin-bottom: 0;
+}
+
+/* line 790, ../scss/template-hdwebsoft.scss */
+.report-form label {
+  width: auto !important;
+}
+
+/* line 795, ../scss/template-hdwebsoft.scss */
+.info-block {
+  padding: 10px 30px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #D6F0EF;
+}
+
+/* line 804, ../scss/template-hdwebsoft.scss */
+#sfsVoucherSelectRooms {
+  left: 35%;
+}
+
+/* line 808, ../scss/template-hdwebsoft.scss */
+div.sfs-print-voucher-2-column {
+  left: 25%;
+}
+
+/* line 811, ../scss/template-hdwebsoft.scss */
+div.roomloading-left {
+  width: 124px;
+}
+
+/* line 815, ../scss/template-hdwebsoft.scss */
+.roomloading th {
+  white-space: nowrap;
+}
+/* line 817, ../scss/template-hdwebsoft.scss */
+.roomloading th span {
+  margin-left: 5px;
+}
+
+/* line 822, ../scss/template-hdwebsoft.scss */
+div.roomtable {
+  width: 100%;
+  padding: 5px;
+}
+/* line 825, ../scss/template-hdwebsoft.scss */
+div.roomtable .date {
+  margin: 2px;
+}
+/* line 828, ../scss/template-hdwebsoft.scss */
+div.roomtable .input {
+  text-align: center;
+  margin: 2px;
+}
+/* line 831, ../scss/template-hdwebsoft.scss */
+div.roomtable .input input {
+  width: 50%;
+}
+/* line 834, ../scss/template-hdwebsoft.scss */
+div.roomtable .input .inputbox-rank {
+  width: 46%;
+  display: inline-block;
+}
+
+/* line 840, ../scss/template-hdwebsoft.scss */
+div.roomloading-middle {
+  width: 690px;
+}
+
+/* line 844, ../scss/template-hdwebsoft.scss */
+.roomloading-rate {
+  padding-top: 0 !important;
+}
+
+/* line 848, ../scss/template-hdwebsoft.scss */
+#booking-form-wrapper table {
+  margin-bottom: 80px;
+}
+
+/* line 852, ../scss/template-hdwebsoft.scss */
+#tooltip_overview_room_type {
+  float: none;
+}
+
+/* line 856, ../scss/template-hdwebsoft.scss */
+#system-message-container {
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/* line 862, ../scss/template-hdwebsoft.scss */
+div.airline-overview .sfs-above-main, div.search-results-title {
+  padding: 1px 6px;
+}
+
+/* line 866, ../scss/template-hdwebsoft.scss */
+input.calendar {
+  width: 100% !important;
+  background-position: 95% 50%;
+}
+
+/* line 871, ../scss/template-hdwebsoft.scss */
+.introjs-helperNumberLayer {
+  width: 25px;
+  height: 25px;
+}
+
+/* line 876, ../scss/template-hdwebsoft.scss */
+.sfs-match-title-desc {
+  text-align: center;
+}
+
+/* line 882, ../scss/template-hdwebsoft.scss */
+.search-result span.r-heading {
+  font-family: Roboto, sans-serif;
+  color: #737278;
+  font-weight: bold;
+  display: block;
+  padding-bottom: 5px;
+}
+/* line 890, ../scss/template-hdwebsoft.scss */
+.search-result td {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* line 894, ../scss/template-hdwebsoft.scss */
+.search-result td.hotel-row {
+  border-bottom: 1px solid #27bbc5;
+  margin-top: 7px;
+  padding: 10px 5px;
+}
+/* line 903, ../scss/template-hdwebsoft.scss */
+.search-result tr.button-row td {
+  padding-bottom: 0;
+}
+/* line 910, ../scss/template-hdwebsoft.scss */
+.search-result th.main-head {
+  padding: 10px 5px;
+}
+/* line 919, ../scss/template-hdwebsoft.scss */
+.search-result table.room-table tr.r-heading td {
+  padding: 0 5px;
+}
+/* line 924, ../scss/template-hdwebsoft.scss */
+.search-result table.room-table tr.room-item > td {
+  vertical-align: middle;
+  font-weight: bold;
+  color: #555;
+  vertical-align: top;
+  padding-top: 10px;
+}
+/* line 931, ../scss/template-hdwebsoft.scss */
+.search-result table.room-table tr.room-item > td.room-item-last-cell {
+  padding-top: 0;
+}
+/* line 937, ../scss/template-hdwebsoft.scss */
+.search-result table.room-table td {
+  padding: 3px 5px 5px 5px;
+}
+/* line 940, ../scss/template-hdwebsoft.scss */
+.search-result table.room-table input.ws_num_room_input {
+  width: 40px;
+}
+/* line 946, ../scss/template-hdwebsoft.scss */
+.search-result .hotel-name {
+  font-size: 1.2em;
+  color: #26bac4;
+  display: block;
+  font-family: Arial, sans-serif;
+  padding-bottom: 15px;
+  padding-top: 1px;
+}
+/* line 955, ../scss/template-hdwebsoft.scss */
+.search-result a.toggle-room {
+  color: #26bac4;
+  text-decoration: underline;
+  font-size: 1.1em;
+  position: relative;
+  display: inline-block;
+}
+/* line 963, ../scss/template-hdwebsoft.scss */
+.search-result .toggle-button-lay {
+  display: block;
+  margin-top: 27px;
+  text-align: right;
+}
+/* line 971, ../scss/template-hdwebsoft.scss */
+.search-result td.hotel-row .form-group {
+  margin-bottom: 0px !important;
+}
+/* line 974, ../scss/template-hdwebsoft.scss */
+.search-result td.hotel-row .form-group input[type=checkbox] {
+  vertical-align: middle;
+  margin-left: 0;
+}
+/* line 978, ../scss/template-hdwebsoft.scss */
+.search-result td.hotel-row .form-group label {
+  display: block;
+  width: auto;
+  margin-top: 16px;
+}
+/* line 983, ../scss/template-hdwebsoft.scss */
+.search-result td.hotel-row .form-group .help-block {
+  clear: both;
+  margin-left: 22px;
+}
+/* line 990, ../scss/template-hdwebsoft.scss */
+.search-result td.hotel-row ul.noStyle li {
+  display: block;
+  clear: both;
+}
+/* line 994, ../scss/template-hdwebsoft.scss */
+.search-result td.hotel-row ul.noStyle li label {
+  width: auto;
+  display: inline;
+  padding: 0;
+  margin-top: 0;
+}
+/* line 1004, ../scss/template-hdwebsoft.scss */
+.search-result .transport-content {
+  display: block;
+  margin-top: 14px;
+}
+/* line 1009, ../scss/template-hdwebsoft.scss */
+.search-result .distance-to-airport {
+  margin-top: 20px;
+}
+/* line 1013, ../scss/template-hdwebsoft.scss */
+.search-result .meal-not-available {
+  margin-top: 16px;
+  font-size: 12px;
+  margin-left: 22px;
+}
+
+/* line 1020, ../scss/template-hdwebsoft.scss */
+.hotel-search-loader {
+  height: 284px;
+  width: 100%;
+  display: block;
+  background: url(../images/more-hotel-search-loader.gif) center no-repeat;
+}
+
+/* line 1029, ../scss/template-hdwebsoft.scss */
+table.match-passengers th {
+  text-align: left;
+}
+
+#system-message{
+	position:relative;
+}
+
+#system-message{
+	margin-bottom:0px;
+}
+ .alert.alert-warning{
+  background: #fff1f0 none repeat scroll 0 0;
+    color: #d85030;
+    width: 30%;
+    border-color: rgba(216, 80, 48, 0.3);
+    float: right;
+    margin-right: 22%;
+    margin-top: 1%;
+    height: 133px;
+    border-radius: 5px;
+} 
+.alert.alert-message{
+  background-color: #F6D18D;
+  position: relative;
+  float: right;
+  height: 180px;
+  width: 325px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-right: 394px;
+  top: 0px;
+}
+.alert-heading, .alert-message{
+	margin:0px;
+  position: relative;
+  top: 10px;
+  left: 30px;  
+}
+.alert-message{
+	padding-top:5px;
+	padding-bottom:5px;
+  position: relative;
+  top: 45px;
+  left: 150px
+  max-width: 300px;
+}
+.alert.alert-message .close{
+	padding:3px 7px;
+	cursor:pointer;
+  position: absolute;
+  left: 294px;
+  background-image: url('../images/new/icon_close.png');
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+}
+.alert.alert-warning .close{
+  padding:3px 7px;
+  cursor:pointer;
+  position: absolute;
+  right: 300px;
+  background-image: url('../images/new/icon_close.png');
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+}
+p.alert-message{
+  max-width: 270px
+}

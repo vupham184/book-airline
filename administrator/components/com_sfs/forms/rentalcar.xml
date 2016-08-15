@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+	<fieldset name="details"
+		addfieldpath="/administrator/components/com_sfs/models/rules">
+		<field name="id"  type="text" class="readonly" label="JGLOBAL_FIELD_ID_LABEL"
+			description ="JGLOBAL_FIELD_ID_DESC" size="10" default="0" 
+			readonly="true"  />
+
+		<field name="company" type="text" label="Company"
+			description="Company name" class="inputbox" size="30"
+			required="true" />		
+			 <field name="logo" type="file"
+label="logo"
+description="logo" 
+accept="image/*" /> 
+		
+		<field
+				name="airport_code"
+				type="airportedit"
+				label="Airport code(s)"
+				description=""
+				class="inputbox"				
+				required="true"
+				/>		
+		<field name="location_name" type="text" label="Location Name"
+			description="Location Name" class="inputbox" size="30"
+			required="true" />
+		<field name="address" type="text" label="Address"
+			description="Address" class="inputbox" size="30"
+			required="true" />
+		<field name="zipcode" type="text" label="Zipcode"
+			description="Zipcode" class="inputbox" size="30"
+			required="true" />
+		<field name="city" type="text" label="City"
+			description="city" class="inputbox" size="30"
+			required="true" />
+		<field name="telephone" type="text" label="Telephone"
+			description="Telephone" class="inputbox" size="30"
+			required="true" />
+		<field name="location_code" type="text" label="Location Code"
+			description="Location Code" class="inputbox" size="30"
+			required="true" />
+	</fieldset>
+
+
+</form>

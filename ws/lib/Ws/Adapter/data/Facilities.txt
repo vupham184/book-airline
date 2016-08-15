@@ -1,0 +1,172 @@
+FacilityID|FacilityGroupID|FacilityGroup|FacilityType|Facility
+2|2|General|Hotel|24hr reception
+97|2|General|Hotel|Boutique(s)
+100|2|General|Hotel|Car rental
+102|2|General|Hotel|Concierge facilities
+104|2|General|Hotel|Maid service
+131|2|General|Hotel|Earliest check-in at 13:00
+154|2|General|Hotel|Laundry facilities
+158|2|General|Hotel|Porterage
+162|2|General|Hotel|Shop(s)
+168|2|General|Hotel|Travel agency facilities
+176|2|General|Hotel|Airport - less than 25 Km
+190|2|General|Hotel|Breakfast room
+195|2|General|Hotel|Bus/tram stop nearby
+204|2|General|Hotel|24hr check-in
+210|2|General|Hotel|Group check-in
+227|2|General|Hotel|Latest check-out - 12:00
+232|2|General|Hotel|Lounge area
+234|2|General|Hotel|Credit Cards - Amex/Visa/Mastercard
+244|2|General|Hotel|Multilingual staff
+245|2|General|Hotel|Night porter
+246|2|General|Hotel|No lift
+258|2|General|Hotel|Safe
+267|2|General|Hotel|Sun terrace
+285|2|General|Hotel|Whirlpool
+343|2|General|Hotel|Bicycle storage
+355|2|General|Hotel|Garden
+346|2|General|Hotel|Central heating
+370|2|General|Hotel|Medical services
+374|2|General|Hotel|Currency exchange
+390|2|General|Hotel|Terrace
+398|2|General|Hotel|Airport transfer
+400|2|General|Hotel|Activities desk
+404|2|General|Hotel|Baggage holding services
+409|2|General|Hotel|Beach less than 1km
+415|2|General|Hotel|Cash machine/ATM
+423|2|General|Hotel|Dry cleaning service
+434|2|General|Hotel|Complimentary newspaper(s)
+443|2|General|Hotel|Ice machine(s)
+460|2|General|Hotel|Picnic area
+482|2|General|Hotel|Synagogue
+487|2|General|Hotel|Tour desk
+492|2|General|Hotel|Vending machine(s)
+531|2|General|Hotel|Shop(s) nearby
+499|2|General|Hotel|Wedding services
+608|2|General|Hotel|Ironing facilities
+633|2|General|Hotel|Private beach (chargeable)
+638|2|General|Hotel|Roof terrace
+640|2|General|Hotel|Safe (chargeable)
+647|2|General|Hotel|Shuttle services
+675|2|General|Hotel|All day check-in
+719|2|General|Hotel|Pets allowed on request
+750|2|General|Hotel|Private beach
+753|2|General|Hotel|Bicycle rental
+754|2|General|Hotel|Dining room
+756|2|General|Hotel|Train/metro station nearby
+762|2|General|Hotel|Express check out
+773|2|General|Hotel|Cinema
+764|2|General|Hotel|TV lounge
+774|4|Swimming Pool|Hotel|Heated pool(s)
+775|4|Swimming Pool|Hotel|Saltwater pool
+757|4|Swimming Pool|Hotel|Swimming pool (chargeable)
+498|4|Swimming Pool|Hotel|Water park
+268|4|Swimming Pool|Hotel|Swimming pool(s)
+20|4|Swimming Pool|Hotel|Children's pool(s)
+23|4|Swimming Pool|Hotel|Indoor pool(s)
+25|4|Swimming Pool|Hotel|Outdoor pool(s)
+93|6|Sporting/Leisure Facilities|Hotel|Archery
+94|6|Sporting/Leisure Facilities|Hotel|Ballooning
+105|6|Sporting/Leisure Facilities|Hotel|Disco/nightclub
+3|6|Sporting/Leisure Facilities|Hotel|Casino
+172|6|Sporting/Leisure Facilities|Hotel|Wine tasting
+166|6|Sporting/Leisure Facilities|Hotel|Table tennis
+167|6|Sporting/Leisure Facilities|Hotel|Tennis court(s)
+148|6|Sporting/Leisure Facilities|Hotel|Golf course
+151|6|Sporting/Leisure Facilities|Hotel|Horse riding
+156|6|Sporting/Leisure Facilities|Hotel|Mini-golf
+264|6|Sporting/Leisure Facilities|Hotel|Squash court(s)
+495|6|Sporting/Leisure Facilities|Hotel|Volleyball court
+463|6|Sporting/Leisure Facilities|Hotel|Raquet ball court
+449|6|Sporting/Leisure Facilities|Hotel|Jogging trail
+453|6|Sporting/Leisure Facilities|Hotel|Live entertainment
+353|6|Sporting/Leisure Facilities|Hotel|Games room
+430|6|Sporting/Leisure Facilities|Hotel|Fishing
+412|6|Sporting/Leisure Facilities|Hotel|Bowling
+408|6|Sporting/Leisure Facilities|Hotel|Basketball court
+391|6|Sporting/Leisure Facilities|Hotel|Theatre
+673|6|Sporting/Leisure Facilities|Hotel|Snooker/billiards table
+631|6|Sporting/Leisure Facilities|Hotel|Pool table
+777|6|Sporting/Leisure Facilities|Hotel|Water sports
+689|7|Children's Facilities|Hotel|Children's play area
+418|7|Children's Facilities|Hotel|Children's activities
+358|7|Children's Facilities|Hotel|High chairs
+153|7|Children's Facilities|Hotel|Kids' club
+9|10|Parking|Hotel|Car parking
+101|10|Parking|Hotel|Coach parking
+304|10|Parking|Hotel|Car parking (chargeable)
+491|10|Parking|Hotel|Valet parking
+466|10|Parking|Hotel|RV/truck parking
+726|10|Parking|Hotel|Private garage
+704|11|Disabled Facilities|Hotel|Disabled access
+413|11|Disabled Facilities|Hotel|Braille elevators
+11|11|Disabled Facilities|Hotel|Disabled facilities
+751|12|Business services|Hotel|Business services
+763|12|Business services|Hotel|Fax facilities
+759|17|Room Facilities|Room|Hi Fi
+760|17|Room Facilities|Room|Shower
+770|17|Room Facilities|Room|Air conditioning
+772|17|Room Facilities|Room|Ceiling fan
+738|17|Room Facilities|Hotel|Balcony/terrace
+755|17|Room Facilities|Room|In-house movies
+694|17|Room Facilities|Room|Coffee/tea making facilities
+606|17|Room Facilities|Room|Ipod docking station
+679|17|Room Facilities|Room|CD Player
+568|17|Room Facilities|Room|Connecting rooms
+575|17|Room Facilities|Room|Dishwasher
+643|17|Room Facilities|Room|Kitchen(ette)
+644|17|Room Facilities|Room|Shared facilities
+403|17|Room Facilities|Room|Clock radio
+394|17|Room Facilities|Room|Washing machine
+397|17|Room Facilities|Room|Air conditioning (chargeable)
+375|17|Room Facilities|Room|Oven
+465|17|Room Facilities|Room|Room butler service
+424|17|Room Facilities|Room|DVD player
+447|17|Room Facilities|Room|In-house video games
+200|17|Room Facilities|Room|Cots on request
+203|17|Room Facilities|Room|Double glazing
+360|17|Room Facilities|Room|Individual heating
+365|17|Room Facilities|Room|King-size beds
+371|17|Room Facilities|Room|Microwave
+372|17|Room Facilities|Room|Mini bar/fridge
+352|17|Room Facilities|Room|Fridge
+256|17|Room Facilities|Room|Radio
+262|17|Room Facilities|Room|Soundproof rooms
+273|17|Room Facilities|Room|Telephone
+274|17|Room Facilities|Room|Cable/satellite TV
+277|17|Room Facilities|Room|Television
+282|17|Room Facilities|Room|Trouser press
+211|17|Room Facilities|Room|Hairdryer
+208|17|Room Facilities|Room|Bathrobe(s)
+1|18|Air Conditioning|Hotel|Air conditioning
+7|19|Babysitting|Hotel|Babysitting services
+8|20|Bar|Hotel|Bar(s)
+252|20|Bar|Hotel|Piano bar/lounge
+384|20|Bar|Hotel|Pool bar
+656|20|Bar|Hotel|Terrace bar
+634|20|Bar|Hotel|Pub(s)
+344|21|Cafe/Restaurant|Hotel|Cafe
+14|21|Cafe/Restaurant|Hotel|Restaurant(s)
+712|22|Meeting Rooms|Hotel|Meeting rooms
+455|22|Meeting Rooms|Hotel|Conference/banquet facilities
+5|23|Room Service|Hotel|Room service
+13|24|Internet Access|Hotel|Internet access
+322|24|Internet Access|Hotel|Internet access (chargeable)
+147|25|Gym/fitness facilities|Hotel|Gym/fitness facilities
+518|25|Gym/fitness facilities|Hotel|Fitness Centre nearby
+593|26|Spa/Beauty Facilities|Hotel|Hot tub
+641|26|Spa/Beauty Facilities|Hotel|Sauna (women only)
+758|26|Spa/Beauty Facilities|Hotel|Solarium
+389|26|Spa/Beauty Facilities|Hotel|Tanning studio
+161|26|Spa/Beauty Facilities|Hotel|Sauna
+155|26|Spa/Beauty Facilities|Hotel|Massage
+95|26|Spa/Beauty Facilities|Hotel|Beauty salon
+335|26|Spa/Beauty Facilities|Hotel|Spa facilities
+266|26|Spa/Beauty Facilities|Hotel|Steam room
+222|26|Spa/Beauty Facilities|Hotel|Jacuzzi
+778|26|Spa/Beauty Facilities|Hotel|Hair salon
+761|26|Spa/Beauty Facilities|Hotel|Barber
+776|26|Spa/Beauty Facilities|Hotel|Turkish bath
+780|27|Wi-Fi|Hotel|Wi-Fi
+781|27|Wi-Fi|Hotel|Wi-Fi (chargeable)
+782|28|Lift/Elevator|Hotel|Lift/Elevator

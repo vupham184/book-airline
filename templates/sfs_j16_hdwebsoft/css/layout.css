@@ -1,0 +1,135 @@
+.width100{width:100%;}
+
+.width50{
+	width:50%;	
+}
+
+.width33{
+	width:33%;	
+}
+
+.float-left{
+	float:left;
+	overflow:hidden;	
+}
+
+.float-right{
+	float:right;
+	overflow:hidden;	
+}
+
+.float-none{
+	clear:none;
+	overflow:hidden;	
+}
+
+.clear{
+	clear:both;	
+}
+
+#background{
+	width:100%;
+	float:left;
+	background:url(../images/bg_main.png) bottom center no-repeat; 	
+}
+
+#wrapper{
+	width:980px;
+	margin:auto;
+}
+
+#header{
+	width:100%;
+	height:100px;
+	float:left;
+	overflow:hidden;
+}
+
+#logo{
+	width:223px;
+	height:86px;
+	float:left;
+	padding-top:5px;
+}
+
+#header_right{
+	width:330px;
+	float:right;		
+}
+
+#header_right .padding{
+	padding-top:8px;
+	font-weight:bold;
+}
+
+#main_menu{
+	width:100%;
+	float:left;
+}
+
+#main_menu .padding{
+}
+
+#main_menu ul {
+	margin:0;
+	padding:0;
+}
+
+#wrap_container{
+	width:100%;
+	float:left;
+	margin-top:50px;
+}
+
+#content{
+	width:100%;
+	float:left;
+}
+
+#content .padding{
+	padding-bottom:181px;		
+}
+
+#space{
+	width:100%;
+	height:200px;
+	float:left;	
+}
+
+#bg_footer{
+	width:100%;
+	float:left;	
+	padding:20px 0 30px 0;
+	background:#101010;
+	border-bottom:solid 5px #2f2f2f;
+}
+
+#wrap_footer{
+	width:980px;
+	margin:auto;	
+}
+
+#bottom_menu{
+	width:100%;
+	float:left;
+}
+
+#bottom_menu .padding{
+	font-weight:normal;
+	color:#fff;
+}
+
+#bottom_menu table tr td{
+	text-align:left;
+}
+
+#footer{
+	width:100%;
+	float:left;
+}
+
+#footer .padding{
+	font-weight:normal;
+	color:#fff;
+}
+

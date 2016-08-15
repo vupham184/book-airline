@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="authentication">
+	<name>plg_authentification_sfs</name>
+	<author>SFS! Project</author>
+	<creationDate>April 2014</creationDate>
+	<copyright>Copyright (C) 2005 - 2011 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@sfs-web.net</authorEmail>
+	<authorUrl>www.sfs-web.net</authorUrl>
+	<version>2.5.14</version>
+	<description>Login by using secret key</description>
+	<files>
+		<filename plugin="sfs">sfs.php</filename>
+		<filename>index.html</filename>
+	</files>		
+</extension>

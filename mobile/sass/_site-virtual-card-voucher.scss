@@ -1,0 +1,41 @@
+.common-voucher-creditcard {
+  .section-taxi-transfer-voucher {
+    .content-section-wrap {
+      padding: 16px 0;
+      color: #737373;
+      .description-wrap {
+        font-size: 19px;
+        margin-bottom: 30px;
+        @include respond-to-custom-size(null, 400px){
+          font-size: 15px;
+        }
+      }
+      //---------//
+      .content-bottom{
+        font-size: 19px;
+        @include respond-to-custom-size(null, 400px){
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .link-to-wrap{
+    width: 100%;
+    background: #f0eff4;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    a.link-to{
+      font-size: 30px;
+      text-decoration: none;
+      color: #757380;
+      font-weight: 600;
+      @include respond-to-custom-size(null, 500px){
+        font-size: 18px;
+      }
+      @include respond-to-custom-size(null, 400px){
+        font-size: 16px;
+      }
+    }
+  }
+}

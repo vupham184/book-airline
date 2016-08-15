@@ -1,0 +1,34 @@
+.validation-failed, .validation-failed {
+  border-color: #ff0000 !important;
+  background-color: #ffdddd !important;
+}
+
+.validation-advice, .validation-advice{
+  padding-bottom: 5px !important;
+  font-weight: bold !important;
+  color: #ff0000 !important;
+}
+#company_name{
+	float:left;display: block;
+}
+div.ajax-loading {
+    background: url(../images/spinner.gif) no-repeat scroll 50% 50% transparent;
+    display: block;
+    min-width:16px; height:16px;    
+}
+
+input.ajax-loading {
+    background: url(../images/ajax-loader.gif) no-repeat scroll 50% 50% transparent;
+    display: block;
+    min-width:16px; height:16px;
+    border:none;
+}
+
+div.roomloading input.ajax-loading {
+    background: url(../images/spinner.gif) no-repeat scroll 50% 50% transparent;
+    display: block;
+    min-width:16px; height:16px;    
+}
+
+input.inputbox-red{color:red;}
+input.inputbox-green{color:green;}

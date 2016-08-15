@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" method="upgrade" client="administrator">
+    <name>mod_adminpraise_spotlight</name>
+	<author>Adminpraise.com</author>
+	<creationDate>2012-06-26</creationDate>
+	<copyright>All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>services@compojoom.com</authorEmail>
+	<authorUrl>www.adminpraise.com</authorUrl>
+	<version>2.5.1</version>
+	<description><![CDATA[This module searches your backend]]></description>
+    <files>
+        <file>helper.php</file>
+<file>index.html</file>
+<file module="mod_adminpraise_spotlight">mod_adminpraise_spotlight.php</file>
+<folder>tmpl</folder>
+    </files>
+    <languages folder="administrator/language">
+        <language tag="en-GB">en-GB/en-GB.mod_adminpraise_spotlight.ini</language>
+    </languages>
+    <media destination="mod_adminpraise_spotlight" folder="media/mod_adminpraise_spotlight">
+        <folder>css</folder>
+<folder>images</folder>
+<file>index.html</file>
+<folder>js</folder>
+    </media>
+</extension>

@@ -1,0 +1,85 @@
+/**
+* @copyright Copyright (C) 2009 - 2011 Pixel Praise LLC. All rights reserved.
+* @license GNU/GPL, see LICENSE.php
+* Joomla! is free software. This version may have been modified pursuant
+* to the GNU General Public License, and as distributed it includes or
+* is derivative of works licensed under the GNU General Public License or
+* other free or open source software licenses.
+*/
+
+/**
+ * AdminPraise 3 Admin template component css file
+ *
+ * @author		Kyle Ledbetter <support@pixelpraise.com>
+ * @package		Joomla
+ * @since		1.7
+ * @version  	1.0
+ */
+ #submenu-box {
+ 	padding: 10px 10px 0 10px;
+ }
+ #submenu-box {
+ 	margin-bottom: 10px;
+ }
+ 
+ #submenu-box .padding {
+ 	padding: 0;
+ }
+ 
+ /* ---- Submenu styles -------------------------- */
+ #submenu {
+ 	list-style: none;
+ 	padding: 0;
+ 	margin: 0;
+ 	line-height: 115%;
+ }
+ 
+ #submenu li {
+ 	float: left;
+ 	padding: 0;
+ 	margin: 0;
+ }
+ 
+ #submenu li a,
+ #submenu span.nolink {
+ 	cursor: pointer;
+ 	padding: 0 15px;
+ 	border-right: 1px solid #ccc;
+ 	font-size: 1.1em;
+ 	font-weight: bold;
+ 	color: #808080;
+ 	line-height: 14px;
+ 	height: 12px;
+ }
+ 
+ #submenu span.nolink {
+ 	color: #999;
+ }
+ 
+ #submenu a:hover,
+ #submenu a.active,
+ #submenu span.nolink.active {
+ 	color: #146295;
+ 	background: #FFF;
+ }
+ div#submenu-box div.t,
+ div#submenu-box div.b{display:none}
+ div#element-box div.m,
+ div#toolbar-box div.m,
+ div#element-box div.current{border:0}
+ body div#element-box div.m{padding:0}
+ div#element-box div.current{padding:0}
+ #content-box div#toolbar-box div.m{border-bottom:1px solid #ccc;padding:10px;margin:0;background:#fff;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0}
+ div#submenu-box{margin:0}
+ div#submenu-box div.m{background:none;border:0}
+ div#submenu-box{background:#f5f5f5;padding:0 !important;border:0;border-bottom:1px solid #ccc}
+ div#submenu-box div#submenu-box{border-bottom:0}
+ div#element-box,
+ div#element-box div.m{background-color:#fff!important}
+ #submenu-box #submenu{display:inline-block;width:100%;padding-top:5px;border-top:1px solid #fff}
+ #submenu-box #submenu li{margin-left:8px}
+ #submenu-box #submenu li+li{margin-left:1px}
+ #submenu-box #submenu a{padding:7px 12px;margin:3px;display:block;border:0;text-decoration:none !important;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:3px}
+ #submenu-box #submenu a:hover{background:#eaeaea;color:#444}
+ #submenu-box #submenu a.active{color:#222;margin:0 0 -1px;padding:9px 14px 11px;background:#fff;text-decoration:none;border:1px solid #ccc;border-bottom:0;border-radius:3px 3px 0 0;-moz-border-radius:3px 3px 0 0;-webkit-border-radius:3px 3px 0 0}
+ 

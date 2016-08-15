@@ -1,0 +1,55 @@
+.messages-detail-wrapper {
+  .section-messages-detail {
+    width: 100%;
+    .common-block{
+      font-size: 19px;
+      width: 100%;
+      display: table;
+      table-layout: fixed;
+      @include respond-to-custom-size(null, 500px){
+        font-size: 15px;
+      }
+      .icon-in-left{
+        padding-right: 10px;
+        width: 12%;
+        display: table-cell;
+        vertical-align: middle;
+        @include respond-to-custom-size(null, 500px){
+          width: 15%;
+        }
+      }
+      .content-in-right{
+        width: 89%;
+        border-left: solid 3px #d6e1e5;
+        padding: 15px 0 15px 20px;
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+    .header-message{
+      .icon-in-left{
+        .icon{
+          img{
+            max-width: 100%;
+            height: auto;
+          }
+        }
+      }
+      .content-in-right{
+        .content-wrap{
+          .content-line{
+            .title{
+
+            }
+            .content{
+
+            }
+          }
+        }
+      }
+    }
+    .common-block+.common-block{
+      border-top: solid 3px #d6e1e5;
+    }
+  }
+}

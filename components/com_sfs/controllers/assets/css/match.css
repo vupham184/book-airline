@@ -1,0 +1,9 @@
+#sbox-window {
+	border:none !important;
+	padding: 0 !important;
+}
+body.contentpane, body.contentpane *,iframe{
+	border:none !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}

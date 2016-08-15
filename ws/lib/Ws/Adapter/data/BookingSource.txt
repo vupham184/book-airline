@@ -1,0 +1,3 @@
+BookingSourceID|BookingSource
+1|Public
+2|Travel Agent

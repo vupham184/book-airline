@@ -1,0 +1,28 @@
+MealBasisID|MealBasis
+133|A la carte
+139|A la carte breakfast
+2|All inclusive
+130|American breakfast
+25|Boxed / take-away breakfast
+3|Breakfast
+132|Breakfast & Light Evening Meal
+134|Breakfast 2 people Only
+8|Buffet breakfast
+137|Champagne Buffet
+129|Cold buffet breakfast
+13|Continental breakfast
+14|English breakfast
+5|Full board
+24|Full board including beverages
+10|Half board
+4|Half board (dinner)
+7|Half board (lunch)
+140|Half Board with Beverages
+135|Hot Breakfast
+9|Hot buffet breakfast
+131|Irish Breakfast
+138|Mini Buffet Breakfast
+1|Room only
+27|Scandinavian breakfast
+17|Scottish breakfast
+136|Self Catering

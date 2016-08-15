@@ -1,0 +1,193 @@
+<?php
+/**
+ * @package		AdminPraise3
+ * @author		AdminPraise http://www.adminpraise.com
+ * @copyright	Copyright (c) 2008 - 2012 Pixel Praise LLC. All rights reserved.
+ * @license		GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
+ */
+
+/**
+ *    This file is part of AdminPraise.
+ *
+ *    AdminPraise is distributed in the hope that it will be useful,
+ *    but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *    GNU General Public License for more details.
+ *
+ *    You should have received a copy of the GNU General Public License
+ *    along with AdminPraise.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ **/
+
+/**
+ * @package     Square One
+ * @link        www.squareonecms.org
+ * @copyright   Copyright 2011 Square One and Open Source Matters. All Rights Reserved.
+ */
+
+defined('_JEXEC') or die;
+
+// Include the component HTML helpers.
+JHtml::addIncludePath(JPATH_COMPONENT.'/helpers/html');
+JHtml::_('behavior.tooltip');
+JHtml::_('behavior.multiselect');
+
+$lang = JFactory::getLanguage();
+$lang->load('mod_menu', JPATH_ADMINISTRATOR);
+
+$user		= JFactory::getUser();
+$app		= JFactory::getApplication();
+$userId		= $user->get('id');
+$listOrder	= $this->escape($this->state->get('list.ordering'));
+$listDirn	= $this->escape($this->state->get('list.direction'));
+$ordering 	= ($listOrder == 'a.lft');
+$canOrder	= $user->authorise('core.edit.state',	'com_adminpraise');
+$saveOrder 	= ($listOrder == 'a.lft' && $listDirn == 'asc');
+?>
+<?php //Set up the filter bar. ?>
+<form action="<?php echo JRoute::_('index.php?option=com_adminpraise&view=adminitems');?>" method="post" name="adminForm" id="adminForm">
+	<fieldset id="filter-bar">
+		<div class="filter-select fltrt">
+            <select name="filter_menutype" class="filter_menutype" onchange="this.form.submit()">
+                <option value="" disabled="disabled"><?php echo JText::_( 'COM_ADMINPRAISE_SELECT_ADMIN_MENU' );?></option>
+                <?php echo JHtml::_('select.options', $this->types, 'value', 'text', $this->state->get('filter.menutype'));?>
+            </select>
+
+			<select name="filter_level" class="inputbox" onchange="this.form.submit()">
+				<option value=""><?php echo JText::_('COM_ADMINPRAISE_OPTION_SELECT_LEVEL');?></option>
+				<?php echo JHtml::_('select.options', $this->f_levels, 'value', 'text', $this->state->get('filter.level'));?>
+			</select>
+
+            <select name="filter_published" class="inputbox" onchange="this.form.submit()">
+				<option value=""><?php echo JText::_('JOPTION_SELECT_PUBLISHED');?></option>
+				<?php echo JHtml::_('select.options', JHtml::_('jgrid.publishedOptions', array('archived' => false)), 'value', 'text', $this->state->get('filter.published'), true);?>
+			</select>
+
+		</div>
+	</fieldset>
+	<div class="clr"> </div>
+<?php //Set up the grid heading. ?>
+	<table class="adminlist">
+		<thead>
+			<tr>
+				<th width="1%">
+					<input type="checkbox" name="checkall-toggle" value="" title="<?php echo JText::_('JGLOBAL_CHECK_ALL'); ?>" onclick="Joomla.checkAll(this)" />
+				</th>
+				<th class="title">
+					<?php echo JHtml::_('grid.sort', 'JGLOBAL_TITLE', 'a.title', $listDirn, $listOrder); ?>
+				</th>
+				<th width="5%">
+					<?php echo JHtml::_('grid.sort', 'JSTATUS', 'a.published', $listDirn, $listOrder); ?>
+				</th>
+				<th width="13%">
+					<?php echo JHtml::_('grid.sort', 'JGRID_HEADING_ORDERING', 'a.lft', $listDirn, $listOrder); ?>
+					<?php if ($canOrder && $saveOrder) :?>
+						<?php echo JHtml::_('grid.order',  $this->items, 'filesave.png', 'adminitems.saveorder'); ?>
+					<?php endif; ?>
+				</th>
+				<th width="10%">
+					<?php echo JText::_('JGRID_HEADING_MENU_ITEM_TYPE'); ?>
+				</th>
+<!--				<th width="5%">-->
+<!--					--><?php //echo JHtml::_('grid.sort', 'COM_ADMINPRAISE_HEADING_HOME', 'a.home', $listDirn, $listOrder); ?>
+<!--				</th>-->
+				<?php if ($app->get('menu_associations', 0)):?>
+				<th width="5%">
+					<?php echo JHtml::_('grid.sort', 'COM_ADMINPRAISE_HEADING_ASSOCIATION', 'association', $listDirn, $listOrder); ?>
+				</th>
+				<?php endif;?>
+				<th width="1%" class="nowrap">
+					<?php echo JHtml::_('grid.sort',  'JGRID_HEADING_ID', 'a.id', $listDirn, $listOrder); ?>
+				</th>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<td colspan="15">
+					<?php echo $this->pagination->getListFooter(); ?>
+				</td>
+			</tr>
+		</tfoot>
+		<?php // Grid layout ?>
+		<tbody>
+		<?php
+		$originalOrders = array();
+		foreach ($this->items as $i => $item) :
+			$orderkey = array_search($item->id, $this->ordering[$item->parent_id]);
+			$canCreate	= $user->authorise('core.create',		'com_adminpraise');
+			$canEdit	= $user->authorise('core.edit',			'com_adminpraise');
+			$canCheckin	= $user->authorise('core.manage',		'com_checkin') || $item->checked_out==$user->get('id')|| $item->checked_out==0;
+			$canChange	= $user->authorise('core.edit.state',	'com_adminpraise') && $canCheckin;
+			?>
+			<tr class="row<?php echo $i % 2; ?>">
+				<td class="center">
+					<?php echo JHtml::_('grid.id', $i, $item->id); ?>
+				</td>
+				<td>
+					<?php echo str_repeat('<span class="gi">|&mdash;</span>', $item->level-1) ?>
+					<?php if ($item->checked_out) : ?>
+						<?php echo JHtml::_('jgrid.checkedout', $i, $item->editor, $item->checked_out_time, 'adminitems.', $canCheckin); ?>
+					<?php endif; ?>
+					<?php if ($canEdit) : ?>
+						<a href="<?php echo JRoute::_('index.php?option=com_adminpraise&task=adminitem.edit&id='.(int) $item->id);?>">
+							<?php echo JText::_($item->title); ?></a>
+					<?php else : ?>
+						<?php echo JText::_($item->title); ?>
+					<?php endif; ?>
+					<p class="smallsub" title="<?php echo $this->escape($item->path);?>">
+						<?php echo str_repeat('<span class="gtr">|&mdash;</span>', $item->level-1) ?>
+						<?php if ($item->type !='url') : ?>
+							<?php if (empty($item->note)) : ?>
+								<?php echo JText::sprintf('JGLOBAL_LIST_ALIAS', $this->escape($item->alias));?>
+							<?php else : ?>
+								<?php echo JText::sprintf('JGLOBAL_LIST_ALIAS_NOTE', $this->escape($item->alias), $this->escape($item->note));?>
+							<?php endif; ?>
+						<?php elseif($item->type =='url' && $item->note) : ?>
+							<?php echo JText::sprintf('JGLOBAL_LIST_NOTE', $this->escape($item->note));?>
+						<?php endif; ?></p>
+				</td>
+				<td class="center">
+					<?php echo JHtml::_('jgrid.published', $item->published, $i, 'adminitems.', $canChange);?>
+				</td>
+				<td class="order">
+					<?php if ($canChange) : ?>
+						<?php if ($saveOrder) : ?>
+							<span><?php echo $this->pagination->orderUpIcon($i, isset($this->ordering[$item->parent_id][$orderkey - 1]), 'adminitems.orderup', 'JLIB_HTML_MOVE_UP', $ordering); ?></span>
+							<span><?php echo $this->pagination->orderDownIcon($i, $this->pagination->total, isset($this->ordering[$item->parent_id][$orderkey + 1]), 'adminitems.orderdown', 'JLIB_HTML_MOVE_DOWN', $ordering); ?></span>
+						<?php endif; ?>
+						<?php $disabled = $saveOrder ?  '' : 'disabled="disabled"'; ?>
+						<input type="text" name="order[]" size="5" value="<?php echo $orderkey + 1;?>" <?php echo $disabled ?> class="text-area-order" />
+						<?php $originalOrders[] = $orderkey + 1; ?>
+					<?php else : ?>
+						<?php echo $orderkey + 1;?>
+					<?php endif; ?>
+				</td>
+				<td class="nowrap">
+					<span title="<?php echo isset($item->item_type_desc) ? htmlspecialchars($this->escape($item->item_type_desc), ENT_COMPAT, 'UTF-8') : ''; ?>">
+						<?php echo $this->escape($item->item_type); ?></span>
+				</td>
+				<?php if ($app->get('menu_associations', 0)):?>
+				<td class="center">
+					<?php if ($item->association):?>
+						<?php echo JHtml::_('MenusHtml.Menus.association', $item->id);?>
+					<?php endif;?>
+				</td>
+				<?php endif;?>
+				<td class="center">
+					<span title="<?php echo sprintf('%d-%d', $item->lft, $item->rgt);?>">
+						<?php echo (int) $item->id; ?></span>
+				</td>
+			</tr>
+			<?php endforeach; ?>
+		</tbody>
+	</table>
+
+	<div>
+		<input type="hidden" name="task" value="" />
+		<input type="hidden" name="boxchecked" value="0" />
+		<input type="hidden" name="filter_order" value="<?php echo $listOrder; ?>" />
+		<input type="hidden" name="filter_order_Dir" value="<?php echo $listDirn; ?>" />
+		<input type="hidden" name="original_order_values" value="<?php echo implode($originalOrders, ','); ?>" />
+		<?php echo JHtml::_('form.token'); ?>
+	</div>
+</form>

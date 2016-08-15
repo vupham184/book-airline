@@ -1,0 +1,12 @@
+.roomloading-rate{
+	padding-top:25px;
+	line-height:18px;
+}
+
+.roomloading-room{
+	padding-top:8px;
+	line-height:18px;	
+}
+ul.menu-command li button.button, ul.menu-command li input.button, ul.menu-command li a.button{
+	background:url(../images/bg_button_r_ie.png) top right no-repeat;
+}

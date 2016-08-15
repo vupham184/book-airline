@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+    <name>plg_system_adminpraiseautoeditor</name>
+	<author>Adminpraise.com</author>
+	<creationDate>2012-06-26</creationDate>
+	<copyright>All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>services@compojoom.com</authorEmail>
+	<authorUrl>http://adminpraise.com</authorUrl>
+    <version>2.5.1</version>
+    <description>plg_system_adminpraiseautoeditor_DESC</description>
+    <languages folder="administrator/language">
+        
+    </languages>
+    <files>
+        <file plugin="adminpraiseautoeditor">adminpraiseautoeditor.php</file>
+    </files>
+</extension>

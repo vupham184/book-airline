@@ -1,0 +1,592 @@
+#General
+COM_SFS_FROM="From"
+COM_SFS_TO="To"
+COM_SFS_UNTILL="Untill"
+COM_SFS_GENERATE="Generate"
+COM_SFS_MINUTES="minutes"
+COM_SFS_JOB_TITLE="Job title"
+COM_SFS_GENDER="Gender"
+COM_SFS_GENDER_MR="Mr"
+COM_SFS_GENDER_MS="Ms"
+COM_SFS_GENDER_MRS="Mrs"
+COM_SFS_NAME="First Name"
+COM_SFS_FIRST_NAME="First name"
+COM_SFS_SURNAME="Last name"
+COM_SFS_NAME_TITLE="Name title"
+COM_SFS_MOBILE="Mobile"
+COM_SFS_EMAIL="Email"
+COM_SFS_LABEL_WELCOME="Welcome %s,"
+COM_SFS_CHAIN_AFFILIATION="Chain affiliation"
+COM_SFS_ADDRESS_INFOMATION="Address Information"
+COM_SFS_WEB_ADDRESS="Web address of your hotel"
+COM_SFS_DIRECT_OFFICE_TELEPHONE="Direct office telephone"
+COM_SFS_DIRECT_FAX="Direct fax"
+COM_SFS_24H_MONITORED="24 hours monitored"
+
+COM_SFS_ADDRESS="Address"
+COM_SFS_ZIP_CODE="Zip code"
+COM_SFS_CITY="City"
+COM_SFS_COUNTRY="Country"
+COM_SFS_STATE="State"
+
+COM_SFS_BILLING_DETAILS="Billing details"
+COM_SFS_INT_CODE_EXAMPLE="int. code (example: 001)"
+COM_SFS_COPY_ADDRESS="Copy Address"
+
+COM_SFS_FIELD_REQUIRED="This field is required"
+
+COM_SFS_STAR_RATING="Star rating"
+COM_SFS_NO_RATING="no rating"
+STAR="star"
+STARS="stars"
+
+COM_SFS_GO="Go"
+COM_SFS_SAVE="Save"
+COM_SFS_SAVE_AND_NEXT="Next step >>"
+COM_SFS_CLOSE="Close"
+COM_SFS_BACK="Back"
+COM_SFS_CONFIRM="Confirm"
+COM_SFS_EDIT="Edit"
+COM_SFS_YES="Yes"
+COM_SFS_NO="No"
+COM_SFS_WARNING="WARNING"
+COM_SFS_WELCOME=" "
+COM_SFS_BOOK_MORE="Book more"
+ 
+COM_SFS_MEALPLAN="Mealplan"
+COM_SFS_BREAKFAST="Breakfast"
+COM_SFS_TRANSPORTATION="Transportation"
+COM_SFS_COURSE="course"
+COM_SFS_24_HOURS="24 hrs"
+
+COM_SFS_TERMS_AND_CONDITIONS="Terms and conditions"
+
+COM_SFS_REGISTERED_COMPANY_NAME="Registered company name"
+
+COM_SFS_ADDITIONAL_CONTACT="Additional Contact"
+#Hotel Register
+COM_SFS_HOTEL_REGISTER_DESC=" "
+
+COM_SFS_HOTEL_DETAIL_REGISTER_DESC=" "
+
+COM_SFS_HOTEL_REGISTRATION_FORM="Registration Form"
+COM_SFS_ENGLISH_INPUT_ONLY="( English input only )"
+COM_SFS_ADD_CONTRACTED_HOTEL="Add newly contracted hotel"
+COM_SFS_HOTEL_TEAM_REGISTRATION="Hotel Registration"
+COM_SFS_HOTEL_TEAM_USERREGISTRATION=" "
+COM_SFS_HOTEL_TEAM_DETAILS="Hotel team details"
+COM_SFS_HOTEL_CONTACT_DETAILS="Step 1: Users Registration"
+COM_SFS_HOTEL_TEAM_DETAILS_TOP_NOTE="Please check your contact persons and data carefully and adjust if neccesary. It's important to have correct contact data as to prevent communication errors."
+COM_SFS_REGISTRATION_PASSWORD_DOES_NOT_MATCH="Passwords do not match. Please re-enter password."
+COM_SFS_REGISTRATION_EMAIL_DOES_NOT_MATCH="Email do not match. Please re-enter Email."
+
+COM_SFS_NONE_OF_ABOVE_WARNING_SUBJECT="Hotel register warning: None of the above is selected"
+COM_SFS_NONE_OF_ABOVE_WARNING="Hello Administrator,\n\nThe Hotel named %s is selected None of the above.\n\nFor more information about this hotel you can visit the following url in the backend area: %s"
+
+COM_SFS_HOTEL_REGISTER_BOTTOM_NOTE="Thank you for loading  your contact details.<br />When you press the "save and request contact login" button, the browser will close.<br />Now you can enter the system for the quick loading of the basic hotel facts."
+COM_SFS_HOTEL_DETAIL_REGISTER_BOTTOM_NOTE=" "
+
+
+COM_SFS_REGISTRATION_SAVE_FAILED="Registration failed: %s"
+COM_SFS_REGISTRATION_COMPLETE_ACTIVATE="Your account has been created and a confirmation email has been sent to the email address you entered. Note that an administrator will activate your account before you can login."
+
+COM_SFS_MAIN_TELEPHONE_NUMBER="Main telephone number"
+COM_SFS_MAIN_FAX_NUMBER="Main fax number"
+
+COM_SFS_HOTEL_STEP_0="1: Finance"
+COM_SFS_HOTEL_STEP_1="2: Airport"
+COM_SFS_HOTEL_STEP_2="3: Room"
+COM_SFS_HOTEL_STEP_3="4: F&B"
+COM_SFS_HOTEL_STEP_4="5: Transport"
+COM_SFS_HOTEL_STEP_5="6: Users Registration"
+COM_SFS_HOTEL_STEP_6="7: Terms"
+COM_SFS_HOTEL_STEP_7="Done"
+
+COM_SFS_HOTEL_SIGN_UP_STEP_3="Step 4: Financial arrangements"
+COM_SFS_HOTEL_ADDIONAL_FEE_IN_YOUR_LOCAL="Addional fee in your local currency per night"
+COM_SFS_HOTEL_PERCENT_TOTAL_TAXES_PER_NIGHT="percent total taxes per night"
+OS_FEE_PER_NIGHT=" net overnight stay fee per night"
+OS_FEE_PER_STAY=" net overnight stay fee per stay"
+
+COM_SFS_ACTIVATION_TOKEN_NOT_FOUND="Verification code not found."
+COM_SFS_REGISTRATION_BIND_FAILED="Failed to bind registration data: %s"
+COM_SFS_EMAIL_ACCOUNT_DETAILS="Account Details for %s at %s"
+
+COM_SFS_EMAIL_REGISTERED_WITH_ACTIVATION_BODY="Dear %s,\n\nThank you for registering at %s. Your account is created and must be activated before you can use it.\nTo activate the account click on the following link or copy-paste it in your browser:\n%s \n\nAfter activation you may login to %s using the following username and password:\n\nUsername: %s\nPassword: %s\n\nKind regards,\nSFS-web hotel registration team\n\nEmail: hotel_support@sfs-web.com\nTelephone: +31 35 678 1255"
+COM_SFS_EMAIL_AIRLINE_REGISTERED_BODY="Hello %s,\n\nThank you for registering at %s. Your account is created and must be activated and approved by SFS Administrator before you can use it. \n\nAfter activation you may login to %s using the following username and password:\n\nUsername: %s\nPassword: %s\n\n\n Kind Regards\nSFS-web airline registration team\nEmail: airline_support@sfs-web.com"
+COM_SFS_EMAIL_AIRLINE_STAFF_REGISTERED_BODY="Dear %s,\n\n%s has registered you for %s.\n\nYour account must be activated and approved by SFS Administrator before you can use it.\n\nAfter activation you may login to %s using the following username and password:\n\nUsername: %s\nPassword: %s\n\n\n Kind Regards\nSFS-web airline registration team\nEmail: airline_support@sfs-web.com\n"
+
+COM_SFS_EMAIL_REGISTERED_WITH_ADMIN_ACTIVATION_BODY="Hello %s,\n\nThank you for registering at %s. Your account is created and must be verified before you can use it.\n\nAn administrator will be notified to activate your account. You'll receive a confirmation when it's done.\nOnce that account has been activated you may login to %s using the following username and password:\n\nUsername: %s\nPassword: %s"
+
+COM_SFS_CONTACT_EMAIL_REGISTERED_WITH_ACTIVATION_BODY="Dear %s,\n\n%s has registered you for %s.\n\nYour account must be activated before you can use it.\nTo activate the account click on the following link or copy-paste it in your browser:\n%s \n\nAfter activation you may login to %s using the following username and password:\n\nUsername: %s\nPassword: %s\n Kind Regards\nSFS-web hotel registration team\nEmail: hotel_support@sfs-web.com\nTelephone: +31 35 678 1255"
+COM_SFS_EMAIL_REGISTERED_BODY="Hello %s,\n\nThank you for registering at %s.\n\nYou may now log in to %s using the username and password you registered with.\n Kind Regards\nSFS-web hotel registration team\nEmail: hotel_support@sfs-web.com"
+COM_SFS_REGISTRATION_SEND_MAIL_FAILED="An error was encountered while sending the registration email. A message has been sent to the administrator of this site."
+COM_SFS_MAIL_SEND_FAILURE_SUBJECT="Error sending email"
+COM_SFS_MAIL_SEND_FAILURE_BODY="An error was encountered when sending the user registration email. The error is: %s The user who attempted to register is: %s"
+
+COM_SFS_EMAIL_ACTIVATE_WITH_ADMIN_ACTIVATION_SUBJECT="A new airline has registered at %s"
+COM_SFS_EMAIL_ACTIVATE_WITH_ADMIN_ACTIVATION_BODY="Hello administrator,\n\nA new airline has registered at %s.\n\nYou can activate the user by clicking on the link below:\n %s \n"
+
+COM_SFS_SELECT_COUNTRY="-- Select country --"
+
+COM_SFS_AIRPORTS="Airports"
+COM_SFS_SIGN_UP="Sign up"
+COM_SFS_HOTEL_NAME="Hotel name"
+COM_SFS_HOTEL_LOCATION="Hotel location"
+COM_SFS_AIRPORT_CODE="%s Nearest Airport Code"
+COM_SFS_DISTANCE_AIRPORT="Distance to airport"
+COM_SFS_DRIVING_TIME_TO_AIRPORT="Driving time to airport"
+COM_SFS_DRIVING_TIME_NORMAL="normal"
+COM_SFS_DRIVING_TIME_RUSH_HOURS="rush hours"
+
+COM_SFS_ADD_MORE_AIRPORT_CODE="Add more Airport Codes"
+COM_SFS_ADD_AIRPORT="add Airport"
+COM_SFS_NEXT_STEP="Next Step &gt;&gt;"
+COM_SFS_SAVE_AND_CLOSE="Save and Close"
+COM_SFS_AIRPORT_NO_SEPARATORS="no separators allowed"
+UNIT_KM="Km"
+UNIT_MI="M"
+
+COM_SFS_TIME_ZONE="Time zone"
+COM_SFS_YOUR_CURRENT_TIME_NOW="Your current time now"
+COM_SFS_CHANGE_TIME_ZONE="If not correct: change time zone"
+COM_SFS_GEO_LOCATION="GEO location"
+COM_SFS_LATITUDE="latitude"
+COM_SFS_LONGITUDE="longitude"
+COM_SFS_BILLING_DETAIL="Billing details"
+COM_SFS_REGISTERED_NAME="Registered name"
+COM_SFS_TVA_NUMBER="VAT number"
+COM_SFS_TVA_NUMBER_DESC="This address will be used for billing purpose only."					
+COM_SFS_CONTACT_PERSONS="Hotel contact persons"
+COM_SFS_GENERAL_MANAGER="Hotel General Manager"
+
+COM_SFS_JOB_TITLE_GENERAL_MANAGER="General Manager"
+COM_SFS_JOB_TITLE_REVENUE_MANAGER="Revenue Manager"
+COM_SFS_JOB_TITLE_NIGHT_MANAGER="Night Manager"
+
+COM_SFS_ADD_STAFF_MEMBER="Add Members"
+COM_SFS_LABLE_HOTEL_SIGNUP_STEP="Step %s: "
+COM_SFS_LABLE_AIRPORTS="Airport"
+COM_SFS_LABEL_DEAR="Dear %s,"
+
+COM_SFS_HOTEL_AIRPORT_REGISTER_DESC="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+COM_SFS_HOTEL_AIRPORT_NOTE="Make sure that you add at least 3 airports, as this will extend you selling opportunities to be offered at multiple airports."
+COM_SFS_STEP="Step %s: "
+COM_SFS_LABLE_ROOMS="Rooms"
+COM_SFS_LABEL_TOTAL_ROOMS="Total number of rooms"
+COM_SFS_LABEL_NUMBER_OF_STANDARD_ROOMS="Number of standard rooms"
+COM_SFS_LABEL_AVERAGE_SIZE_STANDARD_ROOMS="Average size standard rooms"
+COM_SFS_HOTEL_ROOMS_DESC="Please check your contact persons and data carefully and adjust if neccesary. It's important to have correct contact data as to prevent communitcation errors."
+COM_SFS_HOTEL_ROOMS_NOTE=" "
+
+COM_SFS_LABLE_TAXES="Taxes"
+COM_SFS_LABLE_CURRENCY="Currency"
+COM_SFS_LABLE_CURRENCY_SELECT="Select your local currency:"
+COM_SFS_FREE_RELEASE_POLICY="Free Release Policy"
+COM_SFS_PERCENTAGE_FREE_RELEASE_POLICY="percentage free release policy"
+COM_SFS_PERCENTAGE_FREE_RELEASE_POLICY_NOTE="* the free release policy is the percentage of reservations that can be released by the airline free of charge."
+COM_SFS_HOTEL_TAXES_NOTE=" "
+
+COM_SFS_HOTEL_FB_DESC="Please check your contact persons and data carefully and adjust if neccesary. It's important to have correct contact data as to prevent communitcation errors."
+COM_SFS_HOTEL_FB_NOTE="Thank you for loading the F&B contacts. When you press \"save\" button,<br />yead"
+COM_SFS_LABLE_FB="Food & Beverages Mealplans"
+COM_SFS_LABLE_LUNCH_DINNER_INFO="Lunch and Dinner information"
+COM_SFS_LABLE_PRICE_LAYOVER_MEALS_COURSE="Price layover meals %s course:"
+COM_SFS_LABLE_PRICE_LAYOVER_MEALS_COURSE_INCLUDE="Includes %s glass of wine, beer or soft"
+COM_SFS_LABLE_SERVICE_CHARGE_INCLUDE="%s including service charge"
+COM_SFS_LABLE_SERVICE_CHARGE_INCLUDE_NO="including service charge"
+COM_SFS_LABLE_QUOTED_MENU="Quoted menu prices are:"
+
+COM_SFS_LABLE_TRANSPORT="Transport"
+
+COM_SFS_HOTEL_TERM_DESC=" "
+COM_SFS_HOTEL_TERM_CONFIRM_TEXT="Confirm that you have read and fully understood the terms and conditions. and accept the terms and conditions using this site. Acknowledge that you are authorised by the copany you represent and that you are allowed to establish this agreement.This agreement will be binding for all user of your organisation on SFS-web."
+COM_SFS_HOTEL_TERM_CLICK_HERE="click here to read full details of terms and conditions"
+COM_SFS_HOTEL_THANK_DESC="Please check your contact persons and data carefully and adjust if neccesary. It's important to have correct contact data as to prevent communitcation errors."
+COM_SFS_HOTEL_THANK_CONTENT="<p>Dear %s,</p><p>Thank you for your SFS-web registration.</p><p>Your registrered colleagues will be receiving their login details by email.</p><p>We invite you to proceed with making your rooms available in SFS-web.</p><p>Kind regards,</p><p><img src="images/banners/SFS_email_closing_2.png" border="0" alt="" /><br /><em><br />Email: <a href="mailto:MUC@sfs-web.com">hotel_support@sfs-web.com</a></em><br /><em>Telephone: +31 35 678 1255</em></p>"
+COM_SFS_HOTEL="Hotel"
+COM_SFS_CHAIN_AFFILIANTION="Chain affiliantion"
+COM_SFS_MAIN_CONTACT="Main contact"
+COM_SFS_TITLE="Title"
+COM_SFS_ACCOUNT_INFO="Account info"
+COM_SFS_PREFERRED_USERNAME="Preferred username"
+COM_SFS_PASSWORD="Password"
+COM_SFS_RETTYPE_PASSWORD="Retype Password"
+COM_SFS_EMAIL1="Email"
+COM_SFS_EMAIL2="Retype email"
+COM_SFS_SAVE_AND_REQUEST_CONTACT_LOGIN="Save and request contact login"
+
+
+COM_SFS_ADD_24H="+24 hrs"
+COM_SFS_STAFF_ADD="Add staff member"
+COM_SFS_STAFF_EDIT="Edit staff member"
+COM_SFS_STAFF_POSITION_MAIN_REVENUE="Main revenue contact"
+COM_SFS_STAFF_POSITION_MAIN_FRONT_OFFICE="Main front office contact"
+COM_SFS_STAFF_POSITION_NORMAL="Normal member"
+COM_SFS_STAFFS="Staff members management"
+
+
+COM_SFS_SELECT_AIRPORT_BUTTON="Select Airport"
+COM_SFS_SELECT_STATE="-- Select state --"
+
+COM_SFS_STATE_FIELD_NAME_LABEL="Name"
+COM_SFS_COUNTRY_NAME_LABEL="Country"
+COM_SFS_STATE_NAME_LABEL="State"
+COM_SFS_STAFF_POSITION="Contact position"
+HOTEL_CONTACT_NAME_TITLE="Name title"
+
+
+COM_SFS_STAFF_OFFICE_TEL="Office tel"
+COM_SFS_STAFF_OFFICE_FAX="Office fax"
+COM_SFS_STAFF_MOBILE="Mobile phone"
+COM_SFS_CONTACT_ID="Staff ID"
+COM_SFS_CONTACT_USER_ID="User ID"
+COM_SFS_HEADING_ID="ID"
+COM_SFS_CONTACT_FULLNAME="Fulname"
+COM_SFS_CONTACT_USERNAME="Username"
+COM_SFS_CONTACT_EMAIL="Email"
+
+COM_SFS_REGISTER_REQUIRED="Register required"
+COM_SFS_REGISTER_NAME_LABEL="Name"
+COM_SFS_REGISTER_USERNAME_LABEL="Username"
+COM_SFS_REGISTER_PASSWORD1_LABEL="Password"
+COM_SFS_REGISTER_PASSWORD2_LABEL="Retype password"
+COM_SFS_REGISTER_EMAIL1_LABEL="Email"
+COM_SFS_REGISTER_EMAIL2_LABEL="Retype email"
+COM_SFS_OR="Or"
+
+COM_SFS_ADD_HOTEL_STAFF="+ Add hotel staff member"
+
+
+
+#Roomloading
+COM_SFS_ROOMLOADING_PAGE_TITLE="Rooms management of %s"
+COM_SFS_ROOMLOADING_SHORT_DESC="Always insert gross room rates with taxes and without breakfast!! Breakfast will be added by the system."
+COM_SFS_ROOMLOADING_NOTE="Please note that once you have saved the prices you can only edit them by %s"
+COM_SFS_ROOMLOADING_CHECK_RANKING_BUTTON="Check ranking with my competitors"
+COM_SFS_ROOMLOADING_PRICE_SAVE_FIRST="The prices need to be saved first."
+COM_SFS_ROOMLOADING_ARE_YOU_SURE="Are you sure you want to save the prices?"
+COM_SFS_ROOMLOADING_TRANSPORT_INCLUDED="Transport included"
+COM_SFS_ROOMLOADING_SD_ROOMS_AUTHORIZED="Single/Double rooms authorized"
+COM_SFS_ROOMLOADING_T_ROOMS_AUTHORIZED="Triple rooms authorized"
+COM_SFS_ROOMLOADING_TRANSPORT_ALWAYS_INCLUDED="Transport always included"
+COM_SFS_ROOMLOADING_SAVE_ERROR="Your price change was outside of the %s price range that is allowed from your initial offer of today. Please note rates are not revised according to your latest input."
+
+COM_SFS_ROOMLOADING_SAVEROOM_ERROR="The number of rooms can be reduced only with %s of the current number of rooms."
+
+COM_SFS_ROOMLOADING_SEARCHING = "SFS is looking for the best availability for your request, thank you for your patience as this might take some minutes."
+
+#Airline
+COM_SFS_AIRLINE_REGISTER_SIGN_UP="Airline Sign up"
+COM_SFS_AIRLINE_DATA="Airline Data"
+COM_SFS_AIRLINE_REGISTER_YOUR_DETAILS="Your details"
+COM_SFS_AIRLINE_REGISTER_2LETTER_CODE="Airline code (2 letter code)"
+COM_SFS_AIRLINE_REGISTER_COMPANY_NAME="Airline company name"
+COM_SFS_AIRLINE_REGISTER_AFFILIATION_CODE="Airline affiliation code"
+COM_SFS_AIRLINE_REGISTER_AIRLINE_ALLIANCE="Airline Alliance"
+COM_SFS_AIRLINE_REGISTER_AIRLINE_SKY_TEAM="Sky Team"
+COM_SFS_AIRLINE_REGISTER_AIRLINE_ONE_WORLD="One World"
+COM_SFS_AIRLINE_REGISTER_AIRLINE_STAR_ALLIANCE="Star Alliance"
+COM_SFS_AIRLINE_REGISTER_AIRLINE_NO_ALLIANCE="No Alliance"
+COM_SFS_AIRLINE_REGISTER_AIRPORT_LOCATION_CODE="Airport location code"
+COM_SFS_AIRLINE_REGISTER_LOCAL_OFFICE_DETAILS="Local office visiting details"
+COM_SFS_AIRLINE_REGISTER_STEP1_NOTE=" "
+COM_SFS_AIRLINE_REGISTER_STATIS_ALREADY_ACTIVE="This Airline code combined with this station is already active, please contact <a href=\"mailto:helpdesk@sfs-web.com\">helpdesk@sfs-web.com</a> to obtain more info."
+
+COM_SFS_AIRLINE_CONTACT_DETAILS_SIGN_UP="Contact details sign up"
+COM_SFS_AIRLINE_CONTACT_PERSONS="Contact persons"
+COM_SFS_AIRLINE_CONTACT_DETAILS="Contact details"
+COM_SFS_AIRLINE_YOUR_TEAM_MEMBERS="Your team members"
+
+COM_SFS_AIRLINE_REGISTER_CONTACTS_DESC="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+COM_SFS_AIRLINE_CONTACT_DETAILS_DESC="Add, change or delete contacts<br />It's important to keep your team and contact details updated. Please do so carefully, any typos, might lead to costly errors and communicational problems."
+COM_SFS_AIRLINE_CONTACT_PERSONS_DESC="A minimum of 2 contact persons is required, we strongly advise you to add at least 4 contact persons."
+
+COM_SFS_AIRLINE_ADDITIONAL_CONTACT_BUTTON="+ Additional contact"
+COM_SFS_AIRLINE_ADDITIONAL_CONTACTS="Additional Contacts"
+COM_SFS_AIRLINE_SAVE_TO_LAST_BUTTON="Save move to last step &raquo;"
+COM_SFS_AIRLINE_REGISTER_STEP2_NOTE=" "
+
+COM_SFS_AIRLINE_REGISTER_CONFIRM_DESC="These terms and conditions will be used for all bookings made through sfs-web"
+
+COM_SFS_AIRLINE_REGISTER_CONFIRM_TEXT="Confirm that you have read fully understood the terms and conditions and accept the terms and conditions using this site. Acknowledge that you are authorised by the company you represent and that you are allowed to establish this agreement. This agreement will be binding for all MUC users of your organisation on SFS-web."
+COM_SFS_AIRLINE_REGISTER_CONFIRM_DETAIL_LINK="click here to read full details of terms and conditions"
+COM_SFS_AIRLINE_REGISTER_CONFIRM_ERROR_MSG="Please tick this box to approve General Terms and Conditions"
+COM_SFS_SAVE_AND_FINISH_BUTTON="Save and finish"
+COM_SFS_AIRLINE_REGISTER_STEP4_TITLE="Thank you"
+COM_SFS_AIRLINE_THANK_CONTENT="<p>Experence the new way of handling stranded passengers.</p><p>You and your contact persons will recieve an e-mail with your login details.</p><p>Use your login details to position and buy all your needed rooms directly online, click on finish to start this new experience.</p><p>Thank you for using SFS-web and we will be pleased to hear from you soon.</p><p>Kind regards,</p><p>SFS Europe Team</p>"
+
+COM_SFS_AIRLINE_MY_OVERVIEW="My Overview"
+COM_SFS_AIRLINE_SEATS="Seats"
+COM_SFS_AIRLINE_HOTELS="Hotels"
+COM_SFS_AIRLINE_ADD_SEATS_FLIGHTS="Add seats/flights"
+COM_SFS_AIRLINE_ADD_PASSENGERS_FLIGHTS="Add passengers/flights"
+COM_SFS_AIRLINE_ADD_HOTELS="Add hotels"
+COM_SFS_AIRLINE_MATCH="Match"
+COM_SFS_AIRLINE_MATCH_PAGE_TITLE="Passenger and hotel match"
+COM_SFS_AIRLINE_FLIGHT_PAGE_TITLE="Add flights and passengers"
+COM_SFS_AIRLINE_FLIGHT_NUMBER_OF_SEATS="Number of stranded passengers"
+COM_SFS_AIRLINE_FLIGHT_NUMBER="Flight Number"
+COM_SFS_AIRLINE_FLIGHT_CLASS="Class"
+COM_SFS_AIRLINE_IATA_STRANDED_CODE="IATA stranded code"
+COM_SFS_PASSENGERS="passengers"
+
+COM_SFS_AIRLINE_FLIGHT_ERROR_1="Invalid seats"
+COM_SFS_AIRLINE_FLIGHT_ERROR_2="Invalid flightnumber"
+COM_SFS_AIRLINE_FLIGHT_ERROR_3="Invalid IATA stranded code"
+
+COM_SFS_DELETE_SEATS_FLIGHTS="Delete seats/flights"
+COM_SFS_DELETE_PASSENGERS_FLIGHTS="Delete passengers/flights"
+COM_SFS_NONE_SEATS_FLIGHTS_ARE_SELECTED="Please first make a selection from the list"
+
+COM_SFS_HOTEL_SEARCH="Hotel Search"
+COM_SFS_ROOMS_NEED="Need"
+COM_SFS_ROOM="Room"
+COM_SFS_ROOMS="rooms"
+COM_SFS_ADULTS="adults"
+COM_SFS_CHILD="child"
+COM_SFS_CHILDREN="children"
+COM_SFS_START="Start"
+COM_SFS_END="End"
+
+COM_SFS_AIRLINE_NOT_FOUND="Airline not found"
+
+COM_SFS_SELECT_AIRLINE="Select Airline"
+COM_SFS_SELECT_YOUR_AIRLINE="Select your airline"
+
+#Personal contact data
+COM_SFS_PERSONAL_CONTACT_TITLE="Personal contact data"
+COM_SFS_PERSONAL_CONTACT_NOTE="Below you can change your personal data but please make sure that the contact details are correct."
+
+#match
+COM_SFS_MATCH_SELECT_HOTEL="Please select a hotel"
+COM_SFS_MATCH_SELECT_SEATS="Please select seats"
+COM_SFS_MATCH_SDROOM_NOT_AVAILABLE="There is no single/double rooms of the hotel you selected. Please retry"
+COM_SFS_MATCH_TROOM_NOT_AVAILABLE="There is no triple rooms of the hotel you selected. Please retry"
+COM_SFS_MATCH_VOUCHER_MSG="Voucher code: %s"
+COM_SFS_MATCH_GVOUCHER_MSG="Group voucher code: %s"
+COM_SFS_MATCH_GROUP_SDROOM_NOT_ENOUGH="Number SD room or Troom not enough for %s seats"
+
+COM_SFS_MATCH_VOUCHER_EMAIL_SUBJECT="SFS %s created hotel voucher"
+COM_SFS_MATCH_VOUCHER_EMAIL_BODY="Kindly note that the SFS-web issued one voucher for block code %s coming from %s<br /><br />The %s passenger(s) left the airport and are coming to %s.<br /><br />The %s passenger(s) are according to their voucher entitled to receive:<br />- %s Breakfast<br />- %s<br /><br />The voucher number(s) and names need to be loaded on SFS-web.com for verification and approval process before issuing the official hotel invoice. The meal plan details are preloaded in the SFS-web system.<br /><br />The below persons have accesses to this system in your organization:<br />%s<br /><br />When none of the above persons are available you can contact the SFS-web hotel support.<br /><br />Kind regards,<br /><br />Stranded Flight Solutions<br />Telephone: +31 20 894 6364<br />Email: hotel_support@sfs-web.com<br />"
+COM_SFS_MATCH_VOUCHER_PRINT_BOX_TITLE="Issuing method of voucher"
+
+COM_SFS_MATCH_PASSENGER_SUBJECT="Your E-Voucher Details for tonight's stay"
+COM_SFS_MATCH_PASSENGER_BODY="<div style="background-color:#dbe5f1; border:solid 1px #000000; padding:10px;"><strong>YOUR ACCOMMODATION DETAILS:</strong><br /><br />%s<br /><br />YOUR VOUCHER DETAILS:<br />Hotel Voucher Code: %s<br />Voucher for %s person(s) entitled for:<br />- Pre arranged breakfast<br />- Pre arranged dinner</div><br /><br /><div><p align="center"><strong>IMPORTANT----IMPORTANT----IMPORTANT</strong></p><p align="center">E-VOUCHER HOTEL CHECKIN</p><p align="center"><strong>The below information needs to be shared with the hotel to validate your e-voucher:</strong></p><p align="center"><strong>Block code reference: %S</strong></p><p align="center"><strong>Voucher code: %S</strong></p></div>"
+COM_SFS_MATCH_PASSENGER_SEND_MAIL_SUSCCESS="The voucher %s has been sent to %s"
+COM_SFS_MATCH_PASSENGER_SEND_MAIL_FAILED="An error was encountered while sending voucher email to Passenger"
+
+COM_SFS_VOUCHER_CANCELLATION_NOTE="<p>You are about to cancel a voucher, this voucher will be void and can NOT BE USED by a passenger into their hotel.</p><p>Please confirm below that you did not hand over this voucher to a passenger and would like to proceed with the cancellation of this voucher.</p>"
+
+#rooming
+COM_SFS_ROOMING_PAGE_TITLE="Rooming List Loading Page"
+COM_SFS_ROOMING_YOU_WILL_BE_SENDING="You will be sending the rooming list to the airline"
+COM_SFS_ROOMING_INSERT_MANUALLY="Option 2: Insert manually"
+COM_SFS_ROOMING_VOUCHER_NUMBER="Voucher number"
+COM_SFS_ROOMING_INSERT_MANUALLY_DESC="Type your stranded passengers names in below input fields and press the upload button below. This data will be seen approved number of rooms of the hotel."
+COM_SFS_ROOMING_SEND="Send"
+COM_SFS_ROOMING_IMPORTANT_MESSAGE="Important message"
+COM_SFS_ROOMING_SENDING_CONFIRM_TO_AIRLINE="You will be sending the rooming list to"
+COM_SFS_ROOMING_CONFIRM_DESC="The number of vouchers will be used by the airline to determine the charge that they will receive from your hotel. Confirm that you have inserted all vouchers relating to this block code."
+COM_SFS_ROOMING_VOUCHER_NOT_AVAILABLE="Voucher number: %s is not available. Contact to the airline for more details"
+
+COM_SFS_ROOMING_CHOOSE_DELIMITER="Choose separator"
+COM_SFS_ROOMING_CHOOSE_DELIMITER_NOTE="Choose the type of separator you use in your csv"
+COM_SFS_ROOMING_CSVTYPE_TIP="An typical CSV file has a , (comma) as separator, but if you are saving an excel file in CSV format the  separator will be an ; (semicolon).<br /><br />You can use this setting to choose the separator that is used in your file."
+COM_SFS_ROOMING_BLOCKCODE_NOTE="Insert the block code you are uploading the names and vouchers for"
+COM_SFS_ROOMING_UPLOAD_YOUR_ROOMING_LIST="Upload your rooming list from your hotel reservation system in CSV format"
+COM_SFS_ROOMING_UPLOAD_YOUR_ROOMING_LIST_NOTE="You must use the following format to upload the roominglist or insert the names manually"
+COM_SFS_ROOMING_CSV_EXAMPLE="John;Doe;SFSVOUCHERCODE<br />Jane;Smith;SFSVOUCHERCODE"
+COM_SFS_ROOMING_OPTION_1="Option 1: Upload csv"
+COM_SFS_UPLOAD="Upload"
+
+COM_SFS_ROOMING_VOUCHERS_NOT_AVAILABLE="No vouchers available for this block. Contact to the airline for more details."
+
+COM_SFS_REQUEST_MINIMUM_GUARANTEE_VOUCHER="request minimum guarantee voucher"
+COM_SFS_MINIMUM_GUARANTEE_VOUCHER_REQUESTED="the minimum guarantee voucher is requested"
+
+
+#massage
+COM_SFS_MESSAGE_TITLE="Message for accounting department of %s"
+COM_SFS_MESSAGE_SUBJECT="Challenge for block code: %s"
+COM_SFS_MESSAGE_RE_SUBJECT="RE: challenge for block code: %s"
+
+#Report
+COM_SFS_REPORT_MAKE_YOUR_REPORT="Make your report"
+COM_SFS_REPORT_YOUR_REPORTS="Your reports"
+COM_SFS_REPORT_MAKE_YOUR_SELECTION="Make your selection"
+COM_SFS_REPORT_TOTAL_ROOMNIGHTS="Total number roomnights"
+COM_SFS_REPORT_AVERAGE="Average room prices booked"
+COM_SFS_REPORT_REVENUE_BOOKED="Revenue booked"
+COM_SFS_REPORT_TOP_HOTELS="Top Hotels"
+COM_SFS_REPORT_HOTEL_NAME="Hotel Name"
+COM_SFS_REPORT_ROOMNIGHTS="Roomnights"
+COM_SFS_REPORT_ADR="ADR"
+COM_SFS_REPORT_NET_SPEND="Net Spend"
+COM_SFS_REPORT_IATA_CODE_REASON="IATA code reason"
+COM_SFS_REPORT_TOP_CODE="Top IATA codes"
+COM_SFS_REPORT_REASON="Reason"
+COM_SFS_REPORT_CODE="Code"
+COM_SFS_REPORT_MARKET_PICK_UP="Market pick up"
+COM_SFS_REPORT_TRANSPORTATION="Transportation"
+COM_SFS_REPORT_TRANSPORTATION_DETAILS="Transportation Details"
+COM_SFS_REPORT_PICKED_UP="Picked Up"
+COM_SFS_REPORT_INITIAL_BLOCKED="Initial blocked pick up"
+COM_SFS_REPORT_INCLUDED="Included"
+COM_SFS_REPORT_EXCLUDED="Excluded"
+COM_SFS_REPORT_MARKET_PICKED_UP="Percentage of the booked rooms by the airline compared to the total number of rooms offered in the market"
+COM_SFS_REPORT_TRANSPORTATION_DESC="Percentage of the booked rooms with hotel transportation by the airline compared to the total number of rooms booked by the airline"
+COM_SFS_REPORT_INITIAL_BLOCKED_PICKED_UP="Percentage of the booked rooms by the airline compared to the total number of rooms initial requested"
+COM_SFS_REPORT_EXPORT="Export"
+COM_SFS_REPORT_NO_DATA="No report available in this period"
+
+COM_SFS_MARKET_OVERVIEW="Market overview"
+COM_SFS_MARKET_OVERVIEW_DESC="Below you will find the total hotels that are available in SFS-web"
+
+#Reservation 
+COM_SFS_BOOKING_HOTEL_NOT_FOUND="The hotel not found"
+COM_SFS_BOOKING_S_ROOM_NOT_ENOUGH="Sorry! Block booking could NOT be made as another user have allocated these rooms"
+COM_SFS_BOOKING_SD_ROOM_NOT_ENOUGH="Sorry! Block booking could NOT be made as another user have allocated these rooms"
+COM_SFS_BOOKING_T_ROOM_NOT_ENOUGH="Sorry! Block booking could NOT be made as another user have allocated these rooms"
+COM_SFS_BOOKING_Q_ROOM_NOT_ENOUGH="Sorry! Block booking could NOT be made as another user have allocated these rooms"
+COM_SFS_BOOKING_PROCESSING_ERROR="Booking processing error %s"
+
+COM_SFS_BOOKING_HOTEL_CONFIRMATION_SUBJECT="AIRPORT BLOCK RESERVATION BY SFS-WEB"
+COM_SFS_BOOKING_HOTEL_CONFIRMATION_MESSAGE="For the direct attention of :\n%s\n%s\n\nWe here with inform about <%s> rooms with block code: <%s>\n\nClient Details:\n\nCOMPANY: %s\nNAME: %s\nTITLE: %s\nCONTACT DETAILS: %s\n\\nRoom Details:\n\nARRIVAL DATE: %s\nNr of single/double rooms: %s\nNet price: %s\n\nNr of Triple rooms: %s\nNet price:%s\n\nF&B Details:\n\nNet price Breakfast: %s per person\nDinner %s per person\n\nPlease make sure that you book prepare your staff for this arrival, and use the block code: %s in all correspondence on this booking.\n\nThe names of passengers needs be loaded in www.sfs-web.com and the below persons have accesses to this system in your organization:\n%s\n\nBest Regards,\nStranded Flight Solutions"
+
+COM_SFS_BLOCK_CONFIRM_TITLE="Hotel room block confirmed"
+COM_SFS_BLOCK_CONFIRM_TEXT="<br /><br />Thank you for your hotel room block with SFS<br /><br />SFS informed %s  accordingly by email on multiple email addresses and a fax is send to their fax number %s.<br />In case you would like to get in touch with them, you can reach %s by Phone on %s and ask for the Duty Manager or the Night Manager.<br /><br />Kind Regards,<br /><br />SFS Europe team<br />"
+
+#Voucher page
+COM_SFS_VOUCHER_PAGE_TITLE="Vouchers for blockcode: %s"
+
+
+#Hotel Block
+COM_SFS_BLOCK_NOTE="With below system you can communicate with the airline about the status of the reviews of the reservations that need to be done before payment"
+COM_SFS_BLOCK_STATUS="SFS block status"
+COM_SFS_BLOCK_QUICK_SELECTION="Quick Selection Roomblocks"
+COM_SFS_BLOCK_BLOCKS="blocks"
+COM_SFS_BLOCK_OPEN="Open"
+COM_SFS_BLOCK_PENDING="Pending"
+COM_SFS_BLOCK_TENTATIVE="Tentative"
+COM_SFS_BLOCK_CHALLENGED="Challenged"
+COM_SFS_BLOCK_APPROVED="Approved"
+COM_SFS_BLOCK_ARCHIVED="Archived"
+COM_SFS_BLOCK_DEFINITE="Definite"
+COM_SFS_SEARCH="Search"
+COM_SFS_RESET="Reset"
+COM_SFS_BLOCK_DETAILED_SEARCH_CRITERIA="Detailed Search Criteria"
+COM_SFS_BLOCK_CODE="Block Code"
+COM_SFS_BLOCK_DATE="Block Date"
+COM_SFS_STATUS="Status"
+COM_SFS_LOAD="Load"
+COM_SFS_VIEW="View"
+COM_SFS_NO_TELEPHONE="No telephone number"
+COM_SFS_BLOCK_STATUS_OPEN="Block status OPEN: not replied with names"
+COM_SFS_BLOCK_STATUS_OPEN_DESC="The below block have not been completed as the names of the passengers and the voucher numbers have not been send to the airline yet:<br />You can insert these by clicking on the load button for the particular block code."
+COM_SFS_BLOCK_STATUS_OPEN_NOTE="Once inserted the roomblocks will get status Tentative"
+COM_SFS_BLOCK_STATUS_PENDING="Block status Pending"
+COM_SFS_BLOCK_STATUS_PENDING_DESC="The below block have not been completed as the names of the passengers and the voucher numbers have not been send to the airline yet:<br />You can insert these by clicking on the load button for the particular block code."
+COM_SFS_BLOCK_STATUS_PENDING_NOTE="Once inserted the roomblocks will get status Tentative"
+COM_SFS_BLOCK_STATUS_TENTATIVE="Block status: Tentative"
+COM_SFS_BLOCK_STATUS_TENTATIVE_DESC="The below block have been issued and send to the airline, they will review the blocks"
+COM_SFS_BLOCK_STATUS_TENTATIVE_NOTE="Once reviewed by the airline blocks will get the status Challenged or Approved"
+COM_SFS_BLOCK_STATUS_CHALLENGED="Block status: Challenged"
+COM_SFS_BLOCK_STATUS_CHALLENGED_DESC="The below block have been reviewed by the airline and they have some further quetions."
+COM_SFS_BLOCK_STATUS_APPROVED="Block status: Approved"
+COM_SFS_BLOCK_STATUS_APPROVED_DESC="The below block have been reviewed by the airline you will recieve payment accordingly"
+COM_SFS_BLOCK_STATUS_APPROVED_NOTE="If the airline does not agree with the number of rooms they will show as challenged and upon view you will see the delta according to the airline"
+
+COM_SFS_BLOCK_STATUS_ARCHIVED="Block status: Archived"
+COM_SFS_BLOCK_STATUS_ARCHIVED_DESC="The below block have been archived"
+COM_SFS_BLOCK_STATUS_ARCHIVED_NOTE="If the airline does not agree with the number of rooms they will show as challenged and upon view you will see the delta according to the airline"
+
+#Airline Block
+COM_SFS_AIRBLOCK_PAGE_TITLE="Expected number of rooms"
+COM_SFS_AIRBLOCK_DETAILS_NAME_LOADING="Details name loading"
+
+
+COM_SFS_GH_REGISTER_SIGN_UP="Ground handlers sign up"
+COM_SFS_GH_COMPANY_NAME="Company name"
+COM_SFS_GH_SERVICING_AIRLINES="Servicing airline(s)"
+
+COM_SFS_EXPORT_TO_CSV="Export to CSV"
+
+COM_SFS_PREVIEW_SAMPLE_VOUCHER="Preview Sample Voucher"
+ 
+
+
+
+COM_SFS_BLOCK_CONFIRM_ADMINISTRATOR_SUBJECT="New Reservation Blockcode: %s Created"
+COM_SFS_BLOCK_CONFIRM_ADMINISTRATOR_BODY="Hi SFS Administrator,\n\nA new roomblock with blockcode %s created on SFS.\n\nFor more details click on the following url: %s"
+
+COM_SFS_LUNCH="Lunch"
+COM_SFS_AIRLINE_FLIGHT_NUMBER_ADD_COMMENT="Add comment on the voucher"
+
+COM_SFS_DINNER="Dinner"
+
+COM_SFS_BOOKING_NOTE="Please note that at this moment the rooms are not reserved for you, the block booking will be made when you click Yes, book now."
+COM_SFS_BOOKING_NOTE_WS="Please note that at this moment the rooms are not reserved for you, the booking will be made when you click on the Yes, book now button."
+
+COM_SFS_ADDCOMMENT_NOTE = "please note the overlay that is there when you add a comment. And the overlay that you get when you click on the help button with "Iata stranded code""
+
+COM_SFS_MERCHANT_FEE="Merchant Fee"
+COM_SFS_NET_MONTHLY_FEE="Net monthly fee"
+COM_SFS_COMMISION_PERCENTAGE_FB="Commision percentage F&B"
+COM_SFS_COMMISION_PERCENTAGE_ROOMS="Commision percentage rooms"
+COM_SFS_MERCHANT_FEE_ACCEPT="Accept merchant fee service before going to the next step"
+
+
+
+COM_SFS_TAXI_DETAILS="Taxi Details"
+COM_SFS_TAXI_SERVICES_AND_INQUIRIES="For services and inquiries"
+COM_SFS_TAXI_YOUR_COMPANIES="Your Taxi Companies"
+COM_SFS_TAXI_BILLING_DETAIL="Billing details for Taxi company"
+COM_SFS_TAXI_YOUR_COMPANIES_DESC="You can add or delete any taxi company that you have an agreement with"
+COM_SFS_TAXI_COMPANY_NAME="Taxi company name"
+COM_SFS_TAXI_COMPANY="Taxi company"
+COM_SFS_TAXI_COMPANY_EMAIL="Email address"
+COM_SFS_TAXI_COMPANY_PHONE="Phone number"
+COM_SFS_TAXI_COMPANY_FAX="Fax number"
+COM_SFS_TAXI_ADD_NEW="+ Additional Taxi Company"
+COM_SFS_TAXI_REMOVE="Remove"
+COM_SFS_TAXI_RATE_AGREEMENT="Rate agreement"
+
+COM_SFS_TAXI_RATE_AGREEMENT_FOR="Rate agreement for %s"
+COM_SFS_TAXI_RATE_AGREEMENT_DESC="You can enter your negotiated prices for one way fares to any specific hotel"
+
+COM_SFS_TAXI_NIGHT_FARE_FROM="Night fare is from"
+COM_SFS_TAXI_WEEK_END_FARE_ON="Weekend fare is on the days"
+COM_SFS_DAY_FARE="Day Fare"
+COM_SFS_NIGHT_FARE="Night Fare"
+COM_SFS_WEEKEND_FARE="Weekend Fare"
+COM_SFS_ONE_WAY_RATE_FOR_RING_1="One way rate for all first ring hotels is"
+COM_SFS_ONE_WAY_RATE_FOR_RING_2="One way rate for all second ring hotels is"
+COM_SFS_ONE_WAY_RATE_FOR_RING_3="One way rate for all third ring hotels is"
+COM_SFS_ONE_WAY_RATE_FOR_RING="One way rate for all %snd ring hotels is"
+
+COM_SFS_RING_HOTEL_ARE_1="First ring hotels are:"
+COM_SFS_RING_HOTEL_ARE_2="Second ring hotels are:"
+COM_SFS_RING_HOTEL_ARE_3="Third ring hotels are:"
+COM_SFS_RING_HOTEL_ARE="%snd ring hotels are:"
+
+COM_SFS_ISSUED_TAXI_VOUCHERS="Issued Taxi Vouchers"
+
+COM_SFS_ADD_TAXI_VOUCHER_ONE_WAY="Add taxi voucher one way"
+COM_SFS_ADD_TAXI_VOUCHER="Add taxi voucher"
+COM_SFS_ONE_WAY="One way"
+
+
+COM_SFS_ADMIN_NOTIFICALTION_HOTEL_REGISTER_SUBJECT="New Hotel named %s has registered at %s"
+COM_SFS_ADMIN_NOTIFICALTION_HOTEL_REGISTER_BODY="Hi SFS Administrator,\n\nClicking on the following url to verify the hotel %s"
+
+COM_SFS_EMAIL_BUS_REGISTERED_BODY="Hello %s,\n\nThank you for registering at %s. Your account is created and must be activated and approved by SFS Administrator before you can use it. \n\nAfter activation you may login to %s using the following username and password:\n\nUsername: %s\nPassword: %s\n\n\nKind Regards\nSFS-web registration team\nEmail: info@sfs-web.com"
+COM_SFS_ADMIN_NOTIFICALTION_BUS_REGISTER_SUBJECT="New bus has registered at %s"
+COM_SFS_ADMIN_NOTIFICALTION_BUS_REGISTER_BODY="Hello administrator,\n\nA new bus has registered at %s. Clicking on the following url to verify the bus:\n %s \n"
+
+COM_SFS_EMAIL_TAXI_REGISTERED_BODY="Hello %s,\n\nThank you for registering at %s. Your account is created and must be activated and approved by SFS Administrator before you can use it. \n\nAfter activation you may login to %s using the following username and password:\n\nUsername: %s\nPassword: %s\n\n\nKind Regards\nSFS-web registration team\nEmail: info@sfs-web.com"
+COM_SFS_ADMIN_NOTIFICALTION_TAXI_REGISTER_SUBJECT="New taxi company has registered at %s"
+COM_SFS_ADMIN_NOTIFICALTION_TAXI_REGISTER_BODY="Hello administrator,\n\nA new taxi company has registered at %s. Clicking on the following url to verify their account:\n %s \n"
+
+COM_SFS_MATCH_SEARCH_MORE_WS_HOTELS="Please wait. It is still searching for other available accommodations..."
+COM_SFS_MATCH_SEARCH_MORE_WS_HOTELS_NO_MORE="Sorry, no more other hotel found."

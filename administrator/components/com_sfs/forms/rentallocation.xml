@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+	<fieldset name="details"
+		addfieldpath="/administrator/components/com_sfs/models/rules">
+		<field name="id"  type="text" class="readonly" label="JGLOBAL_FIELD_ID_LABEL"
+			description ="JGLOBAL_FIELD_ID_DESC" size="10" default="0" 
+			readonly="true"  />
+
+		<field name="type" type="text" label="Type"
+			description="Type" class="inputbox" size="30"
+			required="true" />		
+		<field name="agency" type="agencyedit" label="Agency"
+			description="Agency" class="inputbox" required="true" />		
+		<field
+				name="airportcode"
+				type="airporteditlocation"
+				label="Airport code(s)"
+				description=""
+				class="inputbox"				
+				required="true"
+				/>
+		
+		<field name="locationname" type="text" label="Location Name"
+			description="Location Name" class="inputbox" size="30"
+			required="true" />
+		<field name="address" type="text" label="Address"
+			description="Address" class="inputbox" size="30"
+			required="true" />
+		<field name="zipcode" type="text" label="Zipcode"
+			description="Zipcode" class="inputbox" size="30"
+			required="true" />
+		<field name="city" type="text" label="City"
+			description="city" class="inputbox" size="30"
+			required="true" />
+		<!--<field name="country" type="text" label="Country"
+			description="country" class="inputbox" size="30"
+			required="true" />-->
+		<field name="phone" type="text" label="Phone"
+			description="Phone" class="inputbox" size="30"
+			required="true" />
+		<field name="email" type="text" label="Email"
+			description="email" class="inputbox" size="30"
+			required="true" />
+	</fieldset>
+
+
+</form>

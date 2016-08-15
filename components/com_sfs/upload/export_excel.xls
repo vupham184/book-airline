@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SFS-web SHORT TERM ROOMBLOCK Reservation</title>
+<style type="text/css">
+th{text-align: left; background-color: #dfdfdf; height: 30px; border:2px solid #78B8F0; border-left: none;border-right: none; padding: 5px 5px;}
+table.mainInfo td{border-bottom: 1px solid #78B8F0;padding: 5px;}  
+table.mainInfo_count td{border: 1px solid #78B8F0;padding: 5px;}
+ul li{list-style: none; margin-left:0;}
+ul.servicename li{margin-bottom: 0;}  
+tr.row_le{background: #f8f8f8;}
+table.mainInfo_count{margin: 10px;}
+</style>
+</head>
+<body>
+
+<div style="height:30px;">&#160;</div>
+<div style="float: left; width: 100%; padding: 20px 5px;font-weight:600">
+    Summary: <br />
+    Attention all concerned at TXL and STR  <br />
+    Please <a href="http://www.sfs-web.org/dev3-map2-v3/index.php?option=com_sfs&view=passengersimport&itemit-171">checkout SFS 360</a> for vouchers to be issued, arrange services and check bags to be rerouted.
+</div>
+<div style="height:30px;">&#160;</div>
+<div>
+    <table cellspacing="0" cellpadding="0" border="0" class="mainInfo_count" style="border:0; width:60%; ">
+        <tr>
+            <th width="30%">&#160;</th>
+            <th width="30%">Authorised</th>
+            <th width="30%">Issued</th>
+        </tr>
+                                </table>
+    
+</div>
+<div style="height:30px;">&#160;</div>
+<div style="float: left; width: 100%; padding: 20px 5px;font-weight:600">
+    
+</div>
+<table cellspacing="0" cellpadding="0" border="0" class="mainInfo" style="border:0; width:98%; ">
+    <tr>
+        <th width="22%">Passenger</th>
+        <th width="10%">PNR</th>
+        <th width="12%">Add Info</th>
+        <th width="14%">Flightnumber</th>
+        <th width="12%">Onward Flight</th>
+        <th width="30%">Services</th>
+    </tr>
+            
+        <tr style="background:#ffffff ">
+            <td width="22%" valign="middle" style="border-bottom: 1px solid #78B8F0;padding: 10px;">Roelf Test Mr</td>
+            <td width="10%" valign="middle" style="border-bottom: 1px solid #78B8F0;padding: 10px;">48FGL2</td>
+            <td width="12%" valign="middle" style="border-bottom: 1px solid #78B8F0;padding: 10px;">
+                FTC,CANX,0</td>
+            <td width="14%" valign="middle" style="border-bottom: 1px solid #78B8F0;padding: 10px;">
+                TXL AB007 STR</td>
+            <td width="12%" valign="middle" style="border-bottom: 1px solid #78B8F0;padding: 10px;"></td>
+            <td width="30%" valign="middle" style="border-bottom: 1px solid #78B8F0;padding: 5px;">
+                                                                                        <div style="float:left; width: 100px;">
+                                Refreshment:                             
+                            </div>
+                                                
+                                                                        <div style="float:left; width: 100px;">
+                                Hotel: Hotel PO 
+                            </div>
+                                                
+                                                                        <div style="float:left; width: 100px;">
+                                Train service:                             
+                            </div>
+                                                
+                                                                        <div style="float:left; width: 100px;">
+                                Taxi Transfer:                             
+                            </div>
+                                                
+                                        <!-- <ul class="servicename">                                        
+                                                    <li></li>
+                                            </ul> -->
+                            </td>
+            
+        <!--     <td width="35%" valign="middle" style="border-bottom: 1px solid #78B8F0;padding: 5px;">
+                                                            HOTAC WILL BE ARRANGED BY PMI REFRESHMENTVOUCHERS VALUE EUR 5
+                                                </td>   -->
+        </tr>        
+            
+        <tr style="background:#f8f8f8 ">
+            <td width="22%" valign="middle" style="border-bottom: 1px solid #78B8F0;padding: 10px;">Tine Test Mrs</td>
+            <td width="10%" valign="middle" style="border-bottom: 1px solid #78B8F0;padding: 10px;">48FGL2</td>
+            <td width="12%" valign="middle" style="border-bottom: 1px solid #78B8F0;padding: 10px;">
+                FTC,CANX,0</td>
+            <td width="14%" valign="middle" style="border-bottom: 1px solid #78B8F0;padding: 10px;">
+                TXL AB007 STR</td>
+            <td width="12%" valign="middle" style="border-bottom: 1px solid #78B8F0;padding: 10px;"></td>
+            <td width="30%" valign="middle" style="border-bottom: 1px solid #78B8F0;padding: 5px;">
+                                                                                        <div style="float:left; width: 100px;">
+                                Refreshment:                             
+                            </div>
+                                                
+                                                                        <div style="float:left; width: 100px;">
+                                Hotel: Hotel PO 
+                            </div>
+                                                
+                                                                        <div style="float:left; width: 100px;">
+                                Train service:                             
+                            </div>
+                                                
+                                                                        <div style="float:left; width: 100px;">
+                                Taxi Transfer:                             
+                            </div>
+                                                
+                                        <!-- <ul class="servicename">                                        
+                                                    <li></li>
+                                            </ul> -->
+                            </td>
+            
+        <!--     <td width="35%" valign="middle" style="border-bottom: 1px solid #78B8F0;padding: 5px;">
+                                                            HOTAC WILL BE ARRANGED BY PMI REFRESHMENTVOUCHERS VALUE EUR 5
+                                                </td>   -->
+        </tr>        
+     
+</table>
+<div style="float: left; width: 100%; padding: 20px 5px;font-weight:600;">
+    THX FOR COOP BRGDS
+<DEPARMENT><CODE>
+Anna Sauer
+         
+</div>
+</body>
+</html>

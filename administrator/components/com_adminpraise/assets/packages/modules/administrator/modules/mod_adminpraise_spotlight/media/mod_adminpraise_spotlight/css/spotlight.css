@@ -1,0 +1,36 @@
+.ap-spotlight {
+	position: relative;
+	width: 300px;
+	margin-left: 300px;
+}
+/* results positioning */
+#search-results    { 
+	position:absolute; 
+	z-index:90; 
+/*	top:40px; */
+/*	left:10px; */
+	visibility:hidden; 
+/*	padding:20px; */
+	background:#fff; 
+	border:3px solid #eee; 
+/*	width:380px; */
+/*	min-height:200px; */
+	-webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5) 
+
+}
+.ap-spotlight-link {
+	display: block;
+	padding: 0 10px;
+	color: blue!important;
+}
+.ap-type {
+	color: grey;
+}
+
+.ap-highlight {
+	color: #EA525B;
+}
+
+.ap-search-text {
+	width: 200px;
+}

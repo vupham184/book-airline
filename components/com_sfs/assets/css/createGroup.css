@@ -1,0 +1,23 @@
+.span-linked{
+	position: absolute;
+    width: 10px;
+    height: 2px;
+    display: block;
+    top: 34px;
+    left: 5px;
+}
+.add-linked{
+	 position: relative; 
+     z-index: 1;
+     left: 3px;
+}
+.page_passenger_import td{
+	position: relative;
+}
+.img-linked{
+	position: absolute;
+    background-color: white;
+    z-index: 8;
+    padding: 1px;
+    left: -5px;
+}

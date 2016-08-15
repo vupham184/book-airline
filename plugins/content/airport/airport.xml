@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="content">
+	<name>plg_content_airport</name>
+	<author>SFS! Project</author>
+	<creationDate>July 2013</creationDate>
+	<copyright>Copyright (C) 2005 - 2011 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@sfs-web.com/</authorEmail>
+	<authorUrl>www.sfs-web.com/</authorUrl>
+	<version>1.0</version>
+	<description>Gets system airport from com_sfs</description>
+
+	<files>
+		<filename plugin="airport">airport.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<config>
+		<fields name="params">
+		</fields>
+	</config>
+</extension>

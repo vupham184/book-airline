@@ -1,0 +1,157 @@
+.common-site-wrap {
+  .site-content {
+    .section-1 {
+      padding: 20px 30px;
+      @include respond-to-custom-size(null, 480px){
+        padding: 17px 20px 0;
+      }
+      .voucher-name {
+        @include respond-to-custom-size(null, 480px) {
+          width: 100%;
+          height: auto;
+          margin-bottom: 10px;
+        }
+        .voucher-text {
+          .title {
+            color: #000;
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 40px;
+            @include respond-to-custom-size(null, 480px) {
+              font-size: 22px;
+            }
+          }
+          .sub-title {
+            color: #767482;
+            font-size: 20px;
+            line-height: 22px;
+            @include respond-to-custom-size(null, 480px) {
+              font-size: 18px;
+            }
+          }
+          p {
+            margin-bottom: 0;
+          }
+        }
+      }
+      .voucher-logo {
+        @include respond-to-custom-size(null, 480px) {
+          width: 100%;
+          height: auto;
+          margin-bottom: 10px;
+        }
+        .img-voucher {
+          float: right;
+          @include respond-to-custom-size(null, 480px) {
+            float: none;
+          }
+          img {
+            max-width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+    .section-2 {
+      .section-wrap {
+        .title-section {
+          background-color: #8a1f63;
+          padding: 30px 0 30px 30px;
+          border-radius: 32px 32px 0 0;
+          color: #fff;
+          font-size: 35px;
+          @include respond-to-custom-size(null, 480px) {
+            font-size: 22px;
+            padding: 20px;
+          }
+        }
+        .voucher-detail {
+          padding: 20px 30px;
+          border: solid 3px #8a1f63;
+          border-top: 0;
+          @include respond-to-custom-size(null, 480px) {
+            padding: 20px;
+          }
+          .common-block {
+            margin-bottom: 30px;
+          }
+          .title-common {
+            color: #767482;
+            font-size: 30px;
+            font-weight: 400;
+            margin-right: 25px;
+            @include respond-to-custom-size(null, 480px) {
+              font-size: 22px;
+            }
+          }
+          .content-common {
+            color: #767482;
+            font-size: 20px;
+            @include respond-to-custom-size(null, 480px) {
+              font-size: 15px;
+            }
+          }
+          .address {
+            .address-block {
+              float: right;
+              .title-common {
+                float: left;
+              }
+              .content-common {
+                float: right;
+              }
+            }
+            @include respond-to-custom-size(null, 480px) {
+              .address-block, .title-common, .content-common {
+                float: none !important;
+              }
+            }
+          }
+        }
+        .billing-info {
+          padding: 20px 30px;
+          color: #767482;
+          background-color: #eeeeee;
+          border: solid 3px #8a1f63;
+          border-top: 0;
+          border-radius: 0 0 32px 32px;
+          @include respond-to-custom-size(null, 480px) {
+            padding: 20px;
+          }
+          .title-billing {
+            font-size: 18px;
+            margin-bottom: 10px;
+            font-weight: 600;
+          }
+          .content {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.air-berlin-hotel {
+  .header-wrapper {
+    .logo-main-wrap {
+      background-color: #CC1F2F;
+    }
+  }
+  .site-content {
+    .section-2 {
+      .section-wrap {
+        .title-section {
+          background-color: #CC1F2F;
+        }
+        .voucher-detail {
+          border: solid 3px #CC1F2F;
+        }
+        .billing-info {
+          border: solid 3px #CC1F2F;
+          border-top: 0;
+        }
+      }
+    }
+  }
+}

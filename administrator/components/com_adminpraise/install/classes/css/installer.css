@@ -1,0 +1,85 @@
+/**
+ * jUpgrade
+ *
+ * @version			$Id: jupgrade.css 21933 2011-08-02 02:38:47Z maguirre $
+ * @package			MatWare
+ * @subpackage	com_jupgrade
+ * @author      Matias Aguirre <maguirre@matware.com.ar>
+ * @link        http://www.matware.com.ar
+ * @license			GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+.install-step p.text {
+	font-size: 13pt;
+	margin: 10px 0;
+	padding: 0;
+}
+
+#template.install-step p.text{
+	margin: 10px 0 3px 0;
+}
+
+.install-step span {
+	font-size: 11pt;
+}
+
+.install-step {
+	width: 300px;
+	height: 80px;
+	margin: 10px auto 0 auto;
+	padding: 0 10px;
+}
+
+
+.install-step,
+.next-button {
+	color: #777;
+	text-shadow: 0 1px 0 #FFF;
+	background: #F8F8F8; /* Old browsers */
+	background: -moz-linear-gradient(top, #F8F8F8 0%, #e5e5e5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F8F8F8), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #F8F8F8 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #F8F8F8 0%,#e5e5e5 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #F8F8F8 0%,#e5e5e5 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F8F8F8', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #F8F8F8 0%,#e5e5e5 100%); /* W3C */
+	border: 1px solid #CCC !important;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 0 1px 0 #FFF;
+	-webkit-box-shadow: 0 1px 0 #FFF;
+	box-shadow: 0 1px 0 #FFF;
+}
+
+.next {
+	text-align: center;
+}
+
+.next-button{
+	display: block;
+	float: none;
+	padding: 4px;
+	font-size: 14px;
+}
+.next-button:hover{
+	text-decoration: none;
+	background: #FFF; /* Old browsers */
+	background: -moz-linear-gradient(top, #FFF 0%, #e5e5e5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #FFF 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #FFF 0%,#e5e5e5 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #FFF 0%,#e5e5e5 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFF', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #FFF 0%,#e5e5e5 100%); /* W3C */
+}
+.next-button:active{
+	background: #e5e5e5; /* Old browsers */
+	background: -moz-linear-gradient(top, #e5e5e5 0%, #F8F8F8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5e5e5), color-stop(100%,#F8F8F8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #e5e5e5 0%,#F8F8F8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #e5e5e5 0%,#F8F8F8 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #e5e5e5 0%,#F8F8F8 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#F8F8F8',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #e5e5e5 0%,#F8F8F8 100%); /* W3C */
+}

@@ -1,0 +1,51 @@
+$break-mobile: 480px;
+$break-mobile-landscape: 600px;
+$break-tablet-portrait: 800px;
+$break-desktop: 1024px;
+$break-desktop-wide: 1200px;
+$break-medium: 768px;
+
+@mixin respond-to-custom-size($min-width: null, $max-width: null) {
+  @if $min-width != null and $max-width != null {
+    @media only screen and (min-width: $min-width) and (max-width: $max-width ) { @content; }
+  }
+  @else if $min-width != null {
+    @media only screen and (min-width: $min-width) { @content; }
+  }
+  @else if $max-width != null {
+    @media only screen and (max-width: $max-width) { @content; }
+  }
+}
+
+@mixin respond-to($media) {
+  @if $media == mobile-portrait-break {
+    @media only screen and (max-width: $break-mobile - 1) { @content; }
+  }
+  @else if $media == mobile-landscape-break {
+    @media only screen and (max-width: $break-mobile-landscape - 1 ) { @content; }
+  }
+  @else if $media == mobile-landscape-only {
+    @media only screen and (min-width: $break-mobile) and (max-width: $break-mobile-landscape - 1 ) { @content; }
+  }
+  @else if $media == tablet-tablet-break-small {
+    @media only screen and (max-width: $break-mobile-landscape - 1 ) { @content; }
+  }
+  @else if $media == tablet-tablet-break-big {
+    @media only screen and (max-width: $break-tablet-portrait - 1 ) { @content; }
+  }
+  @else if $media == tablet-tablet-only {
+    @media only screen and (min-width: $break-mobile-landscape) and (max-width: $break-desktop - 1 ) { @content; }
+  }
+  @else if $media == desktop-break {
+    @media only screen and (max-width: $break-desktop - 1) { @content; }
+  }
+  @else if $media == desktop-only {
+    @media only screen and (min-width: $break-desktop) and (max-width: $break-desktop-wide - 1 ) { @content; }
+  }
+  @else if $media == desktop-wide-break {
+    @media only screen and (max-width: $break-desktop-wide - 1) { @content; }
+  }
+  @else if $media == desktop-wide-only {
+    @media only screen and (min-width: $break-desktop-wide) { @content; }
+  }
+}

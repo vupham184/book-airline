@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="details"
+		addfieldpath="/administrator/components/com_sfs/models/rules"
+	>
+		<field name="id" type="text" default="0" 
+			readonly="true" class="readonly"
+			label="JGLOBAL_FIELD_ID_LABEL" 	description ="JGLOBAL_FIELD_ID_DESC" />
+		<field name="name" type="text" class="inputbox"
+			size="40" label="COM_SFS_FIELD_NAME_LABEL"
+			description="" required="true" />
+		<field name="numeric_code" type="text" class="inputbox"
+		size="40" label="COM_SFS_FIELD_CURRENCY_NUMERIC_CODE_LABEL"
+		description="" required="true" />
+		<field name="code" type="text" class="inputbox"
+			size="40" label="COM_SFS_FIELD_CODE_LABEL"
+			description="" required="true" />		
+		<field name="symbol" type="text" class="inputbox"
+			size="6" label="COM_SFS_FIELD_SYMBOL_LABEL"
+			description="" required="false" />
+		<field name="exchange_rate" type="text" class="inputbox"
+			size="10" label="COM_SFS_FIELD_EXCHANGE_RATE_LABEL"
+			description="" required="true" />
+	</fieldset>
+</form>

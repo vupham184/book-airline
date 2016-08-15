@@ -1,0 +1,6 @@
+CreditCardTypeID|CreditCardType
+4|American Express
+5|Diners
+2|Maestro
+3|MasterCard
+1|Visa

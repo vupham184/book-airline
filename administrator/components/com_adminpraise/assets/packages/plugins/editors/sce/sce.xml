@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="editors" method="upgrade">
+	<name>sce</name>
+	<version>2.5.1</version>
+	<creationDate>2012-06-26</creationDate>
+	<author>AdminPraise</author>
+	<authorEmail>support@pixelpraise.com</authorEmail>
+	<authorUrl>http://www.adminpraise.com</authorUrl>
+	<copyright>Pixel Praise LLC</copyright>
+	<license>GNU/GPL</license>
+    <description>plg_editors_sce_DESC</description>
+    <languages folder="administrator/language">
+        <language tag="en-GB">en-GB/en-GB.plg_editors_sce.ini</language>
+    </languages>
+    <files>
+        <file>bbeditorimg.png</file>
+<folder>images</folder>
+<folder>sce</folder>
+<file>sce.css</file>
+<file>sce.js</file>
+<file plugin="sce">sce.php</file>
+    </files>
+</install>

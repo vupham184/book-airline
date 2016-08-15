@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SFS-web SHORT TERM ROOMBLOCK Reservation</title>
+<style type="text/css">
+th{text-align: left; background-color: #dfdfdf; height: 30px; border:2px solid #78B8F0; border-left: none;border-right: none; padding: 5px 5px;}
+table.mainInfo td{border-bottom: 1px solid #78B8F0;padding: 5px;}  
+ul li{list-style: none; margin-left:0;}
+ul.servicename li{margin: 0;}  
+tr.row_le{background: #f8f8f8;}
+.infoText{}
+</style>
+</head>
+<body>
+<div style="float: left; width: 100%; padding: 20px 5px;font-weight:600">
+    
+</div>
+<table cellspacing="0" cellpadding="0" border="0" class="mainInfo" style="border:0; width:98%; ">
+    <tr>
+        <th width="20%">Passenger</th>
+        <th width="12%">PNR</th>
+        <th width="12%">Flightnumber</th>
+        <th width="13%">Services</th>
+        <th width="10%">Flag</th>
+        <th width="35%">Communication</th>
+    </tr>
+            
+        <tr style="background:#f8f8f8 ">
+            <td style="border-bottom: 1px solid #78B8F0;padding: 5px;">Annie mg Schmidt MRS</td>
+            <td style="border-bottom: 1px solid #78B8F0;padding: 5px;">YUH76TG</td>
+            <td style="border-bottom: 1px solid #78B8F0;padding: 5px;">BRU SF8246</td>
+            <td style="border-bottom: 1px solid #78B8F0;padding: 5px;">
+                <ul class="servicename">                    
+                                                                        <li>Bus Transfer</li>
+                                                            </ul>
+            </td>
+            <td style="border-bottom: 1px solid #78B8F0;padding: 5px;"></td>
+            <td style="border-bottom: 1px solid #78B8F0;padding: 5px;">
+                                                                </td>  
+        </tr>        
+            
+        <tr style="background:#ffffff ">
+            <td style="border-bottom: 1px solid #78B8F0;padding: 5px;">Sylvie deJong MRS</td>
+            <td style="border-bottom: 1px solid #78B8F0;padding: 5px;">TR5143W</td>
+            <td style="border-bottom: 1px solid #78B8F0;padding: 5px;">BRU SF8246</td>
+            <td style="border-bottom: 1px solid #78B8F0;padding: 5px;">
+                <ul class="servicename">                    
+                                                                        <li>Hotel</li>
+                                                    <li>Refreshment</li>
+                                                            </ul>
+            </td>
+            <td style="border-bottom: 1px solid #78B8F0;padding: 5px;"></td>
+            <td style="border-bottom: 1px solid #78B8F0;padding: 5px;">
+                                                            HOTAC WILL BE ARRANGED BY PMI REFRESHMENTVOUCHERS VALUE EUR 5
+                                                                                    </td>  
+        </tr>        
+     
+</table>
+<div style="float: left; width: 100%; padding: 20px 5px;font-weight:600;">
+     
+</div>
+</body>
+</html>

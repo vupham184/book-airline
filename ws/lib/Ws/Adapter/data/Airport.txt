@@ -1,0 +1,957 @@
+Airport|IATACode|AirportID|AirportTerminal|AirportTerminalID
+Aberdeen Dyce Airport|ABZ|261||
+Aberdeen Regional Airport|ABR|259||
+Abu Dhabi International Airport|AUH|312||
+Adana Airport|ADA|267||
+Adelaide Airport|ADL|270||
+Aerop De Menorca|MAH|758||
+Aeropuerto de Gran Canaria|LPA|735||
+Aeropuerto International|ZLO|1188||
+Agadir Al Massira Airport|AGA|274||
+Agusto Severo|NAT|836||
+Ahmedabad Airport|AMD|292||
+Ajaccio Campo dell' Oro Airport|AJA|281||
+Akron Canton Regional Airport|CAK|399||
+Al Ain Airport|AAN|256||
+Albany International Airport|ALB|284||
+Albenga Airport|ALL|288||
+Albuquerque International Airport|ABQ|258||
+Albury Airport|ABX|260||
+Aleppo Nejrab Airport|ALP|289||
+Alesund Vigra Airport|AES|273||
+Alexandria Airport|ALY|290||
+Alexandria International Airport|AEX|1218||
+Algarve Faro Airport|FAO|535||
+Alghero Fertilia Airport|AHO|280||
+Alicante Airport|ALC|285||
+Alice Springs Airport|ASP|304||
+Allen C Thompson Field  Jackson International Airport|JAN|656||
+Almeria|LEI|714||
+Alta Elvebakken Airport|ALF|286||
+Alvarez International Airport|ACA|262||
+Amarillo International Airport|AMA|291||
+Amilcar Cabral International|SID|1018||
+Amman Marka Intl Airport|ADJ|269||
+Amman Queen Alia Intl Airport|AMM|293||
+Amritsar Raja Sansi Intl Airport|ATQ|309||
+Amsterdam Schiphol Airport|AMS|294||
+Anchorage Intl Airport|ANC|295||
+Ancona Falconara Airport|AOI|298||
+Ankara Esenboga Airport|ESB|525||
+Annecy Meythet|NCY|841||
+Annisaton Airport|MDL|775||
+Antalya|AYT|317||
+Antigua VC Bird Intl Airport|ANU|297||
+Antwerp Intl Airport|ANR|296||
+Appleton Outagamie County Airport|ATW|310||
+Aqaba King Hussein Intl Aiport|AQJ|299||
+Aracaju Santa Maria Airport|AJU|282||
+Arequipa Rodriguez Ballon Airport|AQP|300||
+Arlanda Intl Airport, Stockholm|ARN|302||
+Armidale Airport|ARM|301||
+Arnager Airport|RNN|972||
+Aro|MOL|810||
+Aruba Reina Beatrix Airport|AUA|311||
+Asheville Regional Airport|AVL|314||
+Aspen Sardy Field Airport|ASE|303||
+Asuncion Silvio Pettirossi Airport|ASU|305||
+Aswan Intl Airport|ASW|306||
+Athens Eleftherios Venizelos Airport|ATH|307||
+Atlanta Hartsfield Jackson Intl Airport|ATL|308||
+Atlantic City Intl Airport|ACY|266||
+Auckland International Airport|AKL|283||
+Augusta Bush Field Airport|AGS|278||
+Austin Bergstrom Intl Airport|AUS|313||
+Avignon Caumont Airport|AVN|315||
+Axamo Airport|JKG|662||
+Ayers Rock Connellan Airport|AYQ|316||
+Babatpur|VNS|1148||
+Badajoz Talavera La Real Airport|BJZ|353||
+Bahrain International Airport|BAH|320||
+Bakersfield Meadows Field Airport|BFL|335||
+Baku Heydar Aliyev Intl Airport|GYD|1199||
+Baku Metropolitan Airport|BAK|321||
+Ballina Byron Gateway Airport|BNK|365||
+Baltimore Washington Intl Airport|BWI|389||
+Bangkok Suvarnabhumi Airport|BKK|354||
+Bangor International Airport|BGR|340||
+Bar Harbor Airport|BHB|342||
+Barcelona El Prat Airport|BCN|325||
+Bari Palese Airport|BRI|378||
+Barranquilla E Cortissoz Airport|BAQ|322||
+Basel Mulhouse Euro Airport|MLH|803||
+Bastia Poretta Airport|BIA|348||
+Baton Rouge Airport|BTR|384||
+Bauerfield|VLI|1144||
+Bayreuth Bindlacher Berg Airport|BYU|391||
+Beaumont Jefferson County Airport|BPT|374||
+Beijing-Nanyuan Airport|NAY|837||
+Beira Airport|BEW|332||
+Beirut Rafic Hariri Intl Airport|BEY|333||
+Belem Val De Cans Airport|BEL|330||
+Belfast George Best City Airport|BHD|343||
+Belfast Intl Airport|BFS|337||
+Belgrade Nikola Tesla Airport|BEG|329||
+Belize International Airport|BZE|392||
+Bellegarde|LIG|724||
+Belo Horizonte Tancredo Neves Airport|CNF|437||
+Ben Gurion International|TLV|1091||
+Bengaluru Airport|BLR|359||
+Benjamin Matienzo Airport|TUC|1111||
+Bergen Flesland Airport|BGO|339||
+Bergerac Roumaniere Airport|EGC|515||
+Berlin Brandenburg Airport|BER|1207||
+Berlin Schoenefeld Airport|SXF|1060||
+Berlin Tegel Airport|TXL|1118||
+Bern Belp Airport|BRN|379||
+Beziers Vias Airport|BZR|395||
+Bhubaneswar Biju Patnaik Airport|BBI|323||
+Biarritz Bayonne-Anglet Airport|BIQ|351||
+Bierset|LGG|720||
+Bilbao Airport|BIO|350||
+Billings Logan Intnl Airport|BIL|349||
+Billund Airport|BLL|357||
+Birmingham International Airport|BHX|347||
+Birmingham Seibels/Bryan Airport|BHM|345||
+Blackpool Airport|BLK|356||
+Blagnac|TLS|1090||
+Blenheim Woodbourne Airport|BHE|344||
+Bloemfontein Intl Airport|BFN|336||
+Bloomington-Normal Airport|BMI|362||
+Blue Grass Field|LEX|717||
+Bodo Airport|BOO|372||
+Bodrum Milas Airport|BJV|1219||
+Bogota Eldorado Airport|BOG|368||
+Boise Gowen Field Airport|BOI|369||
+Bologna Guglielmo Marconi Airport|BLQ|358||
+Bolzano Airport|BZO|394||
+Bordeaux Merignac Airport|BOD|367||
+Borispol|KBP|672||
+Borlange/Falun Dala Airport|BLE|355||
+Boston Logan Intl Airport|BOS|373||
+Boukhalef Souahel|TNG|1094||
+Bourgas Airport|BOJ|370||
+Bozeman Gallatin Field Airport|BZN|393||
+Bradley International Airport|BDL|327||
+Brasilia Airport|BSB|382||
+Bratislava M.R. Stefanik Airport|BTS|385||
+Bremen Airport|BRE|377||
+Brescia Airport|VBS|1132||
+Brest Guivapas Airport|BES|331||
+Bridgetown Grantley Adams Intl Airport|BGI|338||
+Brindisi Airport|BDS|328||
+Brisbane International Airport|BNE|364||
+Bristol Airport|BRS|380||
+Brnik|LJU|729||
+Broken Hill Airport|BHQ|346||
+Broome Airport|BME|361||
+Brunei International Airport|BWN|390||
+Brunswick Glynco Jetport|BQK|375||
+Brussels Airport|BRU|381||
+Brussels South Charleroi Airport|CRL|1193||
+Bucharest Baneasa Airport|BBU|324||
+Budapest Liszt Ferenc Intl Airport|BUD|387||
+Buelna|MZT|831||
+Buenos Aires Jorge Newberry Airport|AEP|272||
+Buffalo Niagara Intl Airport|BUF|388||
+Bundaberg Airport|BDB|326||
+Burlington International Airport|BTV|386||
+Butmir|SJJ|1023||
+Cagliari Elmas Airport|CAG|397||
+Cairns Airport|CNS|438||
+Cairo International Airport|CAI|398||
+Calgary Intl Airport|YYC|1179||
+Cali Alfonso B Aragon Airport|CLO|431||
+Cambridge Airport|CBG|402||
+Campeche Airport|CPE|447||
+Campo Grande Airport|CGR|418||
+Canberra Airport|CBR|404||
+Cancun Airport|CUN|460||
+Cape Town Intl Airport|CPT|451||
+Capital Airport|SPI|1041||
+Capital City Airport|LAN|702||
+Caracas Simon Bolivar Intl Airport|CCS|407||
+Carcassonne Salvaza Airport|CCF|405||
+Cardiff Airport|CWL|469||
+Carlos R Perez|VSA|1151||
+Carrasco|MVD|827||
+Cartagena Rafael Nunez Airport|CTG|457||
+Carthage|TUN|1113||
+Casablanca Anfa Airport|CAS|400||
+Casablanca Mohammed V Airport|CMN|436||
+Caselle|TRN|1104||
+Catania Fontanarossa Airport|CTA|456||
+Cd Lemons Municipal|TUP|1115||
+Cebu Mactan Intl Airport|CEB|410||
+Cedar Rapids Airport|CID|424||
+Central|ODS|861||
+Chambery Aix Les Bains Airport|CMF|434||
+Chapelco Airport|CPC|445||
+Charleston Airport|CHS|422||
+Charleston Yeager Airport|CRW|454||
+Charlotte Douglas Intl Airport|CLT|432||
+Charlottesville Albemarle Airport|CHO|421||
+Charlottetown|YYG|1180||
+Chattanooga Lovell Field Airport|CHA|419||
+Cheju Airport|CJU|426||
+Chenai Meenambarkkam Airport|MAA|755||
+Cherry Capital Airport|TVC|1117||
+Chetumal Airport|CTM|458||
+Cheyenne Municipal Airport|CYS|470||
+Chiang Mai Intl Airport|CNX|439||
+Chiang Rai Airport|CEI|411||
+Chicago Midway Airport|MDW|778||
+Chicago O'Hare International Airport|ORD|872||
+Chicago Rockford International Airport|RFD|962||
+Chihuahua Gen Villalobos Airport|CUU|463||
+Christchurch Intl Airport|CHC|420||
+Cincinnati Intl Airport|CVG|465||
+Ciudad Bolivar Airport|CBL|403||
+Ciudad Juarez Intl Abraham Gonzalez Airport|CJS|425||
+Ciudad Victoria Airport|CVM|467||
+Clermont-Ferrand Auvergne Airport|CFE|412||
+Cleveland Hopkins Intl Airport|CLE|428||
+Cluj-Napoca Airport|CLJ|429||
+Cochabamba J Wilsterman Airport|CBB|401||
+Cody/Yellowstone Regional Airport|COD|440||
+Coffs Harbour Airport|CFS|413||
+College Station Easterwood Field Airport|CLL|430||
+Collooney|SXL|1061||
+Cologne/Bonn Airport|CGN|417||
+Colombo Bandaranaike Intl Airport|CMB|433||
+Colorado Springs Airport|COS|443||
+Columbia Metropolitan Airport|CAE|396||
+Columbia Regional|COU|444||
+Columbus Metropolitan Airport|CSG|455||
+Coober Pedy Airport|CPD|446||
+Coolangatta|OOL|870||
+Copenhagen Kastrup Airport|CPH|449||
+Cordoba Pajas Blancas Airport|COR|442||
+Cork Airport|ORK|874||
+Coro Airport|CZE|471||
+Corpus Christi Intl Airport|CRP|452||
+Costa del Azahar|CDA|1200||
+Costa Smeralda|OLB|866||
+Cozumel Airport|CZM|472||
+Crotone Airport|CRV|453||
+Crown Point|TAB|1071||
+Cuernavaca Airport|CVJ|466||
+Cuiaba Marechal Rondon Airport|CGB|415||
+Cuidad Del Este Airport|AGT|279||
+Culiacan Airport|CUL|459||
+Curacao Areopuerto Hato|CUR|461||
+Curitiba Afonso Pena Airport|CWB|468||
+Cuzco Velazco Astete Airport|CUZ|464||
+Cyril E King Arpt|STT|1051||
+Da Nang Airport|DAD|474||
+Dakar Leopold Sedar Senghor Airport|DKR|489||
+Dalat Lienkhang Airport|DLI|490||
+Dallas Ft Worth Intl Airport|DFW|485||
+Dallas Love Field Airport|DAL|475||
+Damascus Intl Airport|DAM|476||
+Damman King Fahad Airport|DMM|492||
+Dane County Regional Airport|MSN|819||
+Dannelly Field|MGM|790||
+Dar Es Salaam Intl Airport|DAR|477||
+Darwin Airport|DRW|500||
+Davao Francisco Bangoy Intl Airport|DVO|508||
+Delhi Indira Gandhi Intl Airport|DEL|483||
+Denpasar Bali Ngurah Rai Airport|DPS|497||
+Denver International Airport|DEN|484||
+Des Moines|DSM|501||
+Detroit Wayne County Airport|DTW|503||
+Devonport Airport|DPO|496||
+Dhaka Hazrat Shahjalal Intl Airport|DAC|473||
+Dijon Longvic Airport|DIJ|487||
+Djerba Zarsis Airport|DJE|488||
+Doha Airport|DOH|494||
+Dois De Julho|SSA|1045||
+Donetsk Airport|DOK|495||
+Dortmund Airport|DTM|502||
+Dresden Airport|DRS|499||
+Dubai International Airport|DXB|509||
+Dubbo Airport|DBO|479||
+Dublin Intl Airport|DUB|504||
+Dubrovnik Hrvatska Airport|DBV|481||
+Dubuque Municipal Airport|DBQ|480||
+Dundee Airport|DND|493||
+Dunedin Momona Airport|DUD|505||
+Durango Guadalupe Victoria Airport|DGO|486||
+Durango La Plata County Airport|DRO|498||
+Durban King Shaka Intl Airport|DUR|506||
+Durham Tees Valley Airport|MME|805||
+Dusseldorf International Airport|DUS|507||
+Dusseldorf-Moenchengladbach Airport|MGL|789||
+East London Airport|ELS|520||
+East Midlands Airport|EMA|521||
+Easton International Airport|ABE|257||
+Echuca Airport|ECH|513||
+Edinburgh Airport|EDI|514||
+Eduardo Gomes|MAO|760||
+Eilat Airport|ETH|526||
+Eindhoven Airport|EIN|516||
+El Alto|LPB|736||
+El Cadillal Airport|JUJ|668||
+El Calafate Airport|FTE|559||
+El Paso International Airport|ELP|519||
+El Plumerillo Airport|MDZ|779||
+El Salvadore Intl Airport|SAL|985||
+Elba Island Marina Di Campo Airport|EBA|511||
+Elko Airport|EKO|517||
+Elmira Corning Regional Airport|ELM|518||
+Enfidha Hammamet Airport|NBE|1216||
+Entzheim|SXB|1059||
+Eppley Airfield|OMA|867||
+Erfurt-Weimar Airport|ERF|522||
+Erie International Airport|ERI|523||
+Eros Airport|ERS|524||
+Esbjerg Airport|EBJ|512||
+Escobedo|MTY|825||
+Esperance|SFG|1007||
+Eureco Sales|VIX|1140||
+Euro Airport Basel-Mulhouse-Freiburg|EAP|1210||
+EuroAirport Basel-Mulhouse-Freiburg|BSL|383||
+Evansville Regional Airport|EVV|529||
+Exeter Airport|EXT|531||
+Ezeiza Ministro Pistarini Intl Airport|EZE|533||
+Fairbanks International Airport|FAI|534||
+Fargo Hector Field Airport|FAR|536||
+Fayetteville Municipal Airport|FAY|538||
+Federal/Cubatao Airport|JOI|666||
+Fez Airport|FEZ|541||
+Figari Sud-Corse Airport|FSC|556||
+Findel|LUX|750||
+Fisherton Airport|ROS|975||
+Flagstaff Airport|FLG|543||
+Flint Bishop Intl Airport|FNT|552||
+Florence Gilbert Field Airport|FLO|546||
+Florence Peretola Airport|FLR|547||
+Florianopolis Hercilio Luz Airport|FLN|545||
+Forest Hill|WGA|1159||
+Forli Airport|FRL|555||
+Fort Collins / Loveland Airport|FNL|551||
+Fort Lauderdale/Hollywood Intl Airport|FLL|544||
+Fort Smith Municipal Airport|FSM|558||
+Fort Wayne Baer Field Airport|FWA|562||
+Frankfurt am Main Airport|FRA|554||
+Frankfurt-Hahn Airport|HHN|611||
+Frankton|ZQN|1190||
+Fredericton Municipal Apt|YFC|1165||
+Freeport Intl Airport|FPO|553||
+Frejorgues|MPL|811||
+Fresno Air Terminal|FAT|537||
+Friedrichshafen Bodensee Airport|FDH|540||
+Fuerteventura Airport|FUE|560||
+Fukuoka Itazuke Airport|FUK|561||
+Funchal Madeira Airport|FNC|549||
+Gainesville Airport|GNV|580||
+Galway Carnmore Airport|GWY|597||
+Gaziantep Sazgin Airport|GZT|600||
+Gdansk Lech Walesa Airport|GDN|568||
+General Lucio Blanco Airport|REX|961||
+Geneva Cointrin Intl Airport|GVA|596||
+Genoa Christoforo Colombo Airport|GOA|581||
+George Airport|GRJ|586||
+Geraldton Airport|GET|571||
+Gibraltar Airport|GIB|573||
+Gillette Campbell County Airport|GCC|563||
+Gillot|RUN|982||
+Girona/Costa Brava Airport|GRO|587||
+Gisborne Airport|GIS|575||
+Gladewater Airport|GGG|572||
+Glasgow Airport|GLA|577||
+Glasgow Prestwick Airport|PIK|901||
+Goa Dabolim Airport|GOI|582||
+Goiania Santa Genoveva Airport|GYN|599||
+Goleniow|SZZ|1070||
+Golubovci|TGD|1078||
+Gothenburg Landvetter Airport|GOT|583||
+Gral Santiago Marino|PMV|912||
+Granada Federico Garcia Lorca Airport|GRX|591||
+Grand Anse Praslin Airport|PRI|926||
+Grand Canyon Airport|GCN|566||
+Grand Cayman Island Owen Roberts Intl Airport|GCM|565||
+Grand Junction Walker Field Airport|GJT|576||
+Graz Thalerhof Airport|GRZ|1206||
+Great Falls Intl Airport|GTF|593||
+Greater Pit Intnl Airport|PIT|903||
+Green Bay Austin Straubel Intl Airport|GRB|585||
+Greensboro/High Point Piedmont Triad Intl Airport|GSO|592||
+Grenada Point Saline Intl Airport|GND|579||
+Groningen Eelde Airport|GRQ|588||
+Guadalajara Miguel Hidalgo Intl|GDL|567||
+Guam A.B. Won Pat Intl Airport|GUM|595||
+Guangzhou Baiyun Intl Airport|CAN|1220||
+Guararapes International|REC|956||
+Guarulhos International Airport|GRU|590||
+Guatemala City La Aurora Intl Airport|GUA|594||
+Guayaquil Simon Bolivar Airport|GYE|598||
+Guernsey Airport|GCI|564||
+Gulfport/Biloxi Airport|GPT|584||
+Gustavo Diaz Ordaz|PVR|943||
+Haiphong Airport|HPH|623||
+Halifax International|YHZ|1166||
+Halmstad Airport|HAD|601||
+Hamburg Finkenwerder Airport|XFW|1208||
+Hamburg Fuhlsbuttel Airport|HAM|603||
+Hamilton Airport|HLZ|618||
+Hancock International|SYR|1065||
+Hannover Langenhagen Airport|HAJ|602||
+Hanoi Noibai Airport|HAN|604||
+Harare Airport|HRE|624||
+Harrisburg International Airport|MDT|777||
+Harry Sham Feild|MOD|809||
+Harstad-Narvik Evenes Airport|EVE|528||
+Haugesund Karmoy Airport|HAU|605||
+Havana Jose Marti Intl Airport|HAV|606||
+Heidelberg Airport|HDB|1221||
+Helena Airport|HLN|616||
+Helsinki Vantaa Airport|HEL|608||
+Heraklion Airport|HER|609||
+Hermosillo Gen Pesqueira Garcia Airport|HMO|619||
+Hewanorra|UVF|1129||
+Hf Verwoerd|PLZ|907||
+Hobart Cambridge Airport|HBA|607||
+Hokitika|HKK|613||
+Holtenau|KEL|675||
+Hong Kong Chek Lap Kok Airport|HKG|612||
+Honolulu International Airport|HNL|620||
+Horsham Airport|HSM|627||
+Horta Airport|HOR|621||
+Hosea Kutako International Airport (formerly Jg Strijdom airport)|WDH|1158||
+Houari Boumedienne Airport|ALG|287||
+Houston George Bush Intl Airport|IAH|636||
+Houston Hobby Airport|HOU|622||
+Huatulco Airport|HUX|629||
+Hue Phu Bai Intl Airport|HUI|628||
+Humberside Airport|HUY|630||
+Hurghada Airport|HRG|625||
+Hyannis Barnstable Airport|HYA|632||
+Hyderabad Begumpet Airport|HYD|633||
+Iasi Airport|IAS|637||
+Ibiza Airport|IBZ|638||
+Idaho Falls Airport|IDA|641||
+Iguazu International|IGR|643||
+Imam Khomeini International Airport|IKA|644||
+Incheon International Airport|ICN|639||
+Indianapolis International Airport|IND|646||
+Innsbruck Kranebitten Airport|INN|647||
+Intl Jorge Chavez|LIM|725||
+Intl Tahiti Faaa|PPT|923||
+Inverness Airport|INV|648||
+Isla Grande Airport|SIG|1019||
+Isle of Man Airport|IOM|649||
+Istanbul Ataturk Airport|IST|651||
+Itami International Was Osaka|ITM|652||
+Ivato|TNR|1095||
+Ixtapa/Zihuatanejo International|ZIH|1187||
+Izmir Adnan Menderes Airport|ADB|268||
+Jackson Hole Airport|JAC|653||
+Jacksonville International Airport|JAX|657||
+Jakarta Halim Perdana Kusama Airport|HLP|617||
+Jakarta Soekarno Hatta Intl Airport|CGK|416||
+Jalapa Airport|JAL|655||
+James M Cox Dayton Intl Airport|DAY|478||
+Jeddah International|JED|659||
+Jersey Airport|JER|660||
+Jodhpur|JDH|658||
+Johannesburg Lanseria Intl Airport|HLA|615||
+Johannesburg O R Tambo Intl Airport|JNB|664||
+John Wayne Airport|SNA|1037||
+Jomo Kenyatta Internatonal|NBO|838||
+Jose Maria Cordova/Metropolitan Area|MDE|774||
+Josefa Camejo|LSP|746||
+Juan Gualberto Gomez|VRA|1149||
+Juan Santamaria International|SJO|1024||
+Juarez Intl Airport|MEX|784||
+Juliaca|JUL|669||
+Juliana|SXM|1062||
+Jyvaskyla Airport|JYV|670||
+Kalamazoo Battle Creek Intl Airport|AZO|319||
+Kalgoorlie Airport|KGI|676||
+Kallax Airport|LLA|730||
+Kalmar Airport|KLR|684||
+Kansai International|KIX|683||
+Kansas City International Airport|MCI|767||
+Kaohsiung|KHH|678||
+Karlsruhe/Baden-Baden Airport|FKB|542||
+Karlstad Airport|KSD|690||
+Karratha Airport|KTA|692||
+Kaunas|KUN|696||
+Kazan|KZN|701||
+Keahole|KOA|687||
+Keflavik International Airport|KEF|674||
+Kent International Airport|MSE|818||
+Kerkyra Ioannis Kapodistrias Airport|CFU|414||
+Kerry County|KIR|681||
+Key Field|MEI|781||
+Key West Intl Airport|EYW|532||
+Kharkov Osnova Airport|HRK|626||
+Kiev Zhuliany Airport|IEV|642||
+Kimhae|PUS|938||
+King Khaled Intl|RUH|981||
+Kingsford Smith Airport|SYD|1064||
+Kingston Airport|KIN|680||
+Kisauni|ZNZ|1189||
+Kishinev (Chisinau)|KIV|682||
+Kjevik|KRS|689||
+Klagenfurt Woerthersee Airport|KLU|685||
+Kochi Airport|COK|441||
+Koh Samui|USM|1128||
+Kolkata Netaji Subhas Chandra Airport|CCU|408||
+Konya Airport|KYA|700||
+Kos Airport|KGS|677||
+Kozhikode/Calicut Airport|CCJ|406||
+Krabi Airport|KBV|673||
+Krakow John Paul II - Balice Airport|KRK|688||
+Kruger Mpumalanga Airport|MQP|814||
+Kuala Lumpur  Subang|SZB|1067||
+Kuala Lumpur Intl Airport|KUL|695||
+Kungsangen Airport|NRK|849||
+Kununurra Airport|KNX|686||
+Kuopio|KUO|697||
+Kuusamo Airport|KAO|671||
+Kuwait Intl Airport|KWI|698||
+Kvernberget|KSU|691||
+Kwangju Airport|KWJ|699||
+La Chinita|MAR|762||
+La Coruna|LCG|708||
+La Romana Casa De Campo Airport|LRM|744||
+La Union|POP|919||
+Lafayette Regional Airport|LFT|718||
+Lahr Black Forest Airport|LHA|1209||
+Laleu|LRH|743||
+Lambert St Louis Internatl|STL|1047||
+LameziaTerme Airport|SUF|1052||
+Lampang Airport|LPT|741||
+Lampedusa Airport|LMP|731||
+Lanai|LNY|733||
+Langkawi|LGK|721||
+Lann Bihoue|LRT|745||
+Lanzarote Airport|ACE|263||
+Lappeenranta Airport|LPP|739||
+Laredo International|LRD|742||
+Larnaca|LCA|707||
+Las Americas International Airport|SDQ|1000||
+Las Bajadas / General Heriberto Jara|VER|1134||
+Las Vegas McCarran International Airport|LAS|703||
+Launceston|LST|747||
+Lausanne Airport|QLS|1215||
+Lawica|POZ|922||
+Le Havre|LEH|713||
+Le Raizet|PTP|933||
+Leeds Bradford International Airport|LBA|705||
+Leipzig Halle Airport|LEJ|715||
+Leon Airport|LEN|716||
+Leon/Guanajuato Del Bajio Airport|BJX|352||
+Lewis B Wilson|MCN|768||
+Liberi|PSR|931||
+Lille Lesquin Airport|LIL|1212||
+Lincoln Airport|LNK|732||
+Lindbergh International Airport|SAN|986||
+Linz Blue Danube Airport|LNZ|734||
+Lisbon Portela Airport|LIS|727||
+Little Rock Regional Airport|LIT|728||
+Liverpool John Lennon Airport|LPL|738||
+Llabanere|PGF|894||
+Llano San Juan|TGZ|1081||
+Lohegaon Poona|PNQ|916||
+London Airports|LON|1194||
+London City Airport|LCY|710||
+London Gatwick Airport|LGW|722||
+London Heathrow Airport|LHR|723||
+London Luton Airport|LTN|748||
+London Stansted Airport|STN|1048||
+Los Angeles Intl Airport|LAX|704||
+Los Cabos Intl Airport|SJD|1022||
+Luang Prabang Airport|LPQ|740||
+Lubbock International Airport|LBB|706||
+Lugano Agno Airport|LUG|749||
+Luis Munoz Marin International|SJU|1025||
+Luxor|LXR|752||
+Lynchburg Preston Glenn Field  Airport|LCH|709||
+Lynchburg Preston Glenn Field Airport|LYH|753||
+Lyon Grenoble-St Geoirs Airport|GNB|578||
+Macau|MFM|786||
+Mackay|MKY|799||
+Madinah Prince Mohammad Bin Abdulaziz|MED|780||
+Madrid Barajas Airport|MAD|756||
+Mahe Island Seychelles Intl|SEZ|1004||
+Malaga Airport|AGP|277||
+Male International|MLE|802||
+Malta Luqa Intl|MLA|800||
+Managua|MGA|787||
+Manchester International Airport|MAN|759||
+Manchester, New Hampshire|MHT|793||
+Mangrove Cay|MAY|763||
+Mannheim Airport|MHG|792||
+Maputo International|MPM|812||
+Mar Del Plata|MDQ|776||
+Maribor Airport|MBX|766||
+Mariscal|UIO|1122||
+Maroochydore|MCY|771||
+Marseille Provence|MRS|815||
+Mataveri|IPC|650||
+Mc Allen/Mission|MFE|785||
+Mcghee Tyson|TYS|1119||
+Mehrabad|THR|1082||
+Melbourne International Airport|MLB|801||
+Memphis International Airport|MEM|783||
+Menara|RAK|949||
+Mendes Airport|RAI|948||
+Mercedita|PSE|928||
+Merida Internationl|MID|795||
+Metropolitan Area|REK|958||
+Metropolitan Oakland Intl Apt|OAK|857||
+Metz/Nancy Frescaty Airport|ETZ|527||
+Miami International Airport|MIA|794||
+Michiana Regional Airport|SBN|990||
+Midland Intl Airport|MAF|757||
+Milan Bergamo/Orio Al Serio Airport|BGY|341||
+Milan Linate Airport|LIN|726||
+Milan Malpensa Airport|MXP|829||
+Mildura|MQL|813||
+Milwaukee General Mitchell Field Airport|MKE|798||
+Mingaladon|RGN|963||
+Minneapolis/St Paul Intl Airport|MSP|821||
+Minsk Airport|MSQ|822||
+Missoula International|MSO|820||
+Mobile Municipal|MOB|808||
+Moi International|MBA|764||
+Monterey Peninsula Airport|MRY|817||
+Montreal  Mirabel|YMX|1169||
+Montreal Airports|YMQ|1168||
+Montreal Pierre Elliott Trudeau Intl Airport|YUL|1173||
+Morelia Airport|MLM|804||
+Morgantown Municipal Airport|MGW|791||
+Moscow Domodedovo Airport|DME|491||
+Motu Mute Airport|BOB|366||
+Mt Gambier Airport|MGB|788||
+Mumbai Chhatrapati Shivaji Airport|BOM|371||
+Munich Augsburg Airport|AGB|275||
+Munich Franz Josef Strauss Airport|MUC|826||
+Munster Osnabruck Airport|FMO|548||
+Mykonos Airport|JMK|663||
+Myrtle Beach|MYR|830||
+Nadi International|NAN|833||
+Naha Field|OKA|863||
+Nakhon Ratchasima|NAK|832||
+Nantes Chateau Bougon|NTE|852||
+NapierHawkes Bay Airport|NPE|845||
+Naples Capodichino Airport|NAP|834||
+Nashville Metropolitan Airport|BNA|363||
+Nassau International Airport|NAS|835||
+Natrona County Intl Airport|CPR|450||
+Nausori|SUV|1053||
+Naxos Airport|JNX|665||
+Nelson|NSN|851||
+Neuquen Airport|NQN|847||
+New Hanover County Airport|ILM|645||
+New Haven Airport|HVN|631||
+New Orleans Louis Armstrong Intnl Airport|MSY|824||
+New Plymouth|NPL|846||
+New York Airports|NYC|1202||
+New York John F Kennedy Intl Airport|JFK|661||
+New York Laguardia|LGA|719||
+New York Newark Intl Airport|EWR|530||
+Newcastle International Airport|NCL|840||
+Newquay Cornwall Airport|NQY|848||
+Nice - Cote d'Azur Airport|NCE|3||
+Niigata Airport|KIJ|679||
+Nimes Garons Airport|FNI|550||
+Ninoy Aquino International|MNL|807||
+Norfolk International Airport|ORF|873||
+North Air Terminal|VGT|1137||
+North Bend|OTH|878||
+Northwest Arkansas Regional|XNA|1164||
+Norwich International Airport|NWI|855||
+Noumea Magenta Airport|GEA|569||
+Novo Alexeyevka Airport|TBS|1075||
+Nuevo Laredo|NLD|842||
+Nuremberg Airport|NUE|854||
+NyaungU Airport|NYU|856||
+Ochos Rios Airport|OCJ|859||
+Odense|ODE|860||
+Ohrid|OHD|862||
+Okayama|OKJ|865||
+Ontario International|ONT|869||
+Oradea|OMR|868||
+Orlando International Airport|MCO|769||
+Oslo Gardermoen|OSL|876||
+Ostend/Bruges International Airport|OST|877||
+Otopeni|OTP|879||
+Ouarzazate|OZZ|883||
+Oulu|OUL|880||
+Oviedo Airport|OVD|881||
+Oxnard Airport|OXR|882||
+Paducah|PAH|884||
+Page|PGA|893||
+Palanga|PLQ|905||
+Palermo Punta Raisi Airport|PMO|910||
+Palm Beach International Airport|PBI|886||
+Palm Springs Municipal|PSP|930||
+Palma Mallorca|PMI|909||
+Palmares Airport|MCZ|772||
+Palmerstown North|PMR|911||
+Pamplona  Noain|PNA|913||
+Pantelleria|PNL|915||
+Paphos International|PFO|892||
+Paris Airports|PAR1|1195||
+Paris Charles De Gaulle Airport|CDG|409||
+Paris Orly Airport|ORY|875||
+Parma Airport|PMF|908||
+Patrick Henry Intl|PHF|895||
+Pearson International Airport|YYZ|1182||
+Pease Intl Tradeport|PSM|929||
+Peking Capital Airport|PEK|890||
+Pensacola|PNS|917||
+Perth Airport|PER|891||
+Perth Scone Airport|PSL|1214||
+Perugia Airport|PEG|889||
+Philadelphia International Airport|PHL|896||
+Phitsanulok|PHS|897||
+Phnom Penh Intl Airport|PNH|914||
+Phoenix Mesa Gateway Airport|AZA|318||
+Phoenix Sky Harbor International Airport|PHX|898||
+Phuket Airport|HKT|614||
+Piarco International Airport|POS|921||
+Pietersburg|PTG|932||
+Pisa Galileo Galilei Airport|PSA|927||
+Pleso Airport|ZAG|1184||
+Pluguffan|UIP|1123||
+Pocatello|PIH|900||
+Poitiers Biard Airport|PIS|902||
+Pokhara|PKR|904||
+Pori|POR|920||
+Port Columbus Intl Airport|CMH|435||
+Port Macquarie|PQQ|924||
+Portland International Airport|PDX|888||
+Portland International Jetport|PWM|944||
+Porto Airport|OPO|871||
+Porto Santo|PXO|946||
+Prague Ruzyne Airport|PRG|925||
+Presidente Ibanez|PUQ|937||
+Preveza Lefkas Airport|PVK|942||
+Providenciales|PLS|906||
+Pudong Intl Airport|PVG|941||
+Puebla|PBC|885||
+Puerto Escondido|PXM|945||
+Puerto Ordaz|PZO|947||
+Pula|PUY|939||
+Pulkovo|LED|712||
+Punta Cana|PUJ|936||
+Pyrzowice|KTW|694||
+Raleigh Durham International Arpt|RDU|954||
+Rapid City Regional Airport|RAP|950||
+Rarotonga|RAR|951||
+Ras Al Khaimah Airport|RKT|969||
+Redding Municipal Airport|RDD|953||
+Regina International|YQR|1171||
+Regional Airport|SHV|1017||
+Regional Southwest Airport|RSW|979||
+Reina Sofia|TFS|1077||
+Reno Tahoe International Airport|RNO|973||
+Rep Of Ireland|NOC|843||
+Reus|REU|960||
+Reykjavik Airport|RKV|1198||
+Rhodes International Airport|RHO|964||
+Richmond International Airport|RIC|965||
+Riga|RIX|967||
+Rimini Airport|RMI|971||
+Rio De Janeiro Airport|RIO|966||
+Rio De Janeiro Carlos Jobim Intl Airport|GIG|574||
+Rochester Municipal|RST|978||
+Rock Springs Sweetwater Cty Arpt|RKS|968||
+Rodez Airport|RDZ|955||
+Rodolfo Sanchez Taboada|MXL|828||
+Rodrigues|RRG|977||
+Rome Ciampino Airport|CIA|423||
+Rome Leonardo Da Vinci/Fiumicino Airport|FCO|539||
+Ronchi Dei Legionari|TRS|1105||
+RostockLaage Airport|RLG|970||
+Rotorua Airport|ROT|976||
+Rotterdam|RTM|980||
+Rouen /Boos Airport|URO|1125||
+Rovaniemi Airport|RVN|983||
+Saab Airport|LPI|737||
+Saarbrucken Ensheim Airport|SCN|995||
+Sacramento Metropolitan|SMF|1034||
+Sainte Foy Airport|YQB|1170||
+Saipan Intl Northern Mariana Isles|SPN|1042||
+Salamanca Airport|SLM|1029||
+Sale|RBA|952||
+Salgado Filho|POA|918||
+Salt Lake City International Arpt|SLC|1028||
+Salta Gen Martin M de Guemes International|SLA|1027||
+Saltillo|SLW|1032||
+Salzburg W. A. Mozart Airport|SZG|1068||
+Samos Airport|SMI|1035||
+Samratulang|MDC|773||
+San Andres Island Airport|ADZ|271||
+San Antonio International|SAT|987||
+San Carlos DeBariloche Intl Airport|BRC|376||
+San Cristobal de las Casas Airport|SZT|1069||
+San Diego McClellan Palomar Airport|CLD|427||
+San Francisco Intl Airport|SFO|1008||
+San Javier|MJV|797||
+San Jose International Airport|SJC|1021||
+San Luis Obispo County Airport|SBP|991||
+San Luis Potosi|SLP|1030||
+San Sebastian Airport|EAS|510||
+Sana'a International|SAH|984||
+Sanford Central Florida Regional Airport|SFB|1006||
+Sanganeer|JAI|654||
+Sangster|MBJ|765||
+Santa Barbara Airport|SBA|989||
+Santa Maria Public Airport|SMX|1036||
+Santander|SDR|1001||
+Santiago|SCQ|996||
+Santiago Antonio Maceo Cuba|SCU|997||
+Santiago Arturo Merino Benitez Airport|SCL|994||
+Santorini Thira Airport|JTR|1213||
+Santos Dumont|SDU|1002||
+Sarasota Bradenton|SRQ|1044||
+Saskatoon|YXE|1177||
+Satolas|LYS|754||
+Seattle Boeing Field Intl Airport|BFI|334||
+Seattle Tacoma Intl Airport|SEA|1003||
+Seeb|MCT|770||
+Seewoosagur Ramgoolam Intl Airport|MRU|816||
+Seo de Urgel Airport|LEU|1211||
+Sevilla Airport|SVQ|1057||
+Sfax Airport|SFA|1005||
+Shanghai - Hongqiao Airport|SHA|1014||
+Shannon|SNN|1038||
+Sharjah|SHJ|1015||
+Sharm el-Sheikh Intl Airport|SSH|1046||
+Shenzhen Bao'an Intl Airport|SZX|1222||
+Sheremetyevo|SVO|1056||
+Sheridan County Airport|SHR|1016||
+Sibiu Airport|SBZ|992||
+Siem Reap Airport|REP|1197||
+Singapore Changi Intl Airport|SIN|1020||
+Sioux City International|SUX|1054||
+Sioux Falls Joe Foss Field Airport|FSD|557||
+Skanes Airport|MIR|796||
+Skelleftea Airport|SFT|1009||
+Skiathos Airport|JSI|667||
+Skopje|SKP|1026||
+Snilow|LWO|751||
+Sofia Intl Airport|SOF|1039||
+Sola|SVG|1055||
+Sonderborg|SGD|1010||
+Sonoma County Airport|STS|1050||
+South Carolina Hilton Head Airport|HHH|610||
+Southampton Eastleigh Airport|SOU|1040||
+Split|SPU|1043||
+Spokane Geiger Field Intl Airport|GEG|570||
+Springfield Regional Airport|SGF|1011||
+St Gallen-Altenrhein Airport|ACH|264||
+St George|SGU|1013||
+St Jacques|RNS|974||
+St John's International|YYT|1181||
+St Petersburg/Clearwater Intl|PIE|899||
+St Symphorien|TUF|1112||
+Standiford Field|SDF|998||
+Stockholm Bromma Airport|BMA|360||
+Stockholm Vasteras - Hasslo Airport|VST|1152||
+Stockton Airport|SCK|993||
+Stornoway|SYY|1066||
+Strachowice|WRO|1163||
+Sturup Airport|MMX|806||
+Stuttgart Echterdingen Airport|STR|1049||
+Sundsvall Airport|SDL|999||
+Surat Thani|URT|1126||
+Swakopmund|SWP|1058||
+Taegu|TAE|1072||
+Taiwan Taoyuan Intl Airport|TPE|1099||
+Tallahassee|TLH|1087||
+Tallinn Ulemiste Airport|TLL|1088||
+Tampa International|TPA|1098||
+Tampere Pirkkala|TMP|1092||
+Tampico|TAM|1073||
+Tamworth|TMW|1093||
+Tan Son Nhut|SGN|1012||
+Tarbes International|LDE|711||
+Tashkent|TAS|1074||
+Taupo|TUO|1114||
+Tenerife Norte Los Rodeos|TFN|1076||
+Tepic|TPQ|1100||
+Tf Green State Airport|PVD|940||
+Tianjin|TSN|1107||
+Timisoara|TSR|1108||
+Tirana International Airport Nene Tereza|TIA|1083||
+Tirgu Mures|TGM|1079||
+Tirirical|SLZ|1033||
+Tito Menniti|REG|957||
+Tivat|TIV|1084||
+Tocumen International Airport|PTY|934||
+Tokyo Haneda Intl Airport|HND|1196||
+Tokyo Narita Airport|NRT|850||
+Toledo Express Airport|TOL|1096||
+Toluca Airport|TLC|1086||
+Toncontin|TGU|1080||
+Tontouta|NOU|844||
+Torreon|TRC|1102||
+Tortoli Arbatax Airport|TTB|1110||
+Toulon Airport|TLN|1089||
+Townsville|TSV|1109||
+Trapani-Birgi Airport|TPS|1101||
+Travis Field|SAV|988||
+Trelew Almirante Zar Airport|REL|959||
+Tribhuvan|KTM|693||
+Tromso/Langes|TOS|1097||
+Trondheim Vaernes|TRD|1103||
+Tucson International Airport|TUS|1116||
+Tullamarine|MEL|782||
+Tulsa International Airport|TUL|1217||
+Turku|TKU|1085||
+Turnbull Field|YSJ|1172||
+Ubon Ratchathani Airport|UBP|1120||
+Udaipur Dabok Airport|UDR|1121||
+Umea Airport|UME|1124||
+Ushuaia|USH|1127||
+Uzein Pyrenees Airport|PUF|935||
+Vaasa|VAA|1130||
+Valdosta Regional|VLD|1143||
+Valencia|VLC|1142||
+Valencia, Venezuela|VLN|1146||
+Valladolid|VLL|1145||
+Vancouver International|YVR|1175||
+Varna Airport|VAR|1131||
+Vaxjo Airport|VXO|1154||
+Venice Marco Polo Airport|VCE|1133||
+Venice Treviso Airport|TSF|1106||
+Verona Airport|VRN|1150||
+Victoria Falls Airport|VFA|1135||
+Vienna Schwechat Airport|VIE|1138||
+Vigie Field|SLU|1031||
+Vigo|VGO|1136||
+Vilnius Airport|VNO|1147||
+Vitoria|VIT|1139||
+Vnukovo|VKO|1141||
+Waco Airport|ACT|265||
+Wanganui Airport|WAG|1155||
+Warsaw Frederic Chopin Airport|WAW|1157||
+Washington Dulles Intl Airport|IAD|634||
+Washington Ronald Reagan Airport|DCA|482||
+Waterford|WAT|1156||
+Wattay|VTE|1153||
+Wellington International|WLG|1161||
+Whangarei Airport|WRE|1162||
+Whitehorse Airport|YXY|1178||
+Wichita Mid Continent Airport|ICT|640||
+Will Rogers World Airport|OKC|864||
+Williamtown|NTL|853||
+Wilson Arpt|WIL|1160||
+Winnipeg International|YWG|1176||
+Xoxocotlan|OAX|858||
+Yakima Air Terminal|YKM|1167||
+Yellowknife|YZF|1183||
+Yuma International Airport|YUM|1174||
+Zacatecas|ZCL|1186||
+Zakinthos Airport|ZTH|1192||
+Zanderij Intl|PBM|887||
+Zaragoza|ZAZ|1185||
+Zuid Limburg|MST|823||
+Zurich Kloten Airport|ZRH|1191||

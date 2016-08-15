@@ -1,0 +1,21 @@
+/*
+.editor {
+	font-family: verdana, arial, sans-serif;
+	font-size:13px;
+
+}
+*/
+.sce_button {
+border: 1px solid #ccc;
+margin: 1px;
+padding: 2px;
+}
+
+.sce_button:hover {
+filter:alpha(opacity=60);-moz-opacity:0.6;-khtml-opacity: 0.6;opacity: 0.6;
+}
+
+.ed {
+width: 400px;
+height: 150px;
+}

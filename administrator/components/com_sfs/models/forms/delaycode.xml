@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+	
+		<field name="id"  type="text" class="readonly" label="JGLOBAL_FIELD_ID_LABEL"
+			description ="JGLOBAL_FIELD_ID_DESC" size="10" default="0" 
+			readonly="true"  />
+			
+		<field name="code" type="text" label="DelayCode"
+			description="DelayCode" class="inputbox" size="30"
+			required="true" />
+			
+		<field name="description" type="textarea"
+			label="Delaycode Description"
+			description="Delaycode description"
+			class="inputbox"
+			rows="12"
+			cols="90"
+		/>
+	</fieldset>
+</form>

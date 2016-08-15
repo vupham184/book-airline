@@ -1,0 +1,23 @@
+.section-content-wrap{
+  padding: 30px ;
+  line-height: 26px;
+  @include respond-to-custom-size(null, 480px){
+    padding: 20px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .align-right{
+    float: right;
+    margin: 10px 0 10px 10px;
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .credit-card-wrap{
+    @include respond-to-custom-size(null, 480px){
+      float: none;
+      margin: 10px 0;
+    }
+  }
+}

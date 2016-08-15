@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+	<fieldset name="details"
+		addfieldpath="/administrator/components/com_sfs/models/rules">
+		<field name="id"  type="text" class="readonly" label="JGLOBAL_FIELD_ID_LABEL"
+			description ="JGLOBAL_FIELD_ID_DESC" size="10" default="0" 
+			readonly="true"  />
+		<field
+			name="parent_id"
+			type="Serviceedit"
+			label="Service parent"
+			description=""
+			class="inputbox"
+			size="1"
+			/>
+
+		<field name="name_service" type="text" label="Name Service"
+			description="Name Service" class="inputbox" size="30"
+			required="true" />						
+			 <field name="logo" type="file"
+label="logo"
+description="logo" 
+accept="image/*" />
+ <field name="icon_service" type="file"
+label="icon_service"
+description="icon_service" 
+accept="image/*" />  
+
+		<field name="details" type="textarea" class="inputbox" style="width: 500px"
+			size="500" label="Info details"
+			description="" />
+		<field name="status" type="list" label="JGLOBAL_STATE"
+			description="JFIELD_PUBLISHED_DESC" class="inputbox"
+			filter="intval" size="1" default="1"
+		>	
+			<option value="1">
+				JPUBLISHED</option>
+			<option value="0">
+				JUNPUBLISHED</option>			
+		</field>
+		<field name="create_date" type="hidden" filter="unset" />
+		<field name="order_by"  type="text" class="readonly" label="Order"
+			description ="JGLOBAL_FIELD_ID_DESC" size="10" default="0"  />
+	</fieldset>
+
+
+</form>

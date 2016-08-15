@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="2.5.0" method="upgrade" client="administrator" >
+    <name>mod_adminpraise_cpanel</name>
+	<author>Adminpraise.com</author>
+	<creationDate>2012-06-26</creationDate>
+	<copyright>All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>services@compojoom.com</authorEmail>
+	<authorUrl>http://adminpraise.com</authorUrl>
+	<version>2.5.1</version>
+	<description><![CDATA[This module shows quick icons]]></description>
+    <files>
+        <file>helper.php</file>
+<file>index.html</file>
+<file module="mod_adminpraise_cpanel">mod_adminpraise_cpanel.php</file>
+<folder>tmpl</folder>
+    </files>
+    <languages folder="administrator/language">
+        <language tag="da-DK">da-DK/da-DK.mod_adminpraise_cpanel.ini</language>
+<language tag="en-GB">en-GB/en-GB.mod_adminpraise_cpanel.ini</language>
+<language tag="et-EE">et-EE/et-EE.mod_adminpraise_cpanel.ini</language>
+<language tag="hu-HU">hu-HU/hu-HU.mod_adminpraise_cpanel.ini</language>
+<language tag="nl-NL">nl-NL/nl-NL.mod_adminpraise_cpanel.ini</language>
+<language tag="pt-PT">pt-PT/pt-PT.mod_adminpraise_cpanel.ini</language>
+<language tag="sv-SE">sv-SE/sv-SE.mod_adminpraise_cpanel.ini</language>
+<language tag="th-TH">th-TH/th-TH.mod_adminpraise_cpanel.ini</language>
+    </languages>
+    <media destination="mod_adminpraise_cpanel" folder="media/mod_adminpraise_cpanel">
+        <folder>images</folder>
+<file>index.html</file>
+    </media>
+</install>

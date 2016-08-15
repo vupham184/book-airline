@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+        type="module"
+        version="2.5"
+        client="site"
+        method="upgrade">
+    <name>Change Airport</name>
+    <author>SFS! Project</author>
+    <creationDate>February 2015</creationDate>
+    <copyright>Copyright (C) 2012 - 2015 HDWebSoft. All rights reserved.</copyright>
+    <license>HDWebSoft License ; see LICENSE.txt</license>
+    <authorEmail>lttin0912@gmail.com</authorEmail>
+    <authorUrl>www.hdwebsoft.com</authorUrl>
+    <version>2.5.0</version>
+    <description>Change airport</description>
+    <files>
+        <filename module="mod_sfs_change_airport">mod_sfs_change_airport.php</filename>
+        <folder>tmpl</folder>
+        <filename>helper.php</filename>
+        <filename>index.html</filename>
+        <filename>mod_sfs_change_airport.xml</filename>
+    </files>
+</extension>

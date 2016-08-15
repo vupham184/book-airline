@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="administrator" method="upgrade" >
+    <name>mod_activitylog_pro</name>
+	<author>AdminPraise</author>
+	<creationDate>2012-06-26</creationDate>
+	<copyright>Copyright (C) 2009-2010 Pixel Praise LLC. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>support@pixelpraise.com</authorEmail>
+	<authorUrl>www.adminpraise.com</authorUrl>
+	<version>2.5.1</version>
+	<description><![CDATA[This module shows the recorded user activity]]>
+	</description>
+    <files>
+        <file>helper.php</file>
+<file>index.html</file>
+<file module="mod_activitylog_pro">mod_activitylog_pro.php</file>
+<folder>tmpl</folder>
+    </files>
+    <languages folder="administrator/language">
+        <language tag="da-DK">da-DK/da-DK.mod_activitylog_pro.ini</language>
+<language tag="en-GB">en-GB/en-GB.mod_activitylog_pro.ini</language>
+<language tag="en-GB">en-GB/en-GB.mod_activitylog_pro.sys.ini</language>
+<language tag="et-EE">et-EE/et-EE.mod_activitylog_pro.ini</language>
+<language tag="hu-HU">hu-HU/hu-HU.mod_activitylog_pro.ini</language>
+<language tag="sv-SE">sv-SE/sv-SE.mod_activitylog_pro.ini</language>
+<language tag="th-TH">th-TH/th-TH.mod_activitylog_pro.ini</language>
+    </languages>
+    <media destination="mod_activitylog_pro" folder="media/mod_activitylog_pro">
+        <folder>images</folder>
+<file>index.html</file>
+<folder>js</folder>
+    </media>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="limit"
+					type="text"
+					default="25"
+					value="25"
+					label="Number of items"
+					description="The amount of items you want to show" />
+				<field
+					name="conf_name"
+					type="list"
+					label="Name settings"
+					description="Decide whether you want to display the name or username">
+					<option value="u.name">Name</option>
+					<option value="u.username AS name">Username</option>
+				</field>
+				<field
+					name="show_date"
+					default="1"
+					type="list"
+					label="Display date"
+					description="Display date below the activity?">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field
+					name="dateformat"
+					type="text"
+					default="m/d Y, H:i"
+					value="m/d Y, H:i"
+					label="Date format"
+					description="" />
+				<field
+					name="show_filter"
+					default="1"
+					type="list"
+					label="Show filter"
+					description="Show advanced filter settings?">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field 
+					name="access" 
+					type="usergroup" 
+					size="10" 
+					multiple="multiple" 
+					default="" 
+					label="Access" 
+					description="Who should see the activity log? If you leave this field empty all users will have access to the module. Multiple select is possible by holding the ctrl key" />
+
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>

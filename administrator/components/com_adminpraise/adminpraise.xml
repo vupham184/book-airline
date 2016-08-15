@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5.0" method="upgrade">
+    <name>COM_ADMINPRAISE</name>
+    <author>AdminPraise</author>
+    <creationDate>2012-06-26</creationDate>
+    <copyright>Copyright (C) Adminpraise.com . All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>support@adminpraise.com</authorEmail>
+    <authorUrl>http://adminpraise.com</authorUrl>
+    <version>2.5.1</version>
+    <description>AdminPraise3 by
+        &lt;a href=&quot;http://www.adminpraise.com&quot; target=&quot;_blank&quot;&gt;AdminPraise.com&lt;/a&gt;, a &lt;a
+        href=&quot;http://www.adminpraise.com/joomla/admin-templates.php&quot; target=&quot;_blank&quot;&gt;Joomla Admin
+        Templates&lt;/a&gt; &amp; &lt;a href=&quot;http://www.adminpraise.com/joomla/admin-extensions.php&quot; target=&quot;_blank&quot;&gt;Joomla
+        Admin Extensions&lt;/a&gt; Developer&lt;br&gt;</description>
+    <install>
+        <sql>
+            <file driver="mysqli" charset="utf8">sql/install.mysql.sql</file>
+        </sql>
+    </install>
+    <update>
+        <schemas>
+            <schemapath type="mysql">sql/updates</schemapath>
+        </schemas>
+    </update>
+    <administration>
+        <languages folder="administrator/language">
+            <language tag="da-DK">da-DK/da-DK.com_adminpraise.ini</language>
+<language tag="da-DK">da-DK/da-DK.com_adminpraise.sys.ini</language>
+<language tag="de-DE">de-DE/de-DE.com_adminpraise.sys.ini</language>
+<language tag="en-GB">en-GB/en-GB.com_adminpraise.ini</language>
+<language tag="en-GB">en-GB/en-GB.com_adminpraise.sys.ini</language>
+<language tag="et-EE">et-EE/et-EE.com_adminpraise.ini</language>
+<language tag="et-EE">et-EE/et-EE.com_adminpraise.sys.ini</language>
+<language tag="hu-HU">hu-HU/hu-HU.com_adminpraise.ini</language>
+<language tag="hu-HU">hu-HU/hu-HU.com_adminpraise.sys.ini</language>
+<language tag="nl-NL">nl-NL/nl-NL.com_adminpraise.ini</language>
+<language tag="nl-NL">nl-NL/nl-NL.com_adminpraise.sys.ini</language>
+<language tag="pt-PT">pt-PT/pt-PT.com_adminpraise.sys.ini</language>
+<language tag="sv-SE">sv-SE/sv-SE.com_adminpraise.ini</language>
+<language tag="sv-SE">sv-SE/sv-SE.com_adminpraise.sys.ini</language>
+<language tag="th-TH">th-TH/th-TH.com_adminpraise.ini</language>
+<language tag="th-TH">th-TH/th-TH.com_adminpraise.sys.ini</language>
+        </languages>
+        <menu>COM_ADMINPRAISE</menu>
+        <submenu>
+            <menu img="../media/com_adminpraise/images/toolbar/icon-16-config.png" view="settings">COM_ADMINPRAISE_SETTINGS</menu>
+            <menu img="../media/com_adminpraise/images/toolbar/icon-16-menus.png" view="adminitems">COM_ADMINPRAISE_MENU</menu>
+            <menu img="../media/com_adminpraise/images/toolbar/icon-16-log.png" view="logs">COM_ADMINPRAISE_LOGS</menu>
+            <menu img="../media/com_adminpraise/images/toolbar/icon-16-help.png" view="help">COM_ADMINPRAISE_HELP</menu>
+            <menu img="../media/com_adminpraise/images/toolbar/icon-16-update.png" view="liveupdate">COM_ADMINPRAISE_LIVEUPDATE</menu>
+        </submenu>
+        <files folder="administrator/components/com_adminpraise">
+            <file>adminpraise.php</file>
+<file>adminpraise.xml</file>
+<folder>assets</folder>
+<file>changelog.php</file>
+<file>controller.php</file>
+<folder>controllers</folder>
+<file>gpl.txt</file>
+<folder>help</folder>
+<folder>helpers</folder>
+<file>index.html</file>
+<folder>install</folder>
+<file>install.adminpraise.php</file>
+<folder>library</folder>
+<folder>models</folder>
+<file>requirements.php</file>
+<folder>sql</folder>
+<folder>tables</folder>
+<file>toolbar.adminpraise.php</file>
+<file>uninstall.adminpraise.php</file>
+<folder>views</folder>
+        </files>
+    </administration>
+    <media destination="com_adminpraise" folder="media/com_adminpraise">
+        <folder>css</folder>
+<folder>images</folder>
+<file>index.html</file>
+<folder>js</folder>
+    </media>
+    <scriptfile>install.adminpraise.php</scriptfile>
+    <!--
+    <uninstallfile>uninstall.adminpraise.php</uninstallfile>
+-->
+</extension>

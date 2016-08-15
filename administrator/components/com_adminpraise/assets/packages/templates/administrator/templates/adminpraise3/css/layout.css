@@ -1,0 +1,525 @@
+/* Layout Styles */
+/* -------- Batch Section ---------- */
+
+fieldset.batch legend {
+display: none;
+}
+fieldset.batch button {
+margin: 3px;
+}
+fieldset#batch-choose-action {
+clear: left;
+border: 0 none;
+}
+fieldset.batch label {
+float: left;
+clear: none;
+}
+fieldset label#batch-choose-action-lbl {
+clear: left;
+margin-top: 15px;
+}
+select#batch-menu-id {
+margin-right: 30px;
+}
+label#batch-access-lbl {
+margin-right: 10px;
+}
+
+
+/* -------- Menu Assigments ---------- */
+div#menu-assignment {
+clear:left;
+}
+div#menu-assignment input,
+div#menu-assignment h3 {
+clear:left;
+padding-bottom: 0;
+margin-bottom: 0;
+}
+div#menu-assignment ul.menu-links {
+float:left;
+width:49%;
+}
+div#menu-assignment ul.menu-links li:last-child label {
+margin-bottom: 20px;
+}
+
+fieldset.adminform .menu-links label {
+white-space:nowrap;
+}
+fieldset.adminform .menu-links input {
+margin: 8px 5px 0 0;
+}
+
+button.jform-rightbtn {
+float:right;
+}
+
+#jform_impmade,
+#jform_clicks {
+width: 30px;
+}
+
+/* Field label widths - long label */
+fieldset.adminform.long label,
+fieldset.adminform.long span.faux-label {
+min-width: 180px;
+}
+fieldset.adminform.long input { }
+
+/* Field label widths - short label */
+fieldset.adminform label,
+fieldset.adminform span.faux-label {
+padding: 0 0 0 0;
+}
+
+fieldset.panelform {
+overflow: hidden;
+}
+fieldset.panelform label,
+fieldset.panelform div.paramrow label,
+fieldset.panelform span.faux-label {
+max-width: 250px;
+padding: 0 0 0 0;
+}
+
+/* One-offs */
+/* Field label widths - medium label */
+label#userparamsallowUserRegistration-lbl,
+label#userparamsnew_usertype-lbl,
+label#userparamsuseractivation-lbl,
+label#userparamsfrontend_userparams-lbl,
+label#jform_MetaDesc-lbl {
+min-width: 180px;
+}
+
+/* Field label widths - long label */
+label#paramsusermode-lbl,
+label#paramsphishing-resistant-lbl,
+label#paramsmulti-factor-lbl,
+label#paramsmulti-factor-physical-lbl,
+paramslang_mode-lbl {
+min-width: 200px;
+}
+
+div.jform_mod_title,
+div.jform_na {
+margin-top: 5px;
+float: left;
+}
+
+div#jform_template,
+div#jform_template-desc {
+float: left;
+padding-right: 5px;
+padding-top: 5px;
+font-size: 1.091em;
+}
+
+div#jform_template-desc {
+padding-top: 3px;
+}
+
+input#description {
+margin-top: 3px;
+}
+
+th.col1template {
+width: 210px;
+}
+
+div.editor-border {
+border: 1px solid #CCCCCC;
+}
+
+fieldset p {
+margin: 0 0 15px 0;
+font-size: 1.091em;
+}
+
+ul#overviewlist,ul#paramlist {
+clear: both;
+font-size: 1.091em;
+padding-top: 5px;
+}
+
+ul#overviewlist li {
+list-style-type: none;
+margin-left: -40px;
+margin-bottom: 15px;
+min-width: 140px;
+}
+
+ul#paramlist li {
+list-style-type: none;
+margin-left: -40px;
+margin-bottom: 5px;
+}
+
+li#jform_menutype_label,
+li#jform_parentid_label,
+li#jform_published_label,
+li#jform_access_label {
+float: left;
+clear: left;
+}
+
+fieldset.adminform fieldset.radio,
+fieldset.panelform fieldset.radio,
+fieldset.adminform-legacy fieldset.radio {
+float: left;
+padding: 0;
+margin: 0 0 5px 0;
+}
+fieldset.adminform fieldset.radio,
+fieldset.panelform fieldset.radio,
+fieldset.adminform-legacy fieldset.radio,
+fieldset#filter-bar,
+fieldset.batch fieldset,
+fieldset.loginform {
+border: 0;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+background: transparent;
+margin: 0;
+}
+
+fieldset.adminform fieldset.radio label,
+fieldset.panelform fieldset.radio label {
+min-width: 60px;
+padding-left: 0;
+padding-right: 10px;
+float: left;
+clear: none;
+/*width: 40px;*/
+display:inline;
+}
+
+/* checkboxes */
+fieldset.adminform fieldset.checkboxes,
+fieldset.panelform fieldset.checkboxes,
+fieldset.adminform-legacy fieldset.checkboxes  {
+border: 0;
+float:left;
+padding: 0;
+margin: 0 0 5px 0;
+clear:right;
+}
+
+
+fieldset.adminform fieldset.checkboxes input[type="checkbox"],
+fieldset.panelform fieldset.checkboxes input[type="checkbox"] {
+float: left;
+clear: left;
+}
+fieldset.adminform fieldset.checkboxes label,
+fieldset.panelform fieldset.checkboxes label,
+fieldset.adminform fieldset.checkboxes span.faux-label,
+fieldset.panelform fieldset.checkboxes span.faux-label {
+clear: right;
+}
+
+/* end checkboxes */
+
+/* spacer */
+div.current span.spacer > span.before,
+fieldset.adminform span.spacer > span.before,
+fieldset.panelform span.spacer > span.before {
+clear: both;
+overflow: hidden;
+height: 0;
+display: block;
+}
+
+div.current span.spacer > span.text label ,
+fieldset.adminform span.spacer > span.text label ,
+fieldset.panelform span.spacer > span.text label {
+white-space: nowrap;
+font-weight: bold;
+}
+
+/* end spacer */
+
+fieldset.panelform-legacy label,
+fieldset.adminform-legacy label {
+min-width: 150px;
+float: left;
+}
+
+/* JParameter classes on radio button labels  */
+fieldset.panelform-legacy label.radiobtn-jno,
+fieldset.panelform-legacy label.radiobtn-jyes,
+fieldset.panelform-legacy label.radiobtn-show,
+fieldset.panelform-legacy label.radiobtn-hide,
+fieldset.panelform-legacy label.radiobtn-off,
+fieldset.panelform-legacy label.radiobtn-on	{
+min-width: 40px !important;
+clear: none !important;
+}
+
+#jform_plugdesc-lbl,
+#jform_description-lbl {
+clear: both;
+margin-top: 15px;
+}
+
+p.jform_desc {
+clear: left;
+}
+
+div#jform_ordering {
+font-size: 1.091em;
+margin-top: 3px;
+}
+
+fieldset.filter {
+border: 0;
+margin: 0;
+padding: 0 0 5px;
+}
+
+fieldset.filter ol {
+border: 0;
+list-style: none;
+margin: 0;
+padding: 5px 0 0;
+}
+
+fieldset.filter ol li {
+float: left;
+padding: 0 5px 0 0;
+}
+
+fieldset.filter ol li fieldset {
+border: 0;
+margin: 0;
+padding: 0;
+}
+
+fieldset.filter .left {
+float: left;
+}
+
+fieldset.filter .right {
+float: right;
+}
+
+fieldset.filter .right select {
+margin-left: 10px;
+}
+
+fieldset#filter-bar {
+border: 0;
+padding: 4px;
+}
+
+label.filter-search-lbl {
+margin-left: 5px;
+}
+
+label.filter-hide-lbl {
+margin-left: 5px;
+clear: none;
+}
+
+div.filter-select input,
+div.filter-select select {
+margin-left: 5px;
+margin-right: 5px;
+}
+
+button.filter-go {
+float: left;
+margin-right: 15px;
+}
+
+label.filter-published-lbl {
+clear: none;
+margin-left: 10px;
+}
+
+table.adminform {
+width: 100%;
+border-collapse: collapse;
+margin: 8px 0 10px 0;
+margin-bottom: 15px;
+width: 100%;
+}
+
+
+table.adminform th {
+font-size: 1.091em;
+padding: 6px 2px 4px 4px;
+text-align: left;
+height: 25px;
+background-repeat: repeat;
+}
+
+table.adminform td {
+padding: 5px;
+text-align: left;
+font-size: 1.091em;
+}
+
+table.adminform td.filter {
+text-align: left;
+}
+
+table.adminform td.helpMenu {
+text-align: right;
+}
+
+table#template-mgr td {
+padding: 15px 0;
+}
+
+table#template-mgr td p {
+margin: 3px;
+}
+
+td.template-name a {
+padding-left: 15px;
+font-weight: bold;
+}
+
+.helplinks {
+margin-top: 60px;
+}
+
+ul.helpmenu li {
+float: right;
+margin: 10px;
+padding: 0;
+list-style-type: none;
+}
+
+input.text-area-order {
+text-align: center;
+margin-right: 5px;
+}
+
+fieldset.uploadform label {
+clear: left;
+min-width: 100px;
+}
+
+span.gi {
+font-weight: bold;
+margin-right: 5px;
+}
+
+span.gtr {
+visibility:hidden;
+margin-right: 5px;
+}
+
+ul#legend li {
+float: left;
+margin: 20px;
+list-style-type: none;
+}
+
+#jform_params_target { width: 190px;}
+
+
+/* Adminlist grids */
+
+table.adminlist {
+width: 100%;
+border-spacing: 1px;
+}
+
+table.adminlist td,
+table.adminlist th {
+padding: 4px;
+}
+
+table.adminlist td {padding-left: 8px;}
+
+table.adminlist thead th {
+text-align: center;
+}
+
+table.adminlist thead th.left {
+text-align: left;
+}
+
+table.adminlist thead a:hover {
+text-decoration: none;
+}
+
+table.adminlist thead th img {
+vertical-align: middle;
+padding-left: 3px;
+}
+
+table.adminlist tbody th {
+font-weight: bold;
+}
+
+table.adminlist tbody tr {
+text-align: left;
+}
+
+table.adminlist tfoot tr {
+text-align: center;
+}
+
+table.adminlist tfoot td,table.adminlist tfoot th {
+text-align: center;
+}
+
+table.adminlist td.order {
+text-align: center;
+white-space: nowrap;
+width: 200px;
+}
+
+table.adminlist td.order span {
+float: left;
+width: 20px;
+text-align: center;
+background-repeat: no-repeat;
+height: 13px;
+}
+
+table.adminlist .pagination {
+margin: 0 auto;
+}
+
+/* Tree indentation & nesting - Up to 10 levels deep so don't go crazy :) */
+table.adminlist td.indent-4 	{	padding-left: 4px;		}
+table.adminlist td.indent-19 	{	padding-left: 19px;		}
+table.adminlist td.indent-34 	{	padding-left: 34px;		}
+table.adminlist td.indent-49 	{	padding-left: 49px;		}
+table.adminlist td.indent-64 	{	padding-left: 64px;		}
+table.adminlist td.indent-79 	{	padding-left: 79px;		}
+table.adminlist td.indent-94 	{	padding-left: 94px;		}
+table.adminlist td.indent-109 	{	padding-left: 109px;	}
+table.adminlist td.indent-124 	{	padding-left: 124px;	}
+table.adminlist td.indent-139 	{	padding-left: 139px;	}
+
+table.adminlist tr td.btns a {
+text-decoration: underline;
+}
+
+/* User Groups */
+.checklist.usergroups li,
+.adminformlist li,
+#jform_menuselect-lbl,
+#jform_params_width-lbl,
+#jform_params_height-lbl,
+#jform_params_alt-lbl,
+#paramsmenu_class-lbl,
+#paramsmenu_image-lbl{
+display: block;
+clear: left;
+}
+.panelform input{
+max-width: 50%;
+}
+.container{
+display: block;
+}

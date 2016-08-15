@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system" method="upgrade">
+    <name>plg_system_activitylogpro</name>
+	<type>plugin</type>
+	<author>AdminPraise</author>
+	<creationDate>2012-06-26</creationDate>
+	<copyright>Copyright (C) 2009-2010 Pixel Prais LLC. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>support@pixelpraise.com</authorEmail>
+	<authorUrl>www.adminpraise.com</authorUrl>
+    <version>2.5.1</version>
+    <description>plg_system_activitylogpro_DESC</description>
+    <languages folder="administrator/language">
+        
+    </languages>
+    <files>
+        <file plugin="activitylogpro">activitylogpro.php</file>
+    </files>
+	<params>
+	</params>
+</install>

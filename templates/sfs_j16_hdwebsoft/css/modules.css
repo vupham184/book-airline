@@ -1,0 +1,135 @@
+
+ul.menu-mainmenu ul{
+	display:none;	
+}
+
+ul.menu-mainmenu {
+	margin: 0;
+	padding: 0;
+	float:left;
+	background: none;
+	position:relative;
+}
+
+ul.menu-mainmenu li {
+	margin: 0;
+	padding: 0;
+	background: none;
+	display:block;
+	float:left;
+}
+
+ul.menu-mainmenu li a, ul.menu-mainmenu li button.button {
+	overflow:hidden;
+	float:left;	
+	outline: none;
+	background: none;
+	color: #282828;
+	font-size:12px;
+	padding:11px 20px;
+	margin:0;
+	font-weight:bold;
+	text-decoration: none;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	border:none;
+	cursor:pointer;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+ul.menu-mainmenu a:hover,
+ul.menu-mainmenu li a:active,
+ul.menu-mainmenu li a:focus{
+	background:#E5E5E5;
+	overflow:hidden;
+	float:left;	
+	outline: none;
+	color: #282828;
+	font-size:12px;
+	padding:11px 20px;
+	margin:0;
+	font-weight:bold;
+	text-decoration: none;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+ul.menu-mainmenu li button.button:hover,
+ul.menu-mainmenu li button.button:active,
+ul.menu-mainmenu li button.button:focus{
+	background:#E5E5E5;
+	overflow:hidden;
+	float:left;	
+	outline: none;
+	color: #282828;
+	font-size:12px;
+	padding:11px 20px;
+	padding-bottom:12px;
+	margin:0;
+	font-weight:bold;
+	text-decoration: none;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+ul.menu-mainmenu li.active a{
+	background:#E5E5E5;
+	color:#000;
+}
+
+/****level2****/
+
+ul.menu-mainmenu li:hover ul li span, ul.menu-mainmenu li.selected ul li span{
+	display:none;
+	background:none;	
+}
+
+ul.menu-mainmenu li:hover ul li a, ul.menu-mainmenu li.selected ul li a{
+	background:none;	
+}
+
+ul.menu-mainmenu li ul{
+	position: absolute;
+	width: 200px;
+	display:none;
+	top:38px;
+	text-transform:none;
+	background:#E5E5E5;
+	z-index:999;
+	list-style:none;
+}
+
+ul.menu-mainmenu li ul li span{
+	background:none;
+}
+
+ul.menu-mainmenu li ul li a{
+	text-transform:none;
+	display:block;
+	float:left;
+	padding:0 20px;
+	color:#282828;
+	background:none;
+	line-height:200%;
+	width:160px;
+}
+
+ul.menu-mainmenu li ul li a:hover{
+	text-transform:none;
+	display:block;
+	float:left;
+	padding:0 20px;
+	background:none;
+	line-height:200%;
+	text-decoration:underline;
+}
+
+ul.menu-mainmenu li:hover ul{
+	display: block;
+}
+
+ul.menu-mainmenu li ul li {
+	width: 180px;
+}

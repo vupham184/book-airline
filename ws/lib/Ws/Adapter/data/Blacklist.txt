@@ -1,0 +1,4 @@
+PropertyID|PropertyReferenceID
+1|32784
+2|29608
+3|3

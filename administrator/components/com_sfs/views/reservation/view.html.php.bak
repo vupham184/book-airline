@@ -1,0 +1,80 @@
+<?php
+defined('_JEXEC') or die;
+
+jimport('joomla.application.component.view');
+
+class SfsViewReservation extends JView
+{
+	protected $reservation;
+	protected $state;
+
+	public function display($tpl = null)
+	{
+		$this->state		= $this->get('State');
+		$this->reservation	= $this->get('Reservation');
+		
+		if( $this->getLayout() == 'default' || $this->getLayout() == 'issuevoucher' ) 
+		{		
+			$this->vouchers = $this->reservation->getVouchers();
+			
+			$this->hotelcontact  = $this->get('HotelContact');			
+			$this->hotel 		 = $this->get('Hotel');
+			
+			$this->airline 		 = $this->get('Airline');
+			$this->airlinecontact  = $this->get('AirlineContact');
+			
+			$this->passengers = $this->reservation->getPassengers();					
+					
+			$this->picked_rooms  = $this->reservation->getPickedRooms();
+			$this->initial_rooms = $this->reservation->getInitialRooms();
+			
+			$this->total_room_charge = $this->reservation->getTotalRoomCharge();
+			
+			$this->picked_mealplans  = $this->reservation->calculateTotalMealplan();
+			$this->picked_breakfasts = $this->reservation->calculateTotalBreakfast();
+			$this->picked_lunchs 	 = $this->reservation->calculateTotalLunch();
+			
+			$this->total_mealplan_charge = $this->reservation->getTotalMealplanCharge() + ($this->picked_breakfasts * $this->reservation->breakfast) + ($this->picked_lunchs * $this->reservation->lunch);
+			
+			$this->total_invoice_charge = $this->total_room_charge + $this->total_mealplan_charge;
+			
+						
+			$this->messages = $this->get('Messages');
+			
+			$this->notes = $this->get('Notes');
+			
+			$this->tracePassengers = $this->get('TracePassengers');
+			
+			$this->faxTrack = $this->get('FaxTrack');
+
+            $this->fakeVoucher  = $this->get('FakeVoucher');
+
+		}
+		
+		if ( $this->getLayout() == 'notes' ) {
+			$this->notes = $this->get('Notes');
+		}
+		
+		if (count($errors = $this->get('Errors'))) {
+			JError::raiseError(500, implode("\n", $errors));
+			return false;
+		}
+		
+		$this->addToolbar();
+		parent::display($tpl);
+	}
+
+	protected function addToolbar()
+	{	
+		JRequest::setVar('hidemainmenu', true);			
+		JToolBarHelper::title('Reservation: '.$this->reservation->blockcode);
+
+		$toolbar = JToolBar::getInstance('toolbar');
+
+		$toolbar->appendButton('Popup', 'notes', 'Notes', 'index.php?option=com_sfs&view=reservation&layout=notes&tmpl=component&id='.$this->reservation->id,'750','650','','','');
+				
+		$toolbar->appendButton('Link', 'back', 'Back', 'index.php?option=com_sfs&view=reservations');				
+		
+				
+	}
+}

@@ -1,0 +1,15 @@
+Currency|CurrencyID
+Australian Dollars|5
+Brazilian Real|22
+Canadian Dollars|4
+Danish Kroner|7
+Euro|3
+Icelandic Krona|23
+New Zealand Dollars|10
+Norwegian Kroner|9
+Polish Zloty|24
+South African Rand|15
+Sterling|1
+Swedish Kroner|12
+Swiss Francs|6
+US Dollars|2

@@ -1,0 +1,4 @@
+ExtraType|ExtraTypeID
+Charge|2
+Service|3
+Third Party Insurance|1

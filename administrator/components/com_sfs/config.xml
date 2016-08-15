@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset
+		name="general-setting"
+		label="General Setting"
+		description=""
+	>
+		<field
+			name="mail_communication"
+			type="radio"
+			default="1"
+			label="Mail Communication"
+			description="">
+			<option
+				value="0">JNO</option>
+			<option
+				value="1">JYES</option>
+		</field>
+		<field
+			name="fax_communication"
+			type="radio"
+			default="1"
+			label="Fax Communication"
+			description="">
+			<option
+				value="0">JNO</option>
+			<option
+				value="1">JYES</option>
+		</field>
+		<field
+			name="enable_ssl"
+			type="radio"
+			default="0"
+			label="Enable HTTPS"
+			description="">
+			<option
+				value="0">JNO</option>
+			<option
+				value="1">JYES</option>
+		</field>
+		
+		<field
+			name="sfs_system_timezone"
+			type="list"
+			default=""
+			label="Default Timezone"
+			description="">
+			<option value="">Select Default Timezone</option>
+			<option value="America/New_York">(GMT-05:00) Eastern Standard Time (EST)</option>
+			<option value="America/Chicago">(GMT-06:00) Central Standard Time (CST)</option>
+			<option value="America/Denver">(GMT-07:00) Mountain Standard Time (MST)</option>
+			<option value="America/Los_Angeles">(GMT-08:00) Pacific Standard Time (PST)</option>
+			<option value="America/Anchorage">(GMT-09:00) Alaska Standard Time (AKST)</option>
+			<option value="America/Adak">(GMT-10:00) Hawaii Standard Time (HST)</option>						
+		</field>
+	
+		<field
+			name="sfs_system_suffix"
+			type="text"
+			label="Site Suffix"
+			description=""
+			default="bru"
+			size="50"
+		/>
+		<field
+			name="sfs_system_airport"
+			type="text"
+			label="Airport"
+			description=""
+			default="bru"
+			size="50"
+		/>
+		<field
+			name="sfs_system_currency"
+			type="text"
+			label="System Currency"
+			description=""
+			default="EUR"
+			size="20"
+		/>
+		<field
+			name="sfs_system_emails"
+			type="text"
+			label="System Emails"
+			description=""
+			default=""
+			size="50"
+		/>
+        <field
+                name="sfs_system_phone_numbers"
+                type="text"
+                label="System Phone Numbers"
+                description="Administrator's Phone Numbers to send SMS text message"
+                default=""
+                size="50"
+                />
+		
+		<field
+			name="enable_rule25"
+			type="radio"
+			default="1"
+			label="Enable 25% RULE"
+			description="">
+			<option
+				value="0">JNO</option>
+			<option
+				value="1">JYES</option>
+		</field>
+		<field
+			name="rule25"
+			type="text"
+			label="25% RULE"
+			description=""
+			default="25"
+		/>
+        <field
+                name="minimum_available_rooms"
+                type="text"
+                label="Minimum Available Rooms"
+                description="Send invitation to load rooms"
+                default="100"
+                />
+		<field
+			name="match_hours"
+			type="text"
+			label="Hours on Match Page"
+			description="Input a interger only"
+			default=""
+		/>
+		
+		<field name="spacer1"
+			type="spacer"
+			hr="true"
+			/>
+		<field name="subcategories" type="spacer" class="spacer"
+					label="Default merchant fee settings for new hotel"
+			/>
+		
+		<field
+			name="merchant_fixed_fee"
+			type="text"
+			size="10"
+			label="Fixed Fee"
+			description=""
+			default="49"
+		/>	
+		<field
+			name="merchant_register_note"
+			type="text"
+			size="50"
+			label="Personal note field for the hotel during registration"
+			description=""
+			default=""
+		/>	
+		<field
+			name="room_merchant_fee"
+			type="text"
+			size="10"
+			label="Room Merchant Fee"
+			description=""
+			default="10"
+		/>
+		
+		<field name="merchant_fee_type" type="list"
+				default="1"
+				description=""
+				label="Room Merchant Fee Type"
+			>				
+				<option value="1">Percent of room price</option>
+				<option value="2">Fixed price per room</option>			
+		</field>
+		
+		
+		
+		<field
+			name="breakfast_merchant_fee"
+			type="text"
+			size="10"
+			label="Breakfast Merchant Fee"
+			description=""
+			default="5"
+		/>
+		
+		<field
+			name="lunch_merchant_fee"
+			type="text"
+			size="10"
+			label="Lunch Merchant Fee"
+			description=""
+			default="5"
+		/>
+		
+		<field
+			name="dinner_merchant_fee"
+			type="text"
+			size="10"
+			label="Dinner Merchant Fee"
+			description=""
+			default="5"
+		/>
+		
+		<field
+			name="enable_google_analytics_script"
+			type="radio"
+			default="0"
+			label="Enable Google analytics script"
+			description="">
+			<option
+				value="0">JNO</option>
+			<option
+				value="1">JYES</option>
+		</field>
+		
+		<field
+                name="google_analytics_script"
+                type="textarea"
+                label="Google analytics script"
+                description="Create a general setting to put the Zopim script and the Google analytics script in the template."
+                default=""
+                />
+		
+		
+	</fieldset>
+	<fieldset
+		name="ranking-setting"
+		label="Rangking Setting"
+		description=""
+		class="ranking-setting"
+	>				
+		<field name="rangking_level_option" type="list"
+				default="3"
+				description=""
+				label="Ranking Level Option"
+			>				
+				<option value="1">J1</option>
+				<option value="2">J2</option>
+				<option value="3">J3</option>
+				<option value="4">J4</option>
+				<option value="5">J5</option>
+				<option value="6">J6</option>
+		</field>
+		
+		<field
+			name="ranking_transport"
+			type="radio"
+			default="1"
+			label="Rangking include transport"
+			description="Rangking include transport">
+			<option
+				value="0">JNO</option>
+			<option
+				value="1">JYES</option>
+		</field>
+		
+		<field
+			name="ranking_location"
+			type="radio"
+			default="1"
+			label="Rangking hotel location"
+			description="">
+			<option
+				value="0">JNO</option>
+			<option
+				value="1">JYES</option>
+		</field>
+		
+	</fieldset>
+	
+	
+	<fieldset
+		name="transportation"
+		label="Transportation"
+		description="These settings apply for taxi or bus transportation."
+	>
+		<field
+			name="sms_taxi_phone_number"
+			type="text"
+			label="SMS Taxi Phone Number"
+			description=""
+			default=""
+			size="100"
+		/>	
+		<field
+			name="sms_taxi_text"
+			type="text"
+			label="SMS Taxi Text"
+			description=""
+			default="Taxi needed for {airline}, {departuretime}, {numberpassenger} adults, ref code {vouchernumber} supplier {taxiname}, Phone {taxiphone}"
+			size="150"
+		/>	
+		<field
+			name="sms_bus_phone_number"
+			type="text"
+			label="SMS Bus Phone Number"
+			description=""
+			default=""
+			size="100"
+		/>	
+		<field
+			name="sms_bus_text"
+			type="text"
+			label="SMS Bus Text"
+			description=""
+			default="Bus needed for {airline}, {departuretime}, {numberpassenger} adults, ref code {vouchernumber} supplier {busname}, Phone {busphone}"
+			size="150"
+		/>
+	</fieldset>
+	
+	<fieldset
+		name="hotel-articles"
+		label="Hotel Articles"
+		description=""
+	>
+		<field
+			name="article_page_1_01"
+			type="text"
+			label="Hotel_Register step 1"
+			description="Wiki Page: 1.01.001"
+			default=""
+		/>
+		<field
+			name="article_page_1_02"
+			type="text"
+			label="Hotel_Register step 1 2"
+			description="Wiki Page: 1.01.026"
+			default=""
+		/>
+		
+		<field
+			name="article_page_1_03"
+			type="text"
+			label="Hotel_Register 1.011.014"
+			description="Wiki Page: 1.011.014"
+			default=""
+		/>
+		<field
+			name="article_page_1_04"
+			type="text"
+			label="Hotel_Register 1.03.001"
+			description="Wiki Page: 1.03.001"
+			default=""
+		/>
+		<field
+			name="article_page_1_05"
+			type="text"
+			label="Hotel_Register 1.03.009"
+			description="Wiki Page: 1.03.009"
+			default=""
+		/>
+		<field
+			name="article_page_1_06"
+			type="text"
+			label="Hotel_Register 1.04.001"
+			description="Wiki Page: 1.04.001"
+			default=""
+		/>
+		<field
+			name="article_page_1_07"
+			type="text"
+			label="Hotel_Register 1.04.006"
+			description="Wiki Page: 1.04.006"
+			default=""
+		/>
+					
+		<field
+			name="article_page_1_08"
+			type="text"
+			label="Hotel_Register  1.05.001"
+			description="Wiki Page:  1.05.001"
+			default=""
+		/>
+		<field
+			name="article_page_1_09"
+			type="text"
+			label="Hotel_Register 1.05.003"
+			description="Wiki Page: 1.05.003"
+			default=""
+		/>				
+		<field
+			name="article_page_1_10"
+			type="text"
+			label="Hotel_Register 1.05.010"
+			description="Wiki Page: 1.05.010"
+			default=""
+		/>	
+		<field
+			name="article_page_1_11"
+			type="text"
+			label="Hotel_Register 1.06.001"
+			description="Wiki Page: 1.06.001"
+			default=""
+		/>																										
+		<field
+			name="article_page_1_12"
+			type="text"
+			label="Hotel_Register 1.06.032"
+			description="Wiki Page: 1.06.032"
+			default=""
+		/>		
+		<field
+			name="article_page_1_13"
+			type="text"
+			label="Hotel_Register 1.06"
+			description="Wiki Page: 1.06 popup button taxes (%) that are applicable for the above prices"
+			default=""
+		/>					 
+		<field
+			name="article_page_4_02"
+			type="text"
+			label="Welcome hotel 4.02"
+			description="Wiki Page: 4.02"
+			default=""
+		/>				
+	</fieldset>
+	<fieldset
+		name="airline-articles"
+		label="Airline Articles"
+		description=""
+	>
+		<field
+			name="article_page_2_01"
+			type="text"
+			label="Airline sign up"
+			description="Wiki page: 2.01.001"
+			default=""
+		/>
+		<field
+			name="article_page_2_02"
+			type="text"
+			label="Contact details sign up"
+			description="Wiki page: 2.01.3.001"
+			default=""
+		/>
+		<field
+			name="article_page_2_03"
+			type="text"
+			label="Contact details sign up 2"
+			description="Wiki page: 2.01.3.019"
+			default=""
+		/>	
+		<field
+			name="article_page_2_04"
+			type="text"
+			label="Sign up approved terms"
+			description="Wiki page: 2.03.001"
+			default=""
+		/>	
+		<field
+			name="article_page_2_05"
+			type="text"
+			label="Terms and conditions"
+			description="Wiki page: 2.03.005"
+			default=""
+		/>
+		<field
+			name="article_page_2_06"
+			type="text"
+			label="Thank you article"
+			description="Wiki page: 2.05.001"
+			default=""
+		/>			
+		
+		<field
+			name="article_delay_code"
+			type="text"
+			label="IATA stranded code"
+			description="This article will apprear in lightbox in Add flights and seats page"
+			default=""
+		/>									
+						
+	</fieldset>	
+	
+	<fieldset
+		name="webservice-setting"
+		label="WebService Setting"
+		description=""
+	>
+		<field
+			name="webservice-enabled"
+			type="radio"
+			default="0"
+			label="Webservice Enabled"
+			description="">
+			<option
+				value="0">JNO</option>
+			<option
+				value="1">JYES</option>
+		</field>
+		<field
+			name="ws-sales-rate"
+			type="text"
+			label="Sales Rate (%)"
+			description="Percent of difference between WS rates and sales price"
+			default="15"
+		/>
+	</fieldset>
+
+    <fieldset
+            name="ftp-setting"
+            label="FTP Setting"
+            description=""
+            >
+        <field
+                name="ftp-server"
+                type="text"
+                label="Server"
+                description="FTP Server"
+                default=""
+                />
+        <field
+                name="ftp-username"
+                type="text"
+                label="Username"
+                description="FTP Username"
+                default=""
+                />
+        <field
+                name="ftp-password"
+                type="text"
+                label="Password"
+                description="FTP Password"
+                default=""
+                />
+        <field
+                name="ftp-directory"
+                type="text"
+                label="Directory"
+                description="FTP Directory"
+                default=""
+                />
+		
+    </fieldset>
+</config>

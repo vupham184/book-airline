@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="details"
+		addfieldpath="/administrator/components/com_sfs/models/rules"
+	>
+		<field name="id" type="text" default="0" 
+			readonly="true" class="readonly"
+			label="JGLOBAL_FIELD_ID_LABEL" 	description ="JGLOBAL_FIELD_ID_DESC" />
+		
+		<field name="asset_id" type="hidden" filter="unset" />
+
+		<field name="name" type="text" class="inputbox"
+			size="40" label="COM_SFS_COUNTRY_FIELD_NAME_LABEL"
+			description="COM_SFS_COUNTRY_FIELD_NAME_DESC" required="true" />
+
+		<field name="alias" type="text" class="inputbox"
+			size="40" label="JFIELD_ALIAS_LABEL"
+			description="COM_SFS_COUNTRY_FIELD_ALIAS_DESC" />
+        
+        <field name="chainaff" type="chainaff" class="inputbox" label="Chain" description="COM_SFS_CHAIN_AFFILIATION_DESC" />
+        
+		<field name="state" type="list"
+			label="JGLOBAL_STATE" description="COM_SFS_COUNTRY_FIELD_STATE_DESC"
+			class="inputbox" size="1" default="1" >
+			<option value="1">JPUBLISHED</option>
+			<option value="0">JUNPUBLISHED</option>
+			<option value="2">JARCHIVED</option>
+			<option value="-2">JTRASH</option>
+		</field>
+		
+		<field
+			name="access"
+			type="accesslevel"
+			label="JFIELD_ACCESS_LABEL"
+			description="JFIELD_ACCESS_DESC"
+			class="inputbox"/>
+
+
+		<field name="rules" type="rules" label="JFIELD_RULES_LABEL"
+			translate_label="false" class="inputbox" filter="rules"
+			component="com_sfs" section="hotel" validate="rules"
+		/>
+	</fieldset>
+</form>

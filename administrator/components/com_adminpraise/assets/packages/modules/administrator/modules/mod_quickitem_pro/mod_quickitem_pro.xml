@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" client="administrator" method="upgrade" version="2.5.0" >
+    <name>mod_quickitem_pro</name>
+    <author>AdminPraise</author>
+    <creationDate>2012-06-26</creationDate>
+    <license>GNU/GPL http://www.gnu.org/copyleft/gpl.html</license>
+    <copyright>Copyright (c) Pixel Praise LLC. All rights reserved.</copyright>
+    <authorEmail>support@pixelpraise.com</authorEmail>
+    <authorUrl>www.adminpraise.com</authorUrl>
+    <version>2.5.1</version>
+    <description>Module for quickly adding content items from the control panel.</description>
+    <files>
+        <folder>css</folder>
+<file>helper.php</file>
+<folder>images</folder>
+<file>include.php</file>
+<file>index.html</file>
+<folder>js</folder>
+<file module="mod_quickitem_pro">mod_quickitem_pro.php</file>
+<folder>tmpl</folder>
+    </files>
+    <languages folder="administrator/language">
+        <language tag="en-GB">en-GB/en-GB.mod_quickitem_pro.ini</language>
+<language tag="en-GB">en-GB/en-GB.mod_quickitem_pro.sys.ini</language>
+    </languages>
+</install>

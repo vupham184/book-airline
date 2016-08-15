@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.7" type="plugin" group="extension" method="upgrade">
+    <name>plg_extension_adminpraise</name>
+	<author>Adminpraise</author>
+	<creationDate>2012-06-26</creationDate>
+	<copyright>Copyright (C) 2005 - 2011 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>services@compojoom.com</authorEmail>
+	<authorUrl>http://adminpraise.com</authorUrl>
+    <version>2.5.1</version>
+    <description>plg_extension_adminpraise_DESC</description>
+    <languages folder="administrator/language">
+        <language tag="en-GB">en-GB/en-GB.plg_extension_adminpraise.ini</language>
+<language tag="en-GB">en-GB/en-GB.plg_extension_adminpraise.sys.ini</language>
+    </languages>
+    <files>
+        <file plugin="adminpraise">adminpraise.php</file>
+<file>index.html</file>
+    </files>
+</extension>

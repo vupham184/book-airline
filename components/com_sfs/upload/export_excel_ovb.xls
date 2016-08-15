@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SFS-web SHORT TERM ROOMBLOCK Reservation</title>
+<style type="text/css">
+th{text-align: left; background-color: #dfdfdf; height: 30px; border:2px solid #78B8F0; border-left: none;border-right: none; padding: 5px 5px;}
+table.mainInfo td{border-bottom: 1px solid #78B8F0;padding: 5px;}  
+table.mainInfo_count td{border: 1px solid #78B8F0;padding: 5px;}
+ul li{list-style: none; margin-left:0;}
+ul.servicename li{margin-bottom: 0;}  
+tr.row_le{background: #f8f8f8;}
+table.mainInfo_count{margin: 10px;}
+</style>
+</head>
+<body>
+
+<div style="height:30px;">&#160;</div>
+<div style="float: left; width: 100%; padding: 20px 5px;font-weight:600">    
+    Attention all concerned at TXL <br />Due to FTC,CANX (and 0 ) AB007 2016-04-26 Please note following
+</div>
+<div style="height:30px;">&#160;</div>
+
+<div style="float: left; width: 100%; padding: 20px 5px;font-weight:600">    
+    Please search for test1 volunteers. Voluntary denied boarding passengers will recieve test2 and be protected via test3 in case of involuntary denied boarding passengers will recieve test4 and will be reprotected via test5
+</div>
+<div style="float: left; width: 100%; padding: 20px 5px;font-weight:600;">
+    Thanks you for your cooperation
+Best regards,
+Anna Sauer                        
+                     
+</div>
+</body>
+</html>

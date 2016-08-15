@@ -1,0 +1,6 @@
+ProductAttribute|ProductAttributeID
+Director's Choice|8
+Our Choice|9
+Best Seller|10
+Recommended 1|11
+Recommended 2|12

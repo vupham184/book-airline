@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+
+	<fieldset name="details"
+		addfieldpath="/administrator/components/com_sfs/models/rules"
+	>
+		<field name="id" type="text" default="0" 
+			readonly="true" class="readonly" size="40"
+			label="JGLOBAL_FIELD_ID_LABEL" 	description ="JGLOBAL_FIELD_ID_DESC" />		
+		<field name="name_airline" type="hidden"
+			size="27" label="Name Airline" class="inputbox" required="true"
+			description="" />	
+
+		<field name="logo_header" type="file" class="inputbox" 
+			size="150" label="Mobile header logo"
+			description="" required="true" />
+		<field name="logo_voucher" type="file" class="inputbox" style="width: 500px"
+			size="150" label="Mobile Logo on hotel voucher"
+			description="" required="true" />
+		<field name="logo_creditcard" type="file" class="inputbox" style="width: 500px"
+			size="150" label="Mobile Logo on creditcard"
+			description="" required="true" />	
+
+		<field name="color_MB" type="text" class="inputbox" style="width: 500px"
+			size="27" label="Mobile header background color"
+			description="" default="#" required="true" />
+		<field name="color_MT" type="text" class="inputbox" style="width: 500px"
+			size="27" label="Mobile header text color"
+			description="" default="#" required="true" />
+		<field name="color_MVB" type="text" class="inputbox" style="width: 500px"
+			size="27" label="Mobile Hotel voucher header background color"
+			description="" default="#" required="true" />
+		<field name="color_MVT" type="text" class="inputbox" style="width: 500px"
+			size="27" label="Mobile Hotel voucher header text color"
+			description="" default="#" required="true" />
+		<field name="color_MBB" type="text" class="inputbox" style="width: 500px"
+			size="27" label="Mobile Hotel billing info background color"
+			description="" default="#" required="true" />
+		
+
+		<field name="created" type="hidden"
+		size="27" label="Created" class="inputbox" required=""
+		description="" />		
+	</fieldset>
+</form>

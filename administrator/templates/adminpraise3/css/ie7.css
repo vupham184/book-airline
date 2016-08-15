@@ -1,0 +1,52 @@
+/**
+* @copyright Copyright (C) 2009 - 2011 Pixel Praise LLC. All rights reserved.
+* @license GNU/GPL, see LICENSE.php
+* Joomla! is free software. This version may have been modified pursuant
+* to the GNU General Public License, and as distributed it includes or
+* is derivative of works licensed under the GNU General Public License or
+* other free or open source software licenses.
+*/
+
+/**
+ * Joomla! 1.5 AdminPraise 3 Admin template main css file
+ *
+ * @author		Kyle Ledbetter <support@pixelpraise.com>
+ * @package		Joomla
+ * @since		1.5
+ * @version  	1.0
+ */
+
+/**
+ * IE7 & Lower
+*/
+#ap-mainmenu{
+z-index: 900;
+}
+#ap-mainmenu ul{
+float: left;
+}
+#ap-mainmenu ul ul{
+height:auto;
+float: none;
+}
+#ap-mainmenu li{
+width:90px;
+}
+#ap-mainmenu li ul li{
+width: auto;
+}
+#ap-mainmenu .Appearance{
+width:120px;
+}
+#ap-mainbody{
+z-index:-1;
+}
+#ap-mainmenu li span.subarrow{
+position: absolute;
+right: 2px;
+}
+#ap-mainmenu li.home-item,
+#ap-mainmenu li.admin-item,
+#ap-mainmenu li.tools-item{
+width: 40px;
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<request>
+	<method>passenger/push</method>
+	<unique></unique>
+	<data>
+		<passengers>
+
+				<passenger>
+					<first_name>test 1</first_name>
+					<last_name>test</last_name>
+					<title>Mr</title>
+					<iatacode>123</iatacode>
+				</passenger>
+
+				<passenger>
+					<first_name>test 2</first_name>
+					<last_name>test 2</last_name>
+					<title>Mr</title>
+					<iatacode>456</iatacode>
+				</passenger>
+
+				<passenger>
+					<first_name>test 3</first_name>
+					<last_name>test 3</last_name>
+					<title>Mr</title>
+					<iatacode>789</iatacode>
+				</passenger>
+
+		</passengers>
+	</data>
+</request>

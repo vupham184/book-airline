@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="1.6" type="template" client="site">
+	<name>sfs_j16_hdwebsoft</name>
+	<creationDate>30 May 2011</creationDate>
+	<author>Solution</author>
+	<authorEmail>contact@hdwebsoft.com</authorEmail>
+	<authorUrl>http://hdwebsoft.com/</authorUrl>
+	<copyright></copyright>
+    <license>Outsourcing</license>
+	<version>1.6.0</version>
+	<description>
+		<![CDATA[
+		<b>Thank you for installing the sfs_j16 template from Solution of XiPat! My mail: <a href="mailto:thaidh@xipat.com">thaidh@xipat.com</a></b>
+		<h1>Solution sfs_j16 Template Initial Released</h1>
+		<img src="../templates/sfs_j16/template_thumbnail.png" align="left" hspace="10" /><img src="../templates/sfs_j16/XiPat_Logo.jpg" align="right" hspace="10" />
+		]]>  		
+	</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>XiPat_Logo.jpg</filename>
+		<folder>html/</folder>
+		<folder>css/</folder>
+		<folder>images/</folder>
+	</files>
+	<positions>
+		<position>banner</position>
+		<position>icon</position>
+		<position>search</position>
+		<position>toolbar</position>
+		<position>header</position>
+		<position>header2</position>
+		<position>advert1</position>
+		<position>advert2</position>
+		<position>advert3</position>
+		<position>left</position>
+		<position>left2</position>
+		<position>left3</position>
+		<position>left4</position>
+		<position>left5</position>
+		<position>right</position>
+		<position>right2</position>
+		<position>right3</position>
+		<position>right4</position>
+		<position>right5</position>
+		<position>newsflash</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>currency</position>
+		<position>bottom</position>
+		<position>footer</position>
+		<position>breadcrumbs</position>
+		<position>debug</position>
+		<position>airport</position>
+	</positions>
+</extension>

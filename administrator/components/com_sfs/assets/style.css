@@ -1,0 +1,112 @@
+#reservation-detail { color: #444 !important; }
+
+.theme5 #reservation-detail .admintable, .theme5 #reservation-detail .adminlist { color: #333 !important; }
+
+div.width-100 { width: 98%; }
+div.width-33 { width: 32%; }
+div.width-34 { width: 34%; }
+
+.text-underline { text-decoration: underline; }
+
+#reservation-detail table.adminlist thead th { text-align: left; padding-left: 10px; }
+
+div.rooms-table { width: 90%; height: 200px; overflow: auto; }
+
+.float-left { float: left !important; }
+
+.icon-32-notes { background: url(images/note-32.png) 0 0 no-repeat; }
+
+.icon-32-reminder { background: url(images/reminder.png) 0 0 no-repeat; }
+
+.icon-32-systememail { background: url(images/email-32.png) 0 0 no-repeat; }
+
+div.reservation-note p { padding: 0 0 10px; margin: 0; }
+
+.reservationNoteWrap { background: url(images/note-32.png) 10px 50% no-repeat; }
+
+div.reservation-note { padding: 5px 5px 5px; font-size: 13px; overflow: hidden; clear: both; border: solid 1px #CCCCCC; margin-bottom: 10px; }
+
+.note-text { background: #FFD; }
+
+.note-author { font-size: 11px; font-style: italic; }
+
+.deleted-status { color: red; }
+
+.report-row { padding: 0 0 10px; border-bottom: 1px solid #ccc; margin-bottom: 10px; }
+
+.report-title { padding: 0; margin: 0; }
+
+/*rooms loading*/
+div.roomloading .transport-field { padding: 13px 0; }
+div.roomloading-left { text-align: right; width: 20%; font-size: 15px; padding-top: 34px; }
+div.roomloading-middle { width: 80%; }
+div.roomloading-right { width: 125px; padding-left: 10px; padding-top: 15px; }
+div.roomtable { width: 80%; overflow: auto; height: 200px; border: solid 1px #99C7F9; }
+div.roomtable .date { background: #E5E5E5; font-size: 11px; padding: 2px 15px 2px 3px; }
+div.roomloading-column { width: 105px; }
+div.roomloading input.inputbox, div.roomloading div.inputbox { padding: 3px !important; height: 15px !important; margin: 0 !important; color: #000000 !important; text-align: right !important; border: solid 1px #999999 !important; border-bottom: none !important; float: left !important; font-size: 11px  !important; overflow: hidden !important; width: 60px !important; }
+div.roomloading input.inputbox-rank, div.roomloading div.inputbox-rank { width: 20px !important; border-left: none !important; }
+div.roomloading input.inputbox-last, div.roomloading div.inputbox-last { border-bottom: solid 1px #999999  !important; }
+
+#save-prices, #check_ranking { margin-top: 0; }
+
+div.save-price-button-wrap { padding-left: 30px; }
+
+/*Hotel Report*/
+table.report-detail-table .tableheader { padding: 5px 5px 5px 5px; background: #738a98; border-bottom: 1px solid #b4b4b4; border-left: 1px solid #666; font-weight: bold; }
+
+tr.sectiontableentry1 td { padding: 5px 5px 5px 5px; background: #fafafa; border-bottom: 1px solid #666; border-left: 1px solid #666; }
+tr.sectiontableentry2 td { padding: 5px 5px 5px 5px; background: #e6e5e3; border-bottom: 1px solid #666; border-left: 1px solid #666; }
+
+td.sectiontableentry1 { padding: 5px 5px 5px 5px; background: #fff; border-bottom: 1px solid #666; }
+td.sectiontableentry2 { padding: 5px 5px 5px 5px; background: #e6e5e3; border-bottom: 1px solid #666; }
+
+table.tableinvoice { border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; background: #fff; }
+table.tableinvoice td { border: 1px solid #ccc; padding: 5px; border-bottom: none; border-right: none; }
+
+tr.header td { font-size: 11px; }
+
+.tdblue { color: white; background: #538dd5; }
+
+.tdgreen { color: white; background: #00b050; }
+
+.report-chart-wrap-1 { width: 350px; overflow: auto; }
+
+/*Airline Reporting*/
+.chartmodal { float: right; cursor: pointer; color: blue; }
+
+.airline-reporting-chart { width: 455px; overflow: auto; }
+
+/*CPanel*/
+div.sfs-cpanel-left { float: left; overflow: hidden; width: 43%; }
+div.sfs-cpanel-right { float: right; overflow: hidden; width: 55%; }
+div.sfs-cpanel-left table.adminlist td, div.sfs-cpanel-right table.adminlist td { padding-left: 4px; }
+
+.smaller-size { width: 50px; }
+
+#taxiRateFormWraper { margin-top: 20px; }
+
+.rate-period .sfs-row { margin-bottom: 10px; }
+
+.rate-hotels { margin-top: 15px; }
+
+.taxi-rate-table { width: 100%; }
+.taxi-rate-table td, .taxi-rate-table th { font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; }
+.taxi-rate-table .first-column { width: 340px; }
+.taxi-rate-table .inputbox { padding: 1px; font-size: 12px; border: solid 1px #82ADF1; width: 80px; }
+
+.xclose { float: right; display: inline-block; text-decoration: underline; cursor: pointer; }
+
+input.invalid { border: solid 1px red !important; }
+
+#taxiDetailsForm label { display: block; width: 170px; float: left; }
+
+#addContractPrize { background: url(images/Backend_add_hotel.gif) 0 0 no-repeat; padding-left: 65px; line-height: 65px; font-size: 15px; font-weight: bold; cursor: pointer; margin-left: 100px; }
+
+#toolbar-taxiactive a, #toolbar-busactive a { font-size: 16px; }
+
+.roomloading-rate { padding: 5px 0 5px 0; }
+
+.voucherdetailtable td { font-size: 15px; padding: 5px 15px 5px 5px !important; }
+
+.help-icon { color: #fff !important; font-size: 22px; margin: 12px 12px 0; }

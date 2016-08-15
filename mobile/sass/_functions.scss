@@ -1,0 +1,102 @@
+@mixin border-radius($value) {
+  border-radius: $value;
+  -moz-border-radius: $value;
+  -webkit-border-radius: $value;
+}
+
+@mixin arrow-up($size, $color){
+  width: 0;
+  height: 0;
+  border-left: $size solid transparent;
+  border-right: $size solid transparent;
+  border-top: $size solid $color;
+}
+
+@mixin arrow-down($size, $color){
+  width: 0;
+  height: 0;
+  border-left: $size solid transparent;
+  border-right: $size solid transparent;
+  border-top: $size solid $color;
+}
+
+@mixin link-color($color-normal, $color-hover, $color-visited: null) {
+  a {
+    color: $color-normal;
+  }
+
+  a:hover {
+    color: $color-hover;
+  }
+
+  @if $color-visited != null {
+    a:visited {
+      color: $color-visited;
+    }
+  }
+
+}
+
+@mixin place-holder() {
+  &::-webkit-input-placeholder {
+    @content
+  }
+
+  &:-moz-placeholder { /* Firefox 18- */
+    @content
+  }
+
+  &::-moz-placeholder {  /* Firefox 19+ */
+    @content
+  }
+
+  &:-ms-input-placeholder {
+    @content
+  }
+}
+
+@mixin image-shadow() {
+  img { border: 1px solid #fbfbfb; @include box-shadow(5px 0 9px -2px #cdcdcd); width: 100%; height: auto;}
+  &:after { content: " "; display: block; height: 30px; background: url('../img/img-shadow.png') 50% 0 no-repeat;  border: 0; margin-top: 0; @include box-shadow(none);}
+}
+
+@mixin circle-box() {
+  @include border-radius(50%); display: table;
+  .box-inner { width: 100%; height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    @include border-radius(50%);
+  }
+}
+
+// Rem fallback
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+@mixin rem-fallback($property, $values...) {
+  $max: length($values);
+  $pxValues: '';
+  $remValues: '';
+
+  @for $i from 1 through $max {
+    $value: strip-unit(nth($values, $i));
+    $pxValues: #{$pxValues + $value*10}px;
+
+    @if $i < $max {
+      $pxValues: #{$pxValues + " "};
+    }
+  }
+
+  @for $i from 1 through $max {
+    $value: strip-unit(nth($values, $i));
+    $remValues: #{$remValues + $value}rem;
+
+    @if $i < $max {
+      $remValues: #{$remValues + " "};
+    }
+  }
+
+  #{$property}: $pxValues;
+  #{$property}: $remValues;
+}

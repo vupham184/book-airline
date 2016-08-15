@@ -1,0 +1,179 @@
+<?php /*
+    -- This is db update for Geo Map
+    -- Please don't clean this file
+
+CREATE TABLE IF NOT EXISTS `jos_sfs_airport` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `airport_id` int(11) NOT NULL,
+  `geo_location_latitude` varchar(20) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `geo_location_longitude` varchar(20) COLLATE utf8_unicode_ci DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+
+ INSERT INTO `jos_sfs_airport` (`id`, `airport_id`, `geo_location_latitude`, `geo_location_longitude`) VALUES
+(1, 1, '50.905341', '4.486539');
+
+ALTER TABLE  `jos_sfs_iatacodes` ADD  `geo_lat` VARCHAR( 30 ) NULL AFTER  `comment` ,
+ADD  `geo_lon` VARCHAR( 30 ) NULL AFTER  `geo_lat`;
+
+ALTER TABLE  `jos_sfs_airline_details` ADD  `airport_ring_1_mile` DOUBLE NULL AFTER  `airport_id` ,
+ADD  `airport_ring_2_mile` DOUBLE NULL AFTER  `airport_ring_1_mile`;
+
+ALTER TABLE  `jos_sfs_passengers` ADD  `voucher_room_id` INT( 11 ) AFTER  `room_type`;
+
+ CREATE TABLE IF NOT EXISTS `jos_sfs_voucher_rooms` (
+  `voucher_room_id` int(11) NOT NULL AUTO_INCREMENT,
+  `voucher_id` int(11) NOT NULL,
+  PRIMARY KEY (`voucher_room_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+
+ CREATE TABLE IF NOT EXISTS `jos_sfs_voucher_groups` (
+  `voucher_id` int(11) unsigned NOT NULL,
+  `code` varchar(50) NOT NULL,
+  `voucher_group_id` int(11) unsigned NOT NULL,
+  `room_type` tinyint(1) unsigned NOT NULL,
+  `status` tinyint(1) NOT NULL,
+  `passenger_email` text NOT NULL,
+  `cancel_reason` text NOT NULL,
+  `handled_date` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+ALTER TABLE `jos_sfs_voucher_groups`
+  ADD PRIMARY KEY (`voucher_id`), ADD KEY `voucher_group_id` (`voucher_group_id`);
+
+
+ALTER TABLE `jos_sfs_voucher_groups`
+  MODIFY `voucher_id` int(11) unsigned NOT NULL AUTO_INCREMENT;
+
+ ALTER TABLE  `jos_sfs_reservations` ADD  `ws_sd_rate` DECIMAL( 10, 2 ) UNSIGNED NOT NULL AFTER  `claimed_rooms` ,
+ADD  `ws_t_rate` DECIMAL( 10, 2 ) UNSIGNED NOT NULL AFTER  `ws_sd_rate` ,
+ADD  `ws_s_rate` DECIMAL( 10, 2 ) UNSIGNED NOT NULL AFTER  `ws_t_rate` ,
+ADD  `ws_q_rate` DECIMAL( 10, 2 ) UNSIGNED NOT NULL AFTER  `ws_s_rate`;
+
+CREATE TABLE IF NOT EXISTS `jos_sfs_airline_airport` (
+  `airline_detail_id` int(11) NOT NULL,
+  `airport_id` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+ ALTER TABLE  `jos_sfs_taxi_hotel_rates` ADD  `km_rate` DECIMAL( 12, 2 ) UNSIGNED NOT NULL ,
+ADD  `starting_tariff` DECIMAL( 12, 2 ) UNSIGNED NOT NULL;
+
+ ALTER TABLE  `jos_sfs_iatacodes` ADD  `starting_tariff` DECIMAL( 10, 2 ) UNSIGNED NOT NULL ,
+ADD  `km_rate` DECIMAL( 10, 2 ) UNSIGNED NOT NULL;
+
+
+ ALTER TABLE  `jos_sfs_passengers` ADD  `type` SMALLINT( 1 ) UNSIGNED NOT NULL DEFAULT  '0' COMMENT  '0: aldult, 1: child, 2: infant' AFTER  `last_name`
+
+
+ALTER TABLE  `jos_sfs_hotel` ADD  `total` DECIMAL( 10, 2 ) UNSIGNED NOT NULL COMMENT  'estimated price';
+
+ALTER TABLE  `jos_sfs_reservations` ADD  `airport_code` VARCHAR( 50 ) NOT NULL;
+
+ALTER TABLE  `jos_sfs_passengers` ADD  `id` INT NOT NULL AUTO_INCREMENT FIRST ,
+ADD PRIMARY KEY (  `id` );
+
+ALTER TABLE  `jos_sfs_flights_seats` ADD  `airport_id` INT NOT NULL AFTER  `airline_id`;
+
+ALTER TABLE  `jos_users` ADD  `airport` MEDIUMTEXT NULL;
+
+ALTER TABLE  `jos_sfs_reservations` ADD  `url_code` VARCHAR( 5 ) NULL ,
+ADD UNIQUE (`url_code`);
+
+ALTER TABLE  `jos_sfs_passengers` ADD  `hotel_confirmed` TINYINT( 1 ) NOT NULL DEFAULT  '1' COMMENT  'Is hotel confirmed about this name or not' AFTER  `level`;
+ALTER TABLE  `jos_sfs_passengers` CHANGE  `hotel_confirmed`  `hotel_confirmed` TINYINT( 1 ) NOT NULL DEFAULT  '0' COMMENT  'Is hotel confirmed about this name or not';
+
+CREATE TABLE IF NOT EXISTS `jos_sfs_airline_notification_tracking` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) unsigned NOT NULL,
+  `date` datetime NOT NULL,
+  `hotel_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+ DROP TABLE `jos_sfs_trace_passengers`;
+
+CREATE TABLE IF NOT EXISTS `jos_sfs_trace_passengers` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `voucher_id` int(10) unsigned NOT NULL,
+  `title` varchar(20) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `individual_voucher` int(10) unsigned NOT NULL DEFAULT '0',
+  `first_name` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `last_name` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `type` smallint(1) unsigned NOT NULL COMMENT '0: aldult, 1: child, 2: infant',
+  `phone_number` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `room_type` smallint(1) unsigned NOT NULL,
+  `voucher_room_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+
+ALTER TABLE `jos_sfs_passengers`
+  DROP `hotel_confirmed`;
+
+
+ALTER TABLE  `jos_sfs_iatacodes` ADD  `currency_code` VARCHAR( 3 ) NOT NULL DEFAULT  'EUR';
+
+ALTER TABLE  `jos_sfs_airline_details` ADD  `gh_airline` BOOLEAN NOT NULL AFTER  `airport_ring_2_mile`;
+
+ALTER TABLE  `jos_sfs_airline_details` ADD  `airline_airplusws_id` INT(11) NULL COMMENT  'airplus ws params';
+ 
+ALTER TABLE  `jos_sfs_trace_passengers` ADD  `mealplan` BOOLEAN NOT NULL COMMENT  'meallplan service',
+ADD  `taxi` BOOLEAN NOT NULL COMMENT  'taxi service',
+ADD  `cash` BOOLEAN NOT NULL COMMENT  'cash service',
+ADD  `phone` BOOLEAN NOT NULL COMMENT  'telephone service';
+
+
+CREATE TABLE `jos_sfs_airline_airplusws` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `dbi_fee` decimal(10,2) NOT NULL COMMENT 'Common fee. But I don''t think this is usable in the future',
+ `dbi_ae` varchar(17) COLLATE utf8_unicode_ci NOT NULL,
+ `dbi_ak` varchar(17) COLLATE utf8_unicode_ci NOT NULL,
+ `dbi_au` varchar(17) COLLATE utf8_unicode_ci NOT NULL,
+ `dbi_bd` varchar(7) COLLATE utf8_unicode_ci NOT NULL,
+ `dbi_ds` varchar(17) COLLATE utf8_unicode_ci NOT NULL,
+ `dbi_ik` varchar(17) COLLATE utf8_unicode_ci NOT NULL,
+ `dbi_ks` varchar(17) COLLATE utf8_unicode_ci NOT NULL,
+ `dbi_pk` varchar(17) COLLATE utf8_unicode_ci NOT NULL,
+ `dbi_pr` varchar(17) COLLATE utf8_unicode_ci NOT NULL,
+ `dbi_rz` varchar(17) COLLATE utf8_unicode_ci NOT NULL,
+ `hotel_gn` tinyint(1) NOT NULL,
+ `hotel_cid` tinyint(1) NOT NULL,
+ `hotel_cod` tinyint(1) NOT NULL,
+ `hotel_rn` tinyint(1) NOT NULL,
+ `other_nm` tinyint(1) NOT NULL COMMENT 'Use airplus NM field or not',
+ `other_ft` tinyint(1) NOT NULL COMMENT 'Use airplus FT field or not',
+ `rail_pn` tinyint(1) NOT NULL,
+ `rail_dd` tinyint(1) NOT NULL,
+ `rail_dptc` tinyint(1) NOT NULL,
+ `rail_dtc` tinyint(1) NOT NULL,
+ `rail_sc` tinyint(1) NOT NULL,
+ `car_dr` tinyint(1) NOT NULL,
+ `car_pd` tinyint(1) NOT NULL,
+ `car_pl` tinyint(1) NOT NULL,
+ `car_dl` tinyint(1) NOT NULL,
+ `car_dc` tinyint(1) NOT NULL,
+ `bus_enabled` tinyint(4) NOT NULL,
+ `bus_fee` decimal(10,2) NOT NULL,
+ `bus_nm` varchar(45) COLLATE utf8_unicode_ci NOT NULL,
+ `bus_ft` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+ `cashreim_enabled` tinyint(4) NOT NULL,
+ `cashreim_fee` decimal(10,2) NOT NULL,
+ `cashreim_nm` varchar(45) COLLATE utf8_unicode_ci NOT NULL,
+ `cashreim_ft` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+ `taxi_enabled` tinyint(4) NOT NULL,
+ `taxi_fee` decimal(10,2) NOT NULL,
+ `taxi_nm` varchar(45) COLLATE utf8_unicode_ci NOT NULL,
+ `taxi_ft` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+ `meal_enabled` tinyint(4) NOT NULL,
+ `meal_fee` decimal(10,2) NOT NULL,
+ `meal_nm` varchar(45) COLLATE utf8_unicode_ci NOT NULL,
+ `meal_ft` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+ `telcard_enabled` tinyint(1) NOT NULL,
+ `telcard_fee` decimal(10,2) NOT NULL,
+ `telcard_nm` varchar(45) COLLATE utf8_unicode_ci NOT NULL,
+ `telcard_ft` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;\
+
+ALTER TABLE  `jos_sfs_airline_details` ADD `gh_airline` tinyint(1) NOT NULL;
+
+
